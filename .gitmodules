@@ -1,0 +1,3 @@
+[submodule "MailBuildScripts"]
+	path = MailBuildScripts
+	url = https://github.com/lksoft/MailBuildScripts.git
