@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>11D50b</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ExamplePlugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.littleknownsoftware.ExamplePlugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ExamplePlugin</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>4E109</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>11D50a</string>
+	<key>DTSDKName</key>
+	<string>macosx10.7</string>
+	<key>DTXcode</key>
+	<string>0430</string>
+	<key>DTXcodeBuild</key>
+	<string>4E109</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011 Little Known Software. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>ExampleBaseModule</string>
+	<key>SUFeedURL</key>
+	<string>http://lkslocal/sigpro/test/feed.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
+	<key>SupportedPluginCompatibilityUUIDs</key>
+	<array>
+		<string># All Mail UUIDs</string>
+		<string># For mail version 4.0 on OS X Version 10.6.0</string>
+		<string>225E0A48-2CDB-44A6-8D99-A9BB8AF6BA04</string>
+		<string># For mail version 4.1 on OS X Version 10.6.1</string>
+		<string>2610F061-32C6-4C6B-B90A-7A3102F9B9C8</string>
+		<string># For mail version 4.2 on OS X Version 10.6.2</string>
+		<string>2F0CF6F9-35BA-4812-9CB2-155C0FDB9B0F</string>
+		<string># For mail version 4.3 on OS X Version 10.6.4</string>
+		<string>B842F7D0-4D81-4DDF-A672-129CA5B32D57</string>
+		<string># For mail version 4.4 on OS X Version 10.6.5</string>
+		<string>BDD81F4D-6881-4A8D-94A7-E67410089EEB</string>
+		<string># For mail version 4.5 on OS X Version 10.6.7</string>
+		<string>9049EF7D-5873-4F54-A447-51D722009310</string>
+		<string># For mail version 4.6 on OS X Version 10.6.8</string>
+		<string>064442B6-53C0-4A97-B71B-2F111AE4195B</string>
+		<string># For mail version 5.0 on OS X Version 10.7.0</string>
+		<string>2DE49D65-B49E-4303-A280-8448872EFE87</string>
+		<string># For mail version 5.1 on OS X Version 10.7.2</string>
+		<string>6E7970A3-E5F1-4C41-A904-B18D3D8FAA7D</string>
+		<string># For mail version 5.2 on OS X Version 10.7.3</string>
+		<string>4C286C70-7F18-4839-B903-6F2D58FA4C71</string>
+		<string># For mail version 5.3 on OS X Version 10.7.5</string>
+		<string>758F235A-2FD0-4660-9B52-102CD0EA897F</string>
+		<string># For mail version 6.0 on OS X Version 10.8.0</string>
+		<string>608CE00F-4576-4CAD-B362-F3CCB7DE8D67</string>
+		<string># All Message UUIDs</string>
+		<string># For message version 4.0 on OS X Version 10.6.0</string>
+		<string>B3F3FC72-315D-4323-BE85-7AB76090224D</string>
+		<string># For message version 4.1 on OS X Version 10.6.1</string>
+		<string>99BB3782-6C16-4C6F-B910-25ED1C1CB38B</string>
+		<string># For message version 4.2 on OS X Version 10.6.2</string>
+		<string>0CB5F2A0-A173-4809-86E3-9317261F1745</string>
+		<string># For message version 4.3 on OS X Version 10.6.4</string>
+		<string>E71BD599-351A-42C5-9B63-EA5C47F7CE8E</string>
+		<string># For message version 4.4 on OS X Version 10.6.5</string>
+		<string>857A142A-AB81-4D99-BECC-D1B55A86D94E</string>
+		<string># For message version 4.5 on OS X Version 10.6.7</string>
+		<string>1C58722D-AFBD-464E-81BB-0E05C108BE06</string>
+		<string># For message version 4.6 on OS X Version 10.6.8</string>
+		<string>588FF7D1-4310-4175-9980-145B7E975C02</string>
+		<string># For message version 5.0 on OS X Version 10.7.0</string>
+		<string>1146A009-E373-4DB6-AB4D-47E59A7E50FD</string>
+		<string># For message version 5.1 on OS X Version 10.7.2</string>
+		<string>EF59EC5E-EFCD-4EA7-B617-6C5708397D24</string>
+		<string># For message version 5.3 on OS X Version 10.7.5</string>
+		<string>3335F782-01E2-4DF1-9E61-F81314124212</string>
+	</array>
+</dict>
+</plist>

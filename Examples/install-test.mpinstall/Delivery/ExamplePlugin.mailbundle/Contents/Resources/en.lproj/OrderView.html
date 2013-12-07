@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+		<title>Your Order</title>
+		<link rel="stylesheet" type="text/css" href="../lkstore-style/style.css">
+		<link rel="stylesheet" type="text/css" href="../OrderView.css">
+		<script src="../jquery-1.4.2.js"></script>
+		<script language="javascript">
+			$(function() {
+				$(".order-items-title").fadeIn(1000);
+				$(".order-item").fadeIn(1000);
+				$(".license-key").fadeIn(1000);
+			});
+		</script>
+	</head>
+	<body class="core-body-window">
+	
+		<div id="page">
+	
+			<div id="head">
+			  <div id="guide">
+				<div><img src="../lkstore-style/lklogo.png" /></div>
+		      </div>
+			</div>
+			
+			<div id="page-title">Thank you for your order <span class="customer-name">{{ order.customerFirstName }}</span>!</div>
+
+			<div id="content">
+				<div id="content-inner">
+
+					<div class="core-section">
+						<h2 class="core-section-header">Purchased Items</h2>
+						<div class="core-section-body">
+							{% for orderItem in order.orderItems %}
+							<div class="order-item">
+								{{ orderItem.productDisplay }}
+								{% if orderItem.quantity > 1 %} ({{ orderItem.quantity }} copies) {% /if %}
+								<div class="license-info">
+									<div class="left-col">User Name:</div><div class="right-col">{{ orderItem.license.licenseName }}</div><br>
+									<div class="left-col">Email Address:</div><div class="right-col">{{ orderItem.license.licenseEmail }}</div><br>
+									<div class="left-col">Activation Key:</div><div class="right-col">{{ order.orderReference }}</div>
+								</div>
+								<p><span class="product-name">{{ orderItem.productDisplay }}</span> has been registered already, so the information above is for your information. You will 
+									receive an email with a copy of this information very shortly as well.</p>
+								<p>If you have questions about using <span class="product-name">{{ orderItem.productDisplay }}</span>, please visit <a href="http://littleknownsoftware.com/sigpro">our site</a>.</p>
+							</div>
+							{% /for %}
+						</div>
+					</div>
+
+					<div id="footer">
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</body>
+</html>

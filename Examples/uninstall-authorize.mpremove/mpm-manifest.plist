@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action-items</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Locked File</string>
+			<key>path</key>
+			<string>/Library/Logs/CCC.0.log</string>
+		</dict>
+	</array>
+	<key>background-image-path</key>
+	<string>image.png</string>
+	<key>confirmation-steps</key>
+	<array>
+		<dict>
+			<key>bullet-title</key>
+			<string>Are You Sure?</string>
+			<key>path</key>
+			<string>Something.html</string>
+			<key>title</key>
+			<string>Why?</string>
+			<key>type</key>
+			<string>information</string>
+		</dict>
+		<dict>
+			<key>bullet-title</key>
+			<string>Remove Plugin</string>
+			<key>title</key>
+			<string>Uninstallation Summary</string>
+			<key>type</key>
+			<string>confirm</string>
+		</dict>
+	</array>
+	<key>display-name</key>
+	<string>ExamplePlugin</string>
+	<key>manifest-type</key>
+	<string>uninstall</string>
+</dict>
+</plist>
