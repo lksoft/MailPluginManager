@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contents</key>
+	<dict>
+		<key>it.noware</key>
+		<dict>
+			<key>canonical</key>
+			<string>net.zxq.noware-it</string>
+		</dict>
+		<key>net.zxq.noware-it</key>
+		<dict>
+			<key>name</key>
+			<string>noware</string>
+			<key>url</key>
+			<string>http://noware-it.zxq.net</string>
+		</dict>
+		<key>com.sweetpproductions</key>
+		<dict>
+			<key>name</key>
+			<string>SweetP Productions</string>
+		</dict>
+		<key>com.erikhinterbichler</key>
+		<dict>
+			<key>name</key>
+			<string>Erik Hinterbichler</string>
+			<key>com.erikhinterbichler.Herald</key>
+			<string>http://erikhinterbichler.com/software/herald/</string>
+		</dict>
+		<key>com.dervishsoftware</key>
+		<dict>
+			<key>name</key>
+			<string>Dervish Software</string>
+		</dict>
+		<key>com.chungwasoft</key>
+		<dict>
+			<key>name</key>
+			<string>ChungwaSoft</string>
+			<key>com.chungwasoft.ForgetMeNot</key>
+			<string>http://www.chungwasoft.com/forgetmenot/</string>
+		</dict>
+		<key>net.welchwold</key>
+		<dict>
+			<key>net.welchwold.mailfollowup</key>
+			<string>http://www.cs.unc.edu/~welch/MailFollowup/</string>
+			<key>name</key>
+			<string>Gregory F. Welch</string>
+		</dict>
+		<key>com.creativeinaustria</key>
+		<dict>
+			<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
+			<string>http://www.creativeinaustria.com/LetterOpenerPro</string>
+			<key>name</key>
+			<string>Creative in Austria</string>
+		</dict>
+		<key>com.ecamm</key>
+		<dict>
+			<key>name</key>
+			<string>Ecamm Network, LLC.</string>
+			<key>comm.ecamm.dockstar</key>
+			<string>http://www.ecamm.com/mac/dockstar</string>
+		</dict>
+		<key>ca.indev</key>
+		<dict>
+			<key>ca.indev.MailTags</key>
+			<string>http://www.indev.ca/MailTags3.html</string>
+			<key>ca.indev.MailActOn</key>
+			<string>http://www.indev.ca/MailActOn.html</string>
+			<key>ca.indev.MailPerspectives</key>
+			<string>http://www.indev.ca/MailPerspectives.html</string>
+			<key>name</key>
+			<string>indev Software</string>
+		</dict>
+		<key>com.c-command</key>
+		<dict>
+			<key>com.c-command.spamsieve.mailplugin</key>
+			<string>http://c-command.com/spamsieve/</string>
+			<key>name</key>
+			<string>C-Command Software</string>
+		</dict>
+		<key>com.littleknownsoftware</key>
+		<dict>
+			<key>com.littleknownsoftware.SignatureProfiler</key>
+			<string>http://littleknownsoftware.com/sigpro</string>
+			<key>name</key>
+			<string>Little Known Software, Inc.</string>
+		</dict>
+		<key>cz.kppm</key>
+		<dict>
+			<key>canonical</key>
+			<string>info.lokiware</string>
+		</dict>
+		<key>info.lokiware</key>
+		<dict>
+			<key>cz.kppm.loki.mailattachmentsiconizer</key>
+			<string>http://lokiware.info/Attachment-Tamer</string>
+			<key>name</key>
+			<string>Lokiware</string>
+			<key>url</key>
+			<string>http://lokiware.info</string>
+		</dict>
+	</dict>
+	<key>date</key>
+	<date>2012-08-15T12:55:31Z</date>
+</dict>
+</plist>
