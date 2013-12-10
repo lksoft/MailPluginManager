@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Mail Bundle Terminology">
+	<suite name="Standard Suite" code="????" description="Common classes and commands for all applications.">
+		<class name="application" code="capp" description="The application&apos;s top-level scripting object.">
+			<cocoa class="NSApplication"/>
+			<property name="name" code="pnam" description="The name of the application." type="text" access="r"/>
+			<property name="frontmost" code="pisf" description="Is this the active application?" type="boolean" access="r">
+				<cocoa key="isActive"/>
+			</property>
+			<property name="version" code="vers" description="The version number of the application." type="text" access="r"/>
+		</class>
+		<command name="quit" code="aevtquit" description="Quit the application.">
+			<cocoa class="NSQuitCommand"/>
+		</command>
+		<command name="count" code="corecnte" description="Return the number of elements of a particular class within an object.">
+			<cocoa class="NSCountCommand"/>
+			<direct-parameter description="The objects to be counted." type="specifier"/>
+			<parameter hidden="yes" name="each" code="kocl" description="The class of objects to be counted." type="type" optional="yes">
+				<cocoa key="ObjectClass"/>
+			</parameter>
+			<result description="The count." type="integer"/>
+		</command>
+		<command name="delete" code="coredelo" description="Delete an object.">
+			<cocoa class="NSDeleteCommand"/>
+			<direct-parameter description="The object(s) to delete." type="specifier"/>
+		</command>
+		<command name="duplicate" code="coreclon" description="Copy an object.">
+			<cocoa class="NSCloneCommand"/>
+			<direct-parameter description="The object(s) to copy." type="specifier"/>
+			<parameter name="to" code="insh" description="The location for the new copy or copies." type="location specifier" optional="yes">
+				<cocoa key="ToLocation"/>
+			</parameter>
+			<parameter name="with properties" code="prdt" description="Properties to set in the new copy or copies right away." type="record" optional="yes">
+				<cocoa key="WithProperties"/>
+			</parameter>
+			<result description="The new object." type="specifier"/>
+		</command>
+		<command name="exists" code="coredoex" description="Verify that an object exists.">
+			<cocoa class="NSExistsCommand"/>
+			<direct-parameter description="The object(s) to check." type="any"/>
+			<result description="Did the object(s) exist?" type="boolean"/>
+		</command>
+		<command name="move" code="coremove" description="Move an object to a new location.">
+			<cocoa class="NSMoveCommand"/>
+			<direct-parameter description="The object(s) to move." type="specifier"/>
+			<parameter name="to" code="insh" description="The new location for the object(s)." type="location specifier">
+				<cocoa key="ToLocation"/>
+			</parameter>
+		</command>
+	</suite>
+	<suite name="Bundle Toolkit" code="MPTt" description="Classes and commands for Mail Bundles">
+		<enumeration name="frequency" code="freQ" description="How often an action should happen.">
+			<enumerator name="daily" code="Daly" description="Should happen at least every 24 hours"/>
+			<enumerator name="weekly" code="Week" description="Should happen at least every 7 days."/>
+			<enumerator name="monthly" code="Mnth" description="Should happen at least once a calendar month."/>
+			<enumerator name="now" code="Now " description="Force a check now."/>
+		</enumeration>
+		<enumeration name="info type" code="Info">
+			<enumerator name="mail info" code="Mail" description="The mail relevant system information.">
+				<cocoa string-value="-mail-info"/>
+			</enumerator>
+			<enumerator name="uuid list" code="uIDl" description="The list of compatible UUIDs for all version.">
+				<cocoa string-value="-uuid-list"/>
+			</enumerator>
+		</enumeration>
+		<command name="uninstall" code="MPTtReMv" description="Uninstall a plugin">
+			<cocoa class="MPTSendInfoCommand"/>
+			<direct-parameter description="The plugin path to be uninstalled." type="text"/>
+		</command>
+		<command name="update" code="MPTtUpDt" description="Update a plugin">
+			<cocoa class="MPTSendInfoCommand"/>
+			<direct-parameter description="The plugin path to be updated." type="text"/>
+			<parameter name="frequency" code="freQ" description="How often should the update be checked." type="frequency" optional="yes">
+				<cocoa key="frequency"/>
+			</parameter>
+		</command>
+		<command name="crash reports" code="MPTtCrRp" description="Check for crash reports for a plugin and send them to a server.">
+			<cocoa class="MPTSendInfoCommand"/>
+			<direct-parameter description="The plugin path for which we should send crash reports." type="text"/>
+			<parameter name="frequency" code="freQ" description="How often should the reports be sent." type="frequency" optional="yes">
+				<cocoa key="frequency"/>
+			</parameter>
+		</command>
+		<command name="update and crash reports" code="MPTtBoth" description="Check for updates and crash reports for a plugin.">
+			<cocoa class="MPTSendInfoCommand"/>
+			<direct-parameter description="The plugin path for which we should update &amp; send crash reports." type="text"/>
+			<parameter name="frequency" code="freQ" description="How often should the updates &amp; reports be done." type="frequency" optional="yes">
+				<cocoa key="frequency"/>
+			</parameter>
+		</command>
+		<command name="send" code="MPTtsEnD" description="Sends the info as a dictionary using a Distributed Notification.">
+			<cocoa class="MPTSendInfoCommand"/>
+			<direct-parameter description="The type of information to be sent." type="info type"/>
+			<parameter name="plugin path" code="Plug" description="The path to the plugin that is calling and that should receive the Notification." type="text">
+				<cocoa key="pluginPath"/>
+			</parameter>
+		</command>
+	</suite>
+</dictionary>

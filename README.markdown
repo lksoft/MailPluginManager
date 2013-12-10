@@ -1,6 +1,14 @@
 ## Mail Plugin Manager
 
-**I have deleted and recreated this repository in order to ensure that the code disappears. This is to ensure some safety measures of maintaining a single executable that is used in public. I will be explaining more in a short while. I still intend for the executable and integration with it to be openly available for others to use, but want to ensure that we don't end up with duplicates signed accidentally (or intentionally) by another Developer IDs.**
+<div style="font-size:1.5em; color:red;">I have deleted and recreated this repository in order to ensure that the source code disappears, but not the executables. Please read below for more information.</div>
+
+**This is to ensure some safety measures of maintaining a single executable that is used in public.**
+
+I still intend for the executable and integration with it to be openly available for others to use, but want to ensure that we don't end up with duplicates signed accidentally (or intentionally) by other _Developer IDs_. The goal here is to ensure that Mail Plugin Manager has a single point of reference without getting updated in an incorrect way on the user's machine.
+
+I am hoping that this will not discourage others from using the different executables for either a manager or even as the installer for you plugin, however I think that these steps are necessary to ensure accurate use. Although the code is no longer "**open source**", I definitely intend for the apps to be "**open executables**".
+
+I will include more documentation on how to use the Mail Plugin Manager, MailPluginTool and Plugin Installer with your plugin in the next few weeks.
 
 Mail Plugin Manager is a tool to help Mac Mail bundle authors manage, install & keep up to date for their users.
 
