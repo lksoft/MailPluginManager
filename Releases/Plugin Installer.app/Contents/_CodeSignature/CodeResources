@@ -14,11 +14,11 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		4KwmAxCPN+LKbyrbo5uL8BeKNvM=
+		QyQdcEvixBUoKQKDgi7H/FuRhWE=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		0ibFCgfDnTIBoMQF9ydkwfpd/IU=
+		g/PrCO5k6za/jSCBBNZhySfm0J4=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		ybnGOEkpyn2li5oAbnEaXSmeat8=
+		bBiUp/2tm0Ul1Q/3Gp0OAV8WgSk=
 		</data>
 		<key>Resources/ManagerIcon.icns</key>
 		<data>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tDSMxlk1xexwh+OtPXYzOGbdtgk=
+			a/VGhrK71Xqi0cOlTt3uXIJCuFU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			muEq0H6h9o6ac8WGlPjvJRGQ57M=
+			tWl+DuiWmBPjXYEi3HYBI0N4+PU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s0JVzN1nHu1A3t6riaO3BrDykAo=
+			OcKoIkKoOPvPwXkWrMPaziK2GIE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -92,7 +92,113 @@
 		</dict>
 		<key>Resources/uuids.plist</key>
 		<data>
-		zgwnmhpHOUiTT0H/M02l4AZOWvk=
+		xaXmuC5uS4ZmPcLSoKiGkSA2i/8=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Frameworks/Sparkle.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			7I4vNFLxC5gg5YHdKQdoC6TY1sA=
+			</data>
+			<key>requirement</key>
+			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862")</string>
+		</dict>
+		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
+		<data>
+		mqPdE9SidRD32NWfJQkmhmMgiCQ=
+		</data>
+		<key>Resources/GenericPlugin.png</key>
+		<data>
+		TOCyRCo0SG6kArfZYIwskOp/2bY=
+		</data>
+		<key>Resources/InstallAnimationBackground.png</key>
+		<data>
+		+QrIVvoeHjoWlggN8uB5ROD9fYE=
+		</data>
+		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
+		<data>
+		QyQdcEvixBUoKQKDgi7H/FuRhWE=
+		</data>
+		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
+		<data>
+		g/PrCO5k6za/jSCBBNZhySfm0J4=
+		</data>
+		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Resources/MailPluginRelaunch.app/Contents/_CodeSignature/CodeResources</key>
+		<data>
+		bBiUp/2tm0Ul1Q/3Gp0OAV8WgSk=
+		</data>
+		<key>Resources/ManagerIcon.icns</key>
+		<data>
+		1kFjNCc2Pm+0sXMsuMmvhdAq4hU=
+		</data>
+		<key>Resources/companies.plist</key>
+		<data>
+		28mypDgevFXjDtsy2dnu7nJQwjw=
+		</data>
+		<key>Resources/en.lproj/Credits.rtf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YKJIFIsxneJuNkJNJQIcJIjiPOg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/MPCAgreementWindow.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a/VGhrK71Xqi0cOlTt3uXIJCuFU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/MPCInstallerWindow.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tWl+DuiWmBPjXYEi3HYBI0N4+PU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/MainMenu.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OcKoIkKoOPvPwXkWrMPaziK2GIE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/errors.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AVOU8IfY7ldc7TNHO/+BsPEVOVg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/uuids.plist</key>
+		<data>
+		xaXmuC5uS4ZmPcLSoKiGkSA2i/8=
 		</data>
 	</dict>
 	<key>rules</key>
@@ -115,6 +221,80 @@
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
 	</dict>
 </dict>
 </plist>
