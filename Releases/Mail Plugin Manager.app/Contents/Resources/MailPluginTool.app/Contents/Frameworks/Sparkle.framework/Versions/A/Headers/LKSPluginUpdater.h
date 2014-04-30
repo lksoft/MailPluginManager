@@ -14,4 +14,6 @@
 
 @property	(assign)	BOOL	skipPreferenceSaves;
 
++ (SUUpdater *)updaterForBundle:(NSBundle *)aBundle delegate:(id)aDelegate;
+
 @end

@@ -34,11 +34,11 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		QyQdcEvixBUoKQKDgi7H/FuRhWE=
+		fHDRTBYPeEIBww4RjB7HnwmsqMc=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		QXAHg2h5/OVFjaff4hMnBblCzkI=
+		A6tffhaaeHzzyqlv+DItO2tn8WI=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q65IjXjjdotgHaZqSC07VNRRogk=
+			BXHMtw4T6Mb2Xmv+77uPatwHNOo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -133,7 +133,7 @@
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
-		xaXmuC5uS4ZmPcLSoKiGkSA2i/8=
+		HA28GhwNXDvjtZn4KCg8pFnE+tg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			2hN7i6LDipupEo9z/NXk8NVkedU=
+			dokmYyK6AsUgE95YXc8BL0hRGps=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862")</string>
 		</dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		AhT7VGF7jzlZ5XTj32eGW/Vz1TA=
+		x7xdgt8zXLVU37eoOKqrLgp0XXM=
 		</data>
 		<key>Resources/BundleBackground.png</key>
 		<data>
@@ -181,11 +181,11 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		QyQdcEvixBUoKQKDgi7H/FuRhWE=
+		fHDRTBYPeEIBww4RjB7HnwmsqMc=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		QXAHg2h5/OVFjaff4hMnBblCzkI=
+		A6tffhaaeHzzyqlv+DItO2tn8WI=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -260,7 +260,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q65IjXjjdotgHaZqSC07VNRRogk=
+			BXHMtw4T6Mb2Xmv+77uPatwHNOo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -280,7 +280,7 @@
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
-		xaXmuC5uS4ZmPcLSoKiGkSA2i/8=
+		HA28GhwNXDvjtZn4KCg8pFnE+tg=
 		</data>
 	</dict>
 	<key>rules</key>
