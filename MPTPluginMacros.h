@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 #if __has_feature(objc_arc)
 #define	MPT_MACRO_RELEASE(x)	while (0) {}
 #else
@@ -62,6 +63,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 #define MPT_INSTALL_SCRIPT_TEXT					@"-install-script"
 #define MPT_REMOVE_SCRIPT_TEXT					@"-remove-script"
 #define MPT_FREQUENCY_OPTION					@"-freq"
+#define MPT_SPARKLE_DICT_OPTION					@"-sparkle-value"
 
 #pragma mark Internal Values
 
@@ -119,6 +121,22 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 		} \
 	} \
 
+
+#define MPTPresentDialogForMissingPluginManager(mptBundle) \
+	do { \
+		NSString	*messageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"The Plugin ‘%@’ is trying to update, however the ‘Mail Plugin Manager’ app is missing.", nil, mptBundle, @"Text telling user the that MPM is not installed"), [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]]; \
+		NSString	*infoText = NSLocalizedStringFromTableInBundle(@"The ‘Mail Plugin Manager’ app is used by the plugin to look for updates. Click ‘Download’ to download the latest version, then put it into your Applications folder.", nil, mptBundle, @"Text telling user why MPM is useful and how to get it."); \
+		NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:messageText defaultButton:NSLocalizedStringFromTableInBundle(@"Download", nil, mptBundle, @"Download button") alternateButton:NSLocalizedStringFromTableInBundle(@"Cancel", nil, mptBundle, @"Cancel button") otherButton:nil informativeTextWithFormat:@"%@", infoText]; \
+		[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
+		dispatch_async(dispatch_get_main_queue(), ^{ \
+			NSInteger	result = [mptBundleUpToDateAlert runModal]; \
+			if (result == NSAlertDefaultReturn) { \
+				[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://littleknownsoftware.com/download/mpm"]]; \
+			} \
+		}); \
+	} while (NO); \
+
+
 #define	MPTLaunchCommandForBundle(mptCommand, mptMailBundle, mptOptionDict) \
 { \
 	if (mptMailBundle != nil) { \
@@ -151,6 +169,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 		} \
 		else { \
 			NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: MailPluginTool application wasn't found anywhere"); \
+			MPTPresentDialogForMissingPluginManager(mptMailBundle); \
 		} \
 	} \
 	else { \
@@ -160,24 +179,35 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 
 #define	MPTCallToolCommandForBundleWithBlock(mptCommand, mptMailBundle, mptNotificationBlock) \
 { \
-	if (mptMailBundle != nil) { \
-		NSString	*mptNotificationName = [mptCommand isEqualToString:MPT_SEND_MAIL_INFO_TEXT]?MPT_SYSTEM_INFO_NOTIFICATION:MPT_UUID_LIST_NOTIFICATION; \
-		/*	Set up the notification watch	*/ \
-		NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
-		__block id mptObserver; \
-		mptObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:mptNotificationName object:nil queue:mptQueue usingBlock:^(NSNotification *note) { \
-			/*	If this was aimed at us, then perform the block and remove the observer	*/ \
-			if ([[note object] isEqualToString:[mptMailBundle bundleIdentifier]]) { \
-				mptNotificationBlock([note userInfo]); \
-				[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptObserver]; \
-			} \
-		}]; \
-		/*	Then actually launch the app to get the information back	*/ \
-		MPTLaunchCommandForBundle(mptCommand, mptMailBundle, @{}); \
-		MPT_MACRO_RELEASE(mptQueue); \
+	MPTGetLikelyToolPath(); \
+	if (mptPluginToolPath != nil) { \
+		if (mptMailBundle != nil) { \
+			NSString	*mptNotificationName = [mptCommand isEqualToString:MPT_SEND_MAIL_INFO_TEXT]?MPT_SYSTEM_INFO_NOTIFICATION:MPT_UUID_LIST_NOTIFICATION; \
+			/*	Set up the notification watch	*/ \
+			NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
+			__block id mptObserver; \
+			mptObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:mptNotificationName object:nil queue:mptQueue usingBlock:^(NSNotification *note) { \
+				/*	If this was aimed at us, then perform the block and remove the observer	*/ \
+				if ([[note object] isEqualToString:[mptMailBundle bundleIdentifier]]) { \
+					if (mptNotificationBlock != nil) { \
+						mptNotificationBlock([note userInfo]); \
+					} \
+					[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptObserver]; \
+				} \
+			}]; \
+			/*	Then actually launch the app to get the information back	*/ \
+			MPTLaunchCommandForBundle(mptCommand, mptMailBundle, @{}); \
+			MPT_MACRO_RELEASE(mptQueue); \
+		} \
+		else { \
+			NSLog(@"ERROR in MPTCallToolCommandForBundleWithBlock() Macro: Cannot pass a nil bundle"); \
+		} \
 	} \
 	else { \
-		NSLog(@"ERROR in MPTCallToolCommandForBundleWithBlock() Macro: Cannot pass a nil bundle"); \
+		if (mptNotificationBlock != nil) { \
+			mptNotificationBlock(nil); \
+		} \
+		MPTPresentDialogForMissingPluginManager(mptMailBundle); \
 	} \
 }
 
@@ -232,6 +262,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 		} \
 		else { \
 			NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: MailPluginTool application wasn't found anywhere"); \
+			MPTPresentDialogForMissingPluginManager(mptMailBundle); \
 		} \
 	} \
 	else { \
@@ -251,54 +282,69 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 
 #define MPTClosePrefsWindowIfInstalling(mptBundle) \
 { \
-	NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
-	[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleWillInstallQueue"]]; \
-	__block id mptBundleObserver; \
-	mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_WILL_INSTALL_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
-		/*	If the preferences are open then close them	*/ \
-		NSPreferences	*prefs = [NSPreferences sharedPreferences]; \
-		BOOL	panelIsVisible = [[prefs valueForKey:@"preferencesPanel"] isVisible]; \
-		if (panelIsVisible && (prefs != nil)) { \
-			dispatch_async(dispatch_get_main_queue(), ^{ \
-				[prefs performSelector:@selector(cancel:) withObject:self]; \
-			}); \
-		} \
-		/*	Always remove the observer	*/ \
-		[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
-	}]; \
-	MPT_MACRO_RELEASE(mptQueue); \
+	MPTGetLikelyToolPath(); \
+	/*	Ensure that the update check will happen first */ \
+	if (mptPluginToolPath != nil) { \
+		NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
+		[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleWillInstallQueue"]]; \
+		__block id mptBundleObserver; \
+		__block id blockSelf = self; \
+		mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_WILL_INSTALL_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
+			/*	If the preferences are open then close them	*/ \
+			NSPreferences	*prefs = [NSPreferences sharedPreferences]; \
+			BOOL	panelIsVisible = [[prefs valueForKey:@"preferencesPanel"] isVisible]; \
+			if (panelIsVisible && (prefs != nil)) { \
+				dispatch_async(dispatch_get_main_queue(), ^{ \
+					[prefs performSelector:@selector(cancel:) withObject:blockSelf]; \
+				}); \
+			} \
+			/*	Always remove the observer	*/ \
+			[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
+		}]; \
+		MPT_MACRO_RELEASE(mptQueue); \
+	} \
 }
 
 
 #define	MPTPresentDialogWhenUpToDateUsingWindow(mptBundle, mptSheetWindow, mptFinishBlock) \
 { \
-	NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
-	[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleUpdateStatusQueue"]]; \
-	__block id mptBundleObserver; \
-	mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_UPDATE_STATUS_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
-		/*	Test to see if the plugin is up to date	*/ \
-		if ([[[note userInfo] valueForKey:@"uptodate"] boolValue]) { \
-			NSString	*messageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"You have the most recent version of %@.", nil, mptBundle, @"Text telling user the plugin is up to date"), [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]]; \
-			NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:messageText defaultButton:NSLocalizedStringFromTableInBundle(@"OK", nil, mptBundle, @"Okay button") alternateButton:nil otherButton:nil informativeTextWithFormat:@""]; \
-			[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
-			if (mptSheetWindow != nil) { \
-				dispatch_async(dispatch_get_main_queue(), ^{ \
-					[mptBundleUpToDateAlert beginSheetModalForWindow:mptSheetWindow modalDelegate:nil didEndSelector:NULL contextInfo:NULL]; \
-				}); \
+	MPTGetLikelyToolPath(); \
+	/*	Ensure that the update check will happen first */ \
+	if (mptPluginToolPath != nil) { \
+		NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
+		[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleUpdateStatusQueue"]]; \
+		__block id mptBundleObserver; \
+		mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_UPDATE_STATUS_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
+			/*	Test to see if the plugin is up to date	*/ \
+			if ([[[note userInfo] valueForKey:@"uptodate"] boolValue]) { \
+				NSString	*messageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"You have the most recent version of %@.", nil, mptBundle, @"Text telling user the plugin is up to date"), [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]]; \
+				NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:messageText defaultButton:NSLocalizedStringFromTableInBundle(@"OK", nil, mptBundle, @"Okay button") alternateButton:nil otherButton:nil informativeTextWithFormat:@""]; \
+				[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
+				if (mptSheetWindow != nil) { \
+					dispatch_async(dispatch_get_main_queue(), ^{ \
+						[mptBundleUpToDateAlert beginSheetModalForWindow:mptSheetWindow modalDelegate:nil didEndSelector:NULL contextInfo:NULL]; \
+					}); \
+				} \
+				else { \
+					dispatch_sync(dispatch_get_main_queue(), ^{ \
+						[mptBundleUpToDateAlert runModal]; \
+					}); \
+				} \
 			} \
-			else { \
-				dispatch_sync(dispatch_get_main_queue(), ^{ \
-					[mptBundleUpToDateAlert runModal]; \
-				}); \
+			if (mptFinishBlock != nil) { \
+				mptFinishBlock(); \
 			} \
-		} \
+			/*	Always remove the observer	*/ \
+			[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
+		}]; \
+		MPT_MACRO_RELEASE(mptQueue); \
+	} \
+	else { \
+		/*	If there is no plugin tool, just call the block if it is not nil */ \
 		if (mptFinishBlock != nil) { \
 			mptFinishBlock(); \
 		} \
-		/*	Always remove the observer	*/ \
-		[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
-	}]; \
-	MPT_MACRO_RELEASE(mptQueue); \
+	} \
 }
 
 
@@ -313,19 +359,26 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 
 #define	MPTUninstallForBundle(mptMailBundle)									MPTLaunchCommandForBundle(MPT_UNINSTALL_TEXT, mptMailBundle, [NSDictionary dictionary]);
 #define	MPTCheckForUpdatesForBundle(mptMailBundle)								MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, [NSDictionary dictionary]);
-#define	MPTCheckForUpdatesForBundleNow(mptMailBundle)							MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, [NSDictionary dictionaryWithObject:@"now" forKey:MPT_FREQUENCY_KEY]);
+#define	MPTCheckForUpdatesForBundleNow(mptMailBundle)							MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: @"now"}));
 #define	MPTSendCrashReportsForBundle(mptMailBundle)								MPTLaunchCommandForBundle(MPT_CRASH_REPORTS_TEXT, mptMailBundle, [NSDictionary dictionary]);
 #define	MPTUpdateAndSendReportsForBundle(mptMailBundle)							MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, [NSDictionary dictionary]);
-#define	MPTUpdateAndSendReportsForBundleNow(mptMailBundle)						MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, [NSDictionary dictionaryWithObject:@"now" forKey:MPT_FREQUENCY_KEY]);
-#define	MPTCheckForUpdatesForBundleWithFrequency(mptMailBundle, mptFreq)		MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, [NSDictionary dictionaryWithObject:mptFreq forKey:MPT_FREQUENCY_KEY]);
-#define	MPTSendCrashReportsForBundleWithFrequency(mptMailBundle, mptFreq)		MPTLaunchCommandForBundle(MPT_CRASH_REPORTS_TEXT, mptMailBundle, [NSDictionary dictionaryWithObject:mptFreq forKey:MPT_FREQUENCY_KEY]);
-#define	MPTUpdateAndSendReportsForBundleWithFrequency(mptMailBundle, mptFreq)	MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, [NSDictionary dictionaryWithObject:mptFreq forKey:MPT_FREQUENCY_KEY]);
+#define	MPTUpdateAndSendReportsForBundleNow(mptMailBundle)						MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: @"now"}));
+#define	MPTCheckForUpdatesForBundleWithFrequency(mptMailBundle, mptFreq)		MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: mptFreq}));
+#define	MPTSendCrashReportsForBundleWithFrequency(mptMailBundle, mptFreq)		MPTLaunchCommandForBundle(MPT_CRASH_REPORTS_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: mptFreq}));
+#define	MPTUpdateAndSendReportsForBundleWithFrequency(mptMailBundle, mptFreq)	MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: mptFreq}));
 
-#define	MPTInstallScript(mptMailBundle, mptScriptPath, mptFolderName)			MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, ([NSDictionary dictionaryWithObject:[NSDictionary dictionaryWithObjectsAndKeys:mptScriptPath, MPT_SCRIPT_KEY, [NSNumber numberWithBool:NO], MPT_RUN_SCRIPT_KEY, mptFolderName, MPT_SCRIPT_FOLDER_NAME_KEY, nil] forKey:MPT_OTHER_VALUES_KEY]));
-#define	MPTInstallScriptAndRun(mptMailBundle, mptScriptPath, mptFolderName)		MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, ([NSDictionary dictionaryWithObject:[NSDictionary dictionaryWithObjectsAndKeys:mptScriptPath, MPT_SCRIPT_KEY, [NSNumber numberWithBool:YES], MPT_RUN_SCRIPT_KEY, mptFolderName, MPT_SCRIPT_FOLDER_NAME_KEY, nil] forKey:MPT_OTHER_VALUES_KEY]));
-#define	MPTInstallScriptTo(mptMailBundle, mptScriptPath, mptDestPath)			MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, ([NSDictionary dictionaryWithObject:[NSDictionary dictionaryWithObjectsAndKeys:mptScriptPath, MPT_SCRIPT_KEY, [NSNumber numberWithBool:NO], MPT_RUN_SCRIPT_KEY, mptDestPath, MPT_SCRIPT_DESTINATION_KEY, nil] forKey:MPT_OTHER_VALUES_KEY]));
-#define	MPTInstallScriptToAndRun(mptMailBundle, mptScriptPath, mptDestPath)		MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, ([NSDictionary dictionaryWithObject:[NSDictionary dictionaryWithObjectsAndKeys:mptScriptPath, MPT_SCRIPT_KEY, [NSNumber numberWithBool:YES], MPT_RUN_SCRIPT_KEY, mptDestPath, MPT_SCRIPT_DESTINATION_KEY, nil] forKey:MPT_OTHER_VALUES_KEY]));
-#define	MPTRemoveScript(mptMailBundle, mptScriptPath)							MPTLaunchCommandForBundle(MPT_REMOVE_SCRIPT_TEXT, mptMailBundle, ([NSDictionary dictionaryWithObject:[NSDictionary dictionaryWithObject:mptScriptPath forKey:MPT_SCRIPT_KEY] forKey:MPT_OTHER_VALUES_KEY]));
+#define	MPTCheckForUpdatesForBundleSparkleDict(mptMailBundle, sparkleDict)								MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, @{MPT_SPARKLE_DICT_OPTION: sparkleDict});
+#define	MPTCheckForUpdatesForBundleNowSparkleDict(mptMailBundle, sparkleDict)							MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: @"now", MPT_SPARKLE_DICT_OPTION: sparkleDict}));
+#define	MPTUpdateAndSendReportsForBundleSparkleDict(mptMailBundle, sparkleDict)							MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, @{MPT_SPARKLE_DICT_OPTION: sparkleDict});
+#define	MPTUpdateAndSendReportsForBundleNowSparkleDict(mptMailBundle, sparkleDict)						MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: @"now", MPT_SPARKLE_DICT_OPTION: sparkleDict}));
+#define	MPTCheckForUpdatesForBundleWithFrequencySparkleDict(mptMailBundle, mptFreq, sparkleDict)		MPTLaunchCommandForBundle(MPT_UPDATE_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: mptFreq, MPT_SPARKLE_DICT_OPTION: sparkleDict}));
+#define	MPTUpdateAndSendReportsForBundleWithFrequencySparkleDict(mptMailBundle, mptFreq, sparkleDict)	MPTLaunchCommandForBundle(MPT_UPDATE_CRASH_REPORTS_TEXT, mptMailBundle, (@{MPT_FREQUENCY_KEY: mptFreq, MPT_SPARKLE_DICT_OPTION: sparkleDict}));
+
+#define	MPTInstallScript(mptMailBundle, mptScriptPath, mptFolderName)			MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, (@{MPT_OTHER_VALUES_KEY: (@{MPT_SCRIPT_KEY: mptScriptPath, MPT_RUN_SCRIPT_KEY: @NO, MPT_SCRIPT_FOLDER_NAME_KEY: mptFolderName})}));
+#define	MPTInstallScriptAndRun(mptMailBundle, mptScriptPath, mptFolderName)		MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, (@{MPT_OTHER_VALUES_KEY: (@{MPT_SCRIPT_KEY: mptScriptPath, MPT_RUN_SCRIPT_KEY: @YES, MPT_SCRIPT_FOLDER_NAME_KEY: mptFolderName})}));
+#define	MPTInstallScriptTo(mptMailBundle, mptScriptPath, mptDestPath)			MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, (@{MPT_OTHER_VALUES_KEY: (@{MPT_SCRIPT_KEY: mptScriptPath, MPT_RUN_SCRIPT_KEY: @NO, MPT_SCRIPT_DESTINATION_KEY: mptDestPath})}));
+#define	MPTInstallScriptToAndRun(mptMailBundle, mptScriptPath, mptDestPath)		MPTLaunchCommandForBundle(MPT_INSTALL_SCRIPT_TEXT, mptMailBundle, (@{MPT_OTHER_VALUES_KEY: (@{MPT_SCRIPT_KEY: mptScriptPath, MPT_RUN_SCRIPT_KEY: @YES, MPT_SCRIPT_DESTINATION_KEY: mptDestPath})}));
+#define	MPTRemoveScript(mptMailBundle, mptScriptPath)							MPTLaunchCommandForBundle(MPT_REMOVE_SCRIPT_TEXT, mptMailBundle, (@{MPT_OTHER_VALUES_KEY: (@{MPT_SCRIPT_KEY: mptScriptPath})}));
 
 #pragma mark Notification Block
 

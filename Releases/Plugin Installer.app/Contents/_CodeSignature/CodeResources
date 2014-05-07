@@ -14,11 +14,11 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		fHDRTBYPeEIBww4RjB7HnwmsqMc=
+		rBFmA1cTrZ9wvcvffkBcdvLpUU0=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		A6tffhaaeHzzyqlv+DItO2tn8WI=
+		cabVskaBATcOcSY2NlMUzGPQUYk=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
-		28mypDgevFXjDtsy2dnu7nJQwjw=
+		nVX5w0LXwmp+M9h34pS0E0re6+o=
 		</data>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H21kTgBRJ7xfji96Y8ZB5YwiUjw=
+			Uf0HOelan6dUGqnvgd0vUBnBLY0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			dokmYyK6AsUgE95YXc8BL0hRGps=
+			QkZp4ShpnVY40b4v80Sv+3oBFAY=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862")</string>
 		</dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		x7xdgt8zXLVU37eoOKqrLgp0XXM=
+		csZ4JR/7F+9J6cAHysbdajD807w=
 		</data>
 		<key>Resources/GenericPlugin.png</key>
 		<data>
@@ -120,11 +120,11 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		fHDRTBYPeEIBww4RjB7HnwmsqMc=
+		rBFmA1cTrZ9wvcvffkBcdvLpUU0=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		A6tffhaaeHzzyqlv+DItO2tn8WI=
+		cabVskaBATcOcSY2NlMUzGPQUYk=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -140,7 +140,7 @@
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
-		28mypDgevFXjDtsy2dnu7nJQwjw=
+		nVX5w0LXwmp+M9h34pS0E0re6+o=
 		</data>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -182,7 +182,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H21kTgBRJ7xfji96Y8ZB5YwiUjw=
+			Uf0HOelan6dUGqnvgd0vUBnBLY0=
 			</data>
 			<key>optional</key>
 			<true/>

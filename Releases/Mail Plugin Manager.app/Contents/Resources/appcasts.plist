@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contents</key>
+	<dict>
+		<key>com.chungwasoft.Graffiti</key>
+		<string>http://www.chungwasoft.com/library/appcasts/Graffiti/appcast_mpm.xml</string>
+		<key>com.littleknownsoftware.SignatureProfiler</key>
+		<string>http://test.littleknownsoftware.com/feed/sigpro</string>
+		<key>com.littleknownsoftware.Tealeaves</key>
+		<string>http://test.littleknownsoftware.com/feed/sis</string>
+	</dict>
+	<key>date</key>
+	<date>2014-02-26T12:22:27Z</date>
+</dict>
+</plist>
