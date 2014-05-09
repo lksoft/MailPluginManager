@@ -4,6 +4,12 @@
 <dict>
 	<key>contents</key>
 	<dict>
+		<key>ca.indev.MailActOn</key>
+		<string>http://www.indev.ca/sparkle/MailActOn3.xml</string>
+		<key>ca.indev.MailPerspectives</key>
+		<string>http://www.indev.ca/sparkle/MailPerspectives.xml</string>
+		<key>ca.indev.MailTags</key>
+		<string>http://www.indev.ca/sparkle/MailTags4.xml</string>
 		<key>com.chungwasoft.Graffiti</key>
 		<string>http://www.chungwasoft.com/library/appcasts/Graffiti/appcast_mpm.xml</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
@@ -12,6 +18,6 @@
 		<string>http://test.littleknownsoftware.com/feed/sis</string>
 	</dict>
 	<key>date</key>
-	<date>2014-02-26T12:22:27Z</date>
+	<date>2014-05-08T11:22:27Z</date>
 </dict>
 </plist>

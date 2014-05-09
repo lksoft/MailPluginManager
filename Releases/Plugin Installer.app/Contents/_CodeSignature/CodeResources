@@ -12,13 +12,17 @@
 		<data>
 		+QrIVvoeHjoWlggN8uB5ROD9fYE=
 		</data>
+		<key>Resources/InstallDocument.icns</key>
+		<data>
+		9MGFxmHsDtxRGFNxqOHeGHdKdK8=
+		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
 		rBFmA1cTrZ9wvcvffkBcdvLpUU0=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		fDiwtfeuzZOEVTS1G2YaGGzzJTw=
+		s0E60qeAVL+PkPPQ8Jgk8MHjgTM=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -28,13 +32,13 @@
 		<data>
 		bBiUp/2tm0Ul1Q/3Gp0OAV8WgSk=
 		</data>
-		<key>Resources/ManagerIcon.icns</key>
+		<key>Resources/UninstallDocument.icns</key>
 		<data>
-		1kFjNCc2Pm+0sXMsuMmvhdAq4hU=
+		8nRzzb4CIcJzDqgdTdtTaCryf4o=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
-		nVX5w0LXwmp+M9h34pS0E0re6+o=
+		+L0f5YI/rFNg0hNH+lzP0a+iMvs=
 		</data>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -101,14 +105,14 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			9vt4MjY5GUFCTBpTfIXReWXBEoU=
+			ASW7HsIZQwJVl6sadmwxLVAx9Ns=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862")</string>
 		</dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		zYHbN5TJDn8PkYbrDHkd+64br/g=
+		LL+29YddS8Vrbwi5ZPTEeBw5P7E=
 		</data>
 		<key>Resources/GenericPlugin.png</key>
 		<data>
@@ -118,13 +122,17 @@
 		<data>
 		+QrIVvoeHjoWlggN8uB5ROD9fYE=
 		</data>
+		<key>Resources/InstallDocument.icns</key>
+		<data>
+		9MGFxmHsDtxRGFNxqOHeGHdKdK8=
+		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
 		rBFmA1cTrZ9wvcvffkBcdvLpUU0=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		fDiwtfeuzZOEVTS1G2YaGGzzJTw=
+		s0E60qeAVL+PkPPQ8Jgk8MHjgTM=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -134,13 +142,13 @@
 		<data>
 		bBiUp/2tm0Ul1Q/3Gp0OAV8WgSk=
 		</data>
-		<key>Resources/ManagerIcon.icns</key>
+		<key>Resources/UninstallDocument.icns</key>
 		<data>
-		1kFjNCc2Pm+0sXMsuMmvhdAq4hU=
+		8nRzzb4CIcJzDqgdTdtTaCryf4o=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
-		nVX5w0LXwmp+M9h34pS0E0re6+o=
+		+L0f5YI/rFNg0hNH+lzP0a+iMvs=
 		</data>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>

@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/BundleBackground.png</key>
-		<data>
-		eWIQwyQepg4xxctDphnmGXwXW30=
-		</data>
-		<key>Resources/BundleBackgroundRed.png</key>
-		<data>
-		FE4IZeVD14xpNbXqrcatOogb0bE=
-		</data>
 		<key>Resources/GenericPlugin.png</key>
 		<data>
 		TOCyRCo0SG6kArfZYIwskOp/2bY=
@@ -30,7 +22,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		fDiwtfeuzZOEVTS1G2YaGGzzJTw=
+		s0E60qeAVL+PkPPQ8Jgk8MHjgTM=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -324,7 +316,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		US7y2MJjG79xypearI0yoWhjvAI=
+		0qwsqayje3EmNqVNjP7BH5H2R6c=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -1235,35 +1227,27 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		raES8Ik5cNzyAhmFU6nz2E0iNmw=
+		TDV8Ec3ymyeBp/4mx32ilRxRwuc=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		zaJCwOZaxI9+r8W2t/gWxxndcEA=
+		wKo3XD08ONpI8daEWzDy1xaj9UY=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		au7c9zBC/HoDL1ji/SNDy/K2nQY=
+		3F6qovf1IysVvquViu8iHvKYMWw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		zYHbN5TJDn8PkYbrDHkd+64br/g=
+		LL+29YddS8Vrbwi5ZPTEeBw5P7E=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		J/vHWu0KhxgGox1zop0QCWpMZbw=
+		3NjWAhdZ9xqC5lM+KmccizA8eWk=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/BundleBackground.png</key>
-		<data>
-		eWIQwyQepg4xxctDphnmGXwXW30=
-		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/BundleBackgroundRed.png</key>
-		<data>
-		FE4IZeVD14xpNbXqrcatOogb0bE=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/GenericPlugin.png</key>
 		<data>
@@ -1273,13 +1257,13 @@
 		<data>
 		+QrIVvoeHjoWlggN8uB5ROD9fYE=
 		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/MPCBackgroundImage.png</key>
-		<data>
-		Uev2GWY2Syk8z2amSfTzfDmUhW4=
-		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MPT Scripting.sdef</key>
 		<data>
 		jaz0rD1qojrqeRt+MMp5f4TV4pE=
+		</data>
+		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginManager.icns</key>
+		<data>
+		/Jw5yfTOSdv21MIEaghlbrurCVQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
@@ -1287,7 +1271,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		fDiwtfeuzZOEVTS1G2YaGGzzJTw=
+		s0E60qeAVL+PkPPQ8Jgk8MHjgTM=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1301,17 +1285,13 @@
 		<data>
 		61QAUR1krTqgkYsdEr5/LWupBGw=
 		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/ManagerIcon.icns</key>
-		<data>
-		1kFjNCc2Pm+0sXMsuMmvhdAq4hU=
-		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/SendSupportMail.scpt</key>
 		<data>
 		Me+ASWDLBnNtlVqSQ2QVmc/FJW0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/companies.plist</key>
 		<data>
-		nVX5w0LXwmp+M9h34pS0E0re6+o=
+		+L0f5YI/rFNg0hNH+lzP0a+iMvs=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -1331,29 +1311,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/MPCBundleView.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YfJQO9vHxHpCZPx286FyWzsHfUQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/MPTSinglePluginWindow.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Rnke002w7prqRelGJCDnppQZm54=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BXHMtw4T6Mb2Xmv+77uPatwHNOo=
+			CMvRAJocNigGZTXHRP78ztuyDhs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1369,7 +1331,7 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Resources/notification-icon.png</key>
 		<data>
-		hrSBzfTWjkq8pNJjItVGnknk+hw=
+		IVdRVi20IGOJy9j27kyLLHj2nMw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/uuids.plist</key>
 		<data>
@@ -1377,7 +1339,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		Y7E0oZX9UEHBnDl1RXDLbKLUbrI=
+		YdyamKeL6kmjlGPdgyrYQ1kaE7w=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -1397,11 +1359,11 @@
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		L+r5yptOzPLjvs7jw+ivsAJyurg=
+		7SymajI17s3174Xi9cpIieHJbFE=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
-		nVX5w0LXwmp+M9h34pS0E0re6+o=
+		+L0f5YI/rFNg0hNH+lzP0a+iMvs=
 		</data>
 		<key>Resources/deleteAction.tiff</key>
 		<data>
@@ -1433,7 +1395,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wrRz1vmPfUShkqwTUY11QscBMFA=
+			wff5uOljznk9B07I/bILmhjEx+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1443,15 +1405,6 @@
 			<key>hash</key>
 			<data>
 			a/VGhrK71Xqi0cOlTt3uXIJCuFU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/en.lproj/MPCBundleView.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YfJQO9vHxHpCZPx286FyWzsHfUQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1469,7 +1422,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8OGQ/yrPv8znKa7CxZU0X5uvqSw=
+			I9bZLy99vdpACEp8ChUko3079Cs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1494,6 +1447,10 @@
 		<key>Resources/localDomainAction.tiff</key>
 		<data>
 		QXD3GhKIgnTQeP0jHgnBUJ2No/g=
+		</data>
+		<key>Resources/notification-icon.png</key>
+		<data>
+		IVdRVi20IGOJy9j27kyLLHj2nMw=
 		</data>
 		<key>Resources/sidebar-download.tiff</key>
 		<data>
@@ -1536,15 +1493,7 @@
 	<dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		zYHbN5TJDn8PkYbrDHkd+64br/g=
-		</data>
-		<key>Resources/BundleBackground.png</key>
-		<data>
-		eWIQwyQepg4xxctDphnmGXwXW30=
-		</data>
-		<key>Resources/BundleBackgroundRed.png</key>
-		<data>
-		FE4IZeVD14xpNbXqrcatOogb0bE=
+		LL+29YddS8Vrbwi5ZPTEeBw5P7E=
 		</data>
 		<key>Resources/GenericPlugin.png</key>
 		<data>
@@ -1564,7 +1513,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		fDiwtfeuzZOEVTS1G2YaGGzzJTw=
+		s0E60qeAVL+PkPPQ8Jgk8MHjgTM=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1873,7 +1822,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		US7y2MJjG79xypearI0yoWhjvAI=
+		0qwsqayje3EmNqVNjP7BH5H2R6c=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -2794,11 +2743,11 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		raES8Ik5cNzyAhmFU6nz2E0iNmw=
+		TDV8Ec3ymyeBp/4mx32ilRxRwuc=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		zaJCwOZaxI9+r8W2t/gWxxndcEA=
+		wKo3XD08ONpI8daEWzDy1xaj9UY=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/Current</key>
 		<dict>
@@ -2807,27 +2756,19 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		au7c9zBC/HoDL1ji/SNDy/K2nQY=
+		3F6qovf1IysVvquViu8iHvKYMWw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		zYHbN5TJDn8PkYbrDHkd+64br/g=
+		LL+29YddS8Vrbwi5ZPTEeBw5P7E=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		J/vHWu0KhxgGox1zop0QCWpMZbw=
+		3NjWAhdZ9xqC5lM+KmccizA8eWk=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/BundleBackground.png</key>
-		<data>
-		eWIQwyQepg4xxctDphnmGXwXW30=
-		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/BundleBackgroundRed.png</key>
-		<data>
-		FE4IZeVD14xpNbXqrcatOogb0bE=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/GenericPlugin.png</key>
 		<data>
@@ -2837,13 +2778,13 @@
 		<data>
 		+QrIVvoeHjoWlggN8uB5ROD9fYE=
 		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/MPCBackgroundImage.png</key>
-		<data>
-		Uev2GWY2Syk8z2amSfTzfDmUhW4=
-		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MPT Scripting.sdef</key>
 		<data>
 		jaz0rD1qojrqeRt+MMp5f4TV4pE=
+		</data>
+		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginManager.icns</key>
+		<data>
+		/Jw5yfTOSdv21MIEaghlbrurCVQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
@@ -2851,7 +2792,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		fDiwtfeuzZOEVTS1G2YaGGzzJTw=
+		s0E60qeAVL+PkPPQ8Jgk8MHjgTM=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -2865,17 +2806,13 @@
 		<data>
 		61QAUR1krTqgkYsdEr5/LWupBGw=
 		</data>
-		<key>Resources/MailPluginTool.app/Contents/Resources/ManagerIcon.icns</key>
-		<data>
-		1kFjNCc2Pm+0sXMsuMmvhdAq4hU=
-		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/SendSupportMail.scpt</key>
 		<data>
 		Me+ASWDLBnNtlVqSQ2QVmc/FJW0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/companies.plist</key>
 		<data>
-		nVX5w0LXwmp+M9h34pS0E0re6+o=
+		+L0f5YI/rFNg0hNH+lzP0a+iMvs=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -2895,29 +2832,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/MPCBundleView.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YfJQO9vHxHpCZPx286FyWzsHfUQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/MPTSinglePluginWindow.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Rnke002w7prqRelGJCDnppQZm54=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Resources/en.lproj/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BXHMtw4T6Mb2Xmv+77uPatwHNOo=
+			CMvRAJocNigGZTXHRP78ztuyDhs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2933,7 +2852,7 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Resources/notification-icon.png</key>
 		<data>
-		hrSBzfTWjkq8pNJjItVGnknk+hw=
+		IVdRVi20IGOJy9j27kyLLHj2nMw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/uuids.plist</key>
 		<data>
@@ -2941,7 +2860,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		Y7E0oZX9UEHBnDl1RXDLbKLUbrI=
+		YdyamKeL6kmjlGPdgyrYQ1kaE7w=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -2961,11 +2880,11 @@
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		L+r5yptOzPLjvs7jw+ivsAJyurg=
+		7SymajI17s3174Xi9cpIieHJbFE=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
-		nVX5w0LXwmp+M9h34pS0E0re6+o=
+		+L0f5YI/rFNg0hNH+lzP0a+iMvs=
 		</data>
 		<key>Resources/deleteAction.tiff</key>
 		<data>
@@ -2997,7 +2916,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wrRz1vmPfUShkqwTUY11QscBMFA=
+			wff5uOljznk9B07I/bILmhjEx+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3007,15 +2926,6 @@
 			<key>hash</key>
 			<data>
 			a/VGhrK71Xqi0cOlTt3uXIJCuFU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/en.lproj/MPCBundleView.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YfJQO9vHxHpCZPx286FyWzsHfUQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3033,7 +2943,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8OGQ/yrPv8znKa7CxZU0X5uvqSw=
+			I9bZLy99vdpACEp8ChUko3079Cs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3058,6 +2968,10 @@
 		<key>Resources/localDomainAction.tiff</key>
 		<data>
 		QXD3GhKIgnTQeP0jHgnBUJ2No/g=
+		</data>
+		<key>Resources/notification-icon.png</key>
+		<data>
+		IVdRVi20IGOJy9j27kyLLHj2nMw=
 		</data>
 		<key>Resources/sidebar-download.tiff</key>
 		<data>
