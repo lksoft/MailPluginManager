@@ -10,8 +10,16 @@
 		<string>http://www.indev.ca/sparkle/MailPerspectives.xml</string>
 		<key>ca.indev.MailTags</key>
 		<string>http://www.indev.ca/sparkle/MailTags4.xml</string>
+		<key>com.chungwasoft.CargoLifter</key>
+		<string>http://www.chungwasoft.com/library/appcast.php?appName=CargoLifter</string>
+		<key>com.chungwasoft.Face2Face</key>
+		<string>http://www.chungwasoft.com/library/appcast.php?appName=Face2Face</string>
+		<key>com.chungwasoft.ForgetMeNot</key>
+		<string>http://www.chungwasoft.com/library/appcast.php?appName=ForgetMeNot</string>
 		<key>com.chungwasoft.Graffiti</key>
-		<string>http://www.chungwasoft.com/library/appcasts/Graffiti/appcast_mpm.xml</string>
+		<string>http://www.chungwasoft.com/library/appcast.php?appName=Graffiti</string>
+		<key>com.chungwasoft.SendLater</key>
+		<string>http://www.chungwasoft.com/library/appcast.php?appName=SendLater</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
 		<string>http://test.littleknownsoftware.com/feed/sigpro</string>
 		<key>com.littleknownsoftware.Tealeaves</key>

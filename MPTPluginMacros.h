@@ -49,6 +49,9 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 //	Notification string for when Sparkle modifies defaults outside of app
 #define MPT_DEFAULTS_CHANGE_DIST_NOTIFICATION		@"LKSSUPluginDefaultsChanged"
 
+//	Preferences key for when to suppres alert about MPM missing (stored in Mail's Preferences)
+#define MPT_SUPPRESS_MISSING_MPM_ALERT_KEY			@"MPTSuppressMissingMPMAlert"
+
 
 #pragma mark Command List
 
@@ -103,112 +106,124 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 #pragma mark - Reused Macros
 
 #define MPTPerformFolderPath() \
-	[[[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:MPT_MAIL_MPT_FOLDER_PATH] stringByExpandingTildeInPath]
+[[[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:MPT_MAIL_MPT_FOLDER_PATH] stringByExpandingTildeInPath]
 
 #define MPTGetLikelyToolPath() \
-	NSFileManager	*mptManager = [NSFileManager defaultManager]; \
-	NSString		*mptPluginManagerPath = [[NSSearchPathForDirectoriesInDomains(NSApplicationDirectory, NSLocalDomainMask, YES) lastObject] stringByAppendingPathComponent:MPT_MANAGER_APP_NAME]; \
-	if (![mptManager fileExistsAtPath:mptPluginManagerPath]) { \
-		mptPluginManagerPath = [[NSWorkspace sharedWorkspace] absolutePathForAppBundleWithIdentifier:MPT_MANAGER_IDENTIFIER]; \
-	} \
-	NSString		*mptPluginToolPath = [[NSWorkspace sharedWorkspace] absolutePathForAppBundleWithIdentifier:MPT_TOOL_IDENTIFIER]; \
-	if ((mptPluginToolPath == nil) || ((mptPluginManagerPath != nil) && ![mptPluginToolPath hasPrefix:mptPluginManagerPath])) { \
-		/*	See if we can get the tool path inside the managerPath	*/ \
-		NSString	*mptProposedPath = [mptPluginManagerPath stringByAppendingPathComponent:MPT_APP_RESOURCES_PATH]; \
-		mptProposedPath = [mptProposedPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.app", MPT_TOOL_NAME]]; \
-		if ((mptProposedPath != nil) && [[NSFileManager defaultManager] fileExistsAtPath:mptProposedPath]) { \
-			mptPluginToolPath = mptProposedPath; \
-		} \
-	} \
+NSFileManager	*mptManager = [NSFileManager defaultManager]; \
+NSString		*mptPluginManagerPath = [[NSSearchPathForDirectoriesInDomains(NSApplicationDirectory, NSLocalDomainMask, YES) lastObject] stringByAppendingPathComponent:MPT_MANAGER_APP_NAME]; \
+if (![mptManager fileExistsAtPath:mptPluginManagerPath]) { \
+mptPluginManagerPath = [[NSWorkspace sharedWorkspace] absolutePathForAppBundleWithIdentifier:MPT_MANAGER_IDENTIFIER]; \
+} \
+NSString		*mptPluginToolPath = [[NSWorkspace sharedWorkspace] absolutePathForAppBundleWithIdentifier:MPT_TOOL_IDENTIFIER]; \
+if ((mptPluginToolPath == nil) || ((mptPluginManagerPath != nil) && ![mptPluginToolPath hasPrefix:mptPluginManagerPath])) { \
+/*	See if we can get the tool path inside the managerPath	*/ \
+NSString	*mptProposedPath = [mptPluginManagerPath stringByAppendingPathComponent:MPT_APP_RESOURCES_PATH]; \
+mptProposedPath = [mptProposedPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.app", MPT_TOOL_NAME]]; \
+if ((mptProposedPath != nil) && [[NSFileManager defaultManager] fileExistsAtPath:mptProposedPath]) { \
+mptPluginToolPath = mptProposedPath; \
+} \
+} \
 
 
 #define MPTPresentDialogForMissingPluginManager(mptBundle) \
-	do { \
-		NSString	*messageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"The Plugin ‘%@’ is trying to update, however the ‘Mail Plugin Manager’ app is missing.", nil, mptBundle, @"Text telling user the that MPM is not installed"), [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]]; \
-		NSString	*infoText = NSLocalizedStringFromTableInBundle(@"The ‘Mail Plugin Manager’ app is used by the plugin to look for updates. Click ‘Download’ to download the latest version, then put it into your Applications folder.", nil, mptBundle, @"Text telling user why MPM is useful and how to get it."); \
-		NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:messageText defaultButton:NSLocalizedStringFromTableInBundle(@"Download", nil, mptBundle, @"Download button") alternateButton:NSLocalizedStringFromTableInBundle(@"Cancel", nil, mptBundle, @"Cancel button") otherButton:nil informativeTextWithFormat:@"%@", infoText]; \
-		[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
-		dispatch_async(dispatch_get_main_queue(), ^{ \
-			NSInteger	result = [mptBundleUpToDateAlert runModal]; \
-			if (result == NSAlertDefaultReturn) { \
-				[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://littleknownsoftware.com/download/mpm"]]; \
-			} \
-		}); \
-	} while (NO); \
+do { \
+NSUserDefaults *missingDefaults = [NSUserDefaults standardUserDefaults]; \
+if (![missingDefaults boolForKey:MPT_SUPPRESS_MISSING_MPM_ALERT_KEY]) { \
+NSString	*missingPluginName = [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]; \
+NSString	*missingMessageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"The Plugin ‘%@’ is trying to update, however the ‘Mail Plugin Manager’ app is missing.\n\nIt is required by '%@' to look for updates.\n", nil, mptBundle, @"Text telling user the that MPM is not installed"), missingPluginName, missingPluginName]; \
+NSString	*missingInfoText = NSLocalizedStringFromTableInBundle(@"Click ‘Download’ to download the latest version, then put it into your Applications folder.", nil, mptBundle, @"Text telling user why MPM is useful and how to get it."); \
+NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:missingMessageText defaultButton:NSLocalizedStringFromTableInBundle(@"Download", nil, mptBundle, @"Download button") alternateButton:NSLocalizedStringFromTableInBundle(@"Cancel", nil, mptBundle, @"Cancel button") otherButton:nil informativeTextWithFormat:@"%@", missingInfoText]; \
+[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
+[mptBundleUpToDateAlert setShowsSuppressionButton:YES]; \
+dispatch_async(dispatch_get_main_queue(), ^{ \
+NSInteger	mptQueueResult = [mptBundleUpToDateAlert runModal]; \
+if (mptQueueResult == NSAlertDefaultReturn) { \
+[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://littleknownsoftware.com/download/mpm"]]; \
+} \
+if ([[mptBundleUpToDateAlert suppressionButton] state] == NSOnState) { \
+[missingDefaults setBool:YES forKey:MPT_SUPPRESS_MISSING_MPM_ALERT_KEY]; \
+} \
+}); \
+} \
+} while (NO); \
 
 
 #define	MPTLaunchCommandForBundle(mptCommand, mptMailBundle, mptOptionDict) \
 { \
-	if (mptMailBundle != nil) { \
-		MPTGetLikelyToolPath(); \
-		if (mptPluginToolPath != nil) { \
-			NSMutableDictionary	*mptPerformDict = [NSMutableDictionary dictionaryWithCapacity:3]; \
-			[mptPerformDict setObject:mptCommand forKey:MPT_ACTION_KEY]; \
-			[mptPerformDict setObject:[mptMailBundle bundlePath] forKey:MPT_PLUGIN_PATH_KEY]; \
-			if (mptOptionDict != nil) { \
-				[mptPerformDict addEntriesFromDictionary:mptOptionDict]; \
-			} \
-			NSString		*mptPlistPath = MPTPerformFolderPath(); \
-			BOOL			mptIsDir = NO; \
-			/*	Ensure that we have a directory	*/ \
-			if (![mptManager fileExistsAtPath:mptPlistPath isDirectory:&mptIsDir] || !mptIsDir) { \
-				if ([mptManager createDirectoryAtPath:mptPlistPath withIntermediateDirectories:NO attributes:nil error:NULL]) { \
-					mptIsDir = YES; \
-				} \
-			} \
-			/*	If we do, then try to create our file	*/ \
-			if (mptIsDir) { \
-				NSString	*mptTempfileName = [[[NSProcessInfo processInfo] globallyUniqueString] stringByAppendingPathExtension:MPT_PERFORM_ACTION_EXTENSION]; \
-				if (![mptPerformDict writeToFile:[mptPlistPath stringByAppendingPathComponent:mptTempfileName] atomically:NO]) { \
-					NSLog(@"Unable to write the contents of the action file"); \
-				} \
-			} \
-			else { \
-				NSLog(@"Unable to create the action file, since the required folder doesn't exist and I can't create it"); \
-			} \
-		} \
-		else { \
-			NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: MailPluginTool application wasn't found anywhere"); \
-			MPTPresentDialogForMissingPluginManager(mptMailBundle); \
-		} \
-	} \
-	else { \
-		NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: Cannot pass a nil bundle"); \
-	} \
+if (mptMailBundle != nil) { \
+MPTGetLikelyToolPath(); \
+if (mptPluginToolPath != nil) { \
+NSMutableDictionary	*mptPerformDict = [NSMutableDictionary dictionaryWithCapacity:3]; \
+[mptPerformDict setObject:mptCommand forKey:MPT_ACTION_KEY]; \
+[mptPerformDict setObject:[mptMailBundle bundlePath] forKey:MPT_PLUGIN_PATH_KEY]; \
+if (mptOptionDict != nil) { \
+[mptPerformDict addEntriesFromDictionary:mptOptionDict]; \
+} \
+NSString		*mptPlistPath = MPTPerformFolderPath(); \
+BOOL			mptIsDir = NO; \
+/*	Ensure that we have a directory	*/ \
+if (![mptManager fileExistsAtPath:mptPlistPath isDirectory:&mptIsDir] || !mptIsDir) { \
+if ([mptManager createDirectoryAtPath:mptPlistPath withIntermediateDirectories:NO attributes:nil error:NULL]) { \
+mptIsDir = YES; \
+} \
+} \
+/*	If we do, then try to create our file	*/ \
+if (mptIsDir) { \
+NSString	*mptTempfileName = [[[NSProcessInfo processInfo] globallyUniqueString] stringByAppendingPathExtension:MPT_PERFORM_ACTION_EXTENSION]; \
+if (![mptPerformDict writeToFile:[mptPlistPath stringByAppendingPathComponent:mptTempfileName] atomically:NO]) { \
+NSLog(@"Unable to write the contents of the action file"); \
+} \
+} \
+else { \
+NSLog(@"Unable to create the action file, since the required folder doesn't exist and I can't create it"); \
+} \
+} \
+else { \
+NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: MailPluginTool application wasn't found anywhere"); \
+MPTPresentDialogForMissingPluginManager(mptMailBundle); \
+} \
+} \
+else { \
+NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: Cannot pass a nil bundle"); \
+} \
 }
 
 #define	MPTCallToolCommandForBundleWithBlock(mptCommand, mptMailBundle, mptNotificationBlock) \
 { \
-	MPTGetLikelyToolPath(); \
-	if (mptPluginToolPath != nil) { \
-		if (mptMailBundle != nil) { \
-			NSString	*mptNotificationName = [mptCommand isEqualToString:MPT_SEND_MAIL_INFO_TEXT]?MPT_SYSTEM_INFO_NOTIFICATION:MPT_UUID_LIST_NOTIFICATION; \
-			/*	Set up the notification watch	*/ \
-			NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
-			__block id mptObserver; \
-			mptObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:mptNotificationName object:nil queue:mptQueue usingBlock:^(NSNotification *note) { \
-				/*	If this was aimed at us, then perform the block and remove the observer	*/ \
-				if ([[note object] isEqualToString:[mptMailBundle bundleIdentifier]]) { \
-					if (mptNotificationBlock != nil) { \
-						mptNotificationBlock([note userInfo]); \
-					} \
-					[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptObserver]; \
-				} \
-			}]; \
-			/*	Then actually launch the app to get the information back	*/ \
-			MPTLaunchCommandForBundle(mptCommand, mptMailBundle, @{}); \
-			MPT_MACRO_RELEASE(mptQueue); \
-		} \
-		else { \
-			NSLog(@"ERROR in MPTCallToolCommandForBundleWithBlock() Macro: Cannot pass a nil bundle"); \
-		} \
-	} \
-	else { \
-		if (mptNotificationBlock != nil) { \
-			mptNotificationBlock(nil); \
-		} \
-		MPTPresentDialogForMissingPluginManager(mptMailBundle); \
-	} \
+NSString	*callLikelyToolPath = nil; \
+{ \
+MPTGetLikelyToolPath(); \
+callLikelyToolPath = mptPluginToolPath; \
+} \
+if (callLikelyToolPath != nil) { \
+if (mptMailBundle != nil) { \
+NSString	*mptNotificationName = [mptCommand isEqualToString:MPT_SEND_MAIL_INFO_TEXT]?MPT_SYSTEM_INFO_NOTIFICATION:MPT_UUID_LIST_NOTIFICATION; \
+/*	Set up the notification watch	*/ \
+NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
+__block id mptObserver; \
+mptObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:mptNotificationName object:nil queue:mptQueue usingBlock:^(NSNotification *note) { \
+/*	If this was aimed at us, then perform the block and remove the observer	*/ \
+if ([[note object] isEqualToString:[mptMailBundle bundleIdentifier]]) { \
+if (mptNotificationBlock != nil) { \
+mptNotificationBlock([note userInfo]); \
+} \
+[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptObserver]; \
+} \
+}]; \
+/*	Then actually launch the app to get the information back	*/ \
+MPTLaunchCommandForBundle(mptCommand, mptMailBundle, @{}); \
+MPT_MACRO_RELEASE(mptQueue); \
+} \
+else { \
+NSLog(@"ERROR in MPTCallToolCommandForBundleWithBlock() Macro: Cannot pass a nil bundle"); \
+} \
+} \
+else { \
+if (mptNotificationBlock != nil) { \
+mptNotificationBlock(nil); \
+} \
+MPTPresentDialogForMissingPluginManager(mptMailBundle); \
+} \
 }
 
 
@@ -216,58 +231,58 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 
 #define	MPTManageLaunchAgentWithBlock(mptCommand, mptMailBundle, mptOtherDict, mptResultBlock) \
 { \
-	if (mptMailBundle != nil) { \
-		MPTGetLikelyToolPath(); \
-		if (mptPluginToolPath != nil) { \
-			NSMutableDictionary	*mptPerformDict = [NSMutableDictionary dictionaryWithCapacity:3]; \
-			[mptPerformDict setObject:mptCommand forKey:MPT_ACTION_KEY]; \
-			[mptPerformDict setObject:[mptMailBundle bundlePath] forKey:MPT_PLUGIN_PATH_KEY]; \
-			[mptPerformDict setObject:mptOtherDict forKey:MPT_OTHER_VALUES_KEY]; \
-			NSString		*mptPlistPath = MPTPerformFolderPath(); \
-			BOOL			mptIsDir = NO; \
-			/*	Ensure that we have a directory	*/ \
-			if (![mptManager fileExistsAtPath:mptPlistPath isDirectory:&mptIsDir] || !mptIsDir) { \
-				if ([mptManager createDirectoryAtPath:mptPlistPath withIntermediateDirectories:NO attributes:nil error:NULL]) { \
-					mptIsDir = YES; \
-				} \
-			} \
-			/*	If we do, then try to create our file	*/ \
-			if (mptIsDir) { \
-				if (mptResultBlock != nil) { \
-					/*	Set up the notification watch	*/ \
-					NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
-					__block id mptObserver; \
-					mptObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_LAUNCHD_DONE_NOTIFICATION object:nil queue:mptQueue usingBlock:^(NSNotification *note) { \
-						/*	If this was aimed at us, then perform the block and remove the observer	*/ \
-						if ([[note object] isEqualToString:[mptMailBundle bundleIdentifier]]) { \
-							NSError	*mptLaunchError = nil; \
-							if ([note userInfo] != nil) { \
-								mptLaunchError = [[note userInfo] valueForKey:MPT_LAUNCH_ERROR_KEY]; \
-							} \
-							mptResultBlock(mptLaunchError); \
-							[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptObserver]; \
-						} \
-					}]; \
-					/*	This will release the memeory in non-ARC environments	*/ \
-					MPT_MACRO_RELEASE(mptQueue); \
-				} \
-				NSString	*mptTempfileName = [[[NSProcessInfo processInfo] globallyUniqueString] stringByAppendingPathExtension:MPT_PERFORM_ACTION_EXTENSION]; \
-				if (![mptPerformDict writeToFile:[mptPlistPath stringByAppendingPathComponent:mptTempfileName] atomically:NO]) { \
-					NSLog(@"Unable to write the contents of the action file"); \
-				} \
-			} \
-			else { \
-				NSLog(@"Unable to create the action file, since the required folder doesn't exist and I can't create it"); \
-			} \
-		} \
-		else { \
-			NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: MailPluginTool application wasn't found anywhere"); \
-			MPTPresentDialogForMissingPluginManager(mptMailBundle); \
-		} \
-	} \
-	else { \
-		NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: Cannot pass a nil bundle"); \
-	} \
+if (mptMailBundle != nil) { \
+MPTGetLikelyToolPath(); \
+if (mptPluginToolPath != nil) { \
+NSMutableDictionary	*mptPerformDict = [NSMutableDictionary dictionaryWithCapacity:3]; \
+[mptPerformDict setObject:mptCommand forKey:MPT_ACTION_KEY]; \
+[mptPerformDict setObject:[mptMailBundle bundlePath] forKey:MPT_PLUGIN_PATH_KEY]; \
+[mptPerformDict setObject:mptOtherDict forKey:MPT_OTHER_VALUES_KEY]; \
+NSString		*mptPlistPath = MPTPerformFolderPath(); \
+BOOL			mptIsDir = NO; \
+/*	Ensure that we have a directory	*/ \
+if (![mptManager fileExistsAtPath:mptPlistPath isDirectory:&mptIsDir] || !mptIsDir) { \
+if ([mptManager createDirectoryAtPath:mptPlistPath withIntermediateDirectories:NO attributes:nil error:NULL]) { \
+mptIsDir = YES; \
+} \
+} \
+/*	If we do, then try to create our file	*/ \
+if (mptIsDir) { \
+if (mptResultBlock != nil) { \
+/*	Set up the notification watch	*/ \
+NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
+__block id mptObserver; \
+mptObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_LAUNCHD_DONE_NOTIFICATION object:nil queue:mptQueue usingBlock:^(NSNotification *note) { \
+/*	If this was aimed at us, then perform the block and remove the observer	*/ \
+if ([[note object] isEqualToString:[mptMailBundle bundleIdentifier]]) { \
+NSError	*mptLaunchError = nil; \
+if ([note userInfo] != nil) { \
+mptLaunchError = [[note userInfo] valueForKey:MPT_LAUNCH_ERROR_KEY]; \
+} \
+mptResultBlock(mptLaunchError); \
+[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptObserver]; \
+} \
+}]; \
+/*	This will release the memeory in non-ARC environments	*/ \
+MPT_MACRO_RELEASE(mptQueue); \
+} \
+NSString	*mptTempfileName = [[[NSProcessInfo processInfo] globallyUniqueString] stringByAppendingPathExtension:MPT_PERFORM_ACTION_EXTENSION]; \
+if (![mptPerformDict writeToFile:[mptPlistPath stringByAppendingPathComponent:mptTempfileName] atomically:NO]) { \
+NSLog(@"Unable to write the contents of the action file"); \
+} \
+} \
+else { \
+NSLog(@"Unable to create the action file, since the required folder doesn't exist and I can't create it"); \
+} \
+} \
+else { \
+NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: MailPluginTool application wasn't found anywhere"); \
+MPTPresentDialogForMissingPluginManager(mptMailBundle); \
+} \
+} \
+else { \
+NSLog(@"ERROR in MPTLaunchCommandForBundle() Macro: Cannot pass a nil bundle"); \
+} \
 }
 
 
@@ -282,69 +297,69 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 
 #define MPTClosePrefsWindowIfInstalling(mptBundle) \
 { \
-	MPTGetLikelyToolPath(); \
-	/*	Ensure that the update check will happen first */ \
-	if (mptPluginToolPath != nil) { \
-		NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
-		[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleWillInstallQueue"]]; \
-		__block id mptBundleObserver; \
-		__block id blockSelf = self; \
-		mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_WILL_INSTALL_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
-			/*	If the preferences are open then close them	*/ \
-			NSPreferences	*prefs = [NSPreferences sharedPreferences]; \
-			BOOL	panelIsVisible = [[prefs valueForKey:@"preferencesPanel"] isVisible]; \
-			if (panelIsVisible && (prefs != nil)) { \
-				dispatch_async(dispatch_get_main_queue(), ^{ \
-					[prefs performSelector:@selector(cancel:) withObject:blockSelf]; \
-				}); \
-			} \
-			/*	Always remove the observer	*/ \
-			[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
-		}]; \
-		MPT_MACRO_RELEASE(mptQueue); \
-	} \
+MPTGetLikelyToolPath(); \
+/*	Ensure that the update check will happen first */ \
+if (mptPluginToolPath != nil) { \
+NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
+[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleWillInstallQueue"]]; \
+__block id mptBundleObserver; \
+__block id blockSelf = self; \
+mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_WILL_INSTALL_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
+/*	If the preferences are open then close them	*/ \
+NSPreferences	*prefs = [NSPreferences sharedPreferences]; \
+BOOL	panelIsVisible = [[prefs valueForKey:@"preferencesPanel"] isVisible]; \
+if (panelIsVisible && (prefs != nil)) { \
+dispatch_async(dispatch_get_main_queue(), ^{ \
+[prefs performSelector:@selector(cancel:) withObject:blockSelf]; \
+}); \
+} \
+/*	Always remove the observer	*/ \
+[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
+}]; \
+MPT_MACRO_RELEASE(mptQueue); \
+} \
 }
 
 
 #define	MPTPresentDialogWhenUpToDateUsingWindow(mptBundle, mptSheetWindow, mptFinishBlock) \
 { \
-	MPTGetLikelyToolPath(); \
-	/*	Ensure that the update check will happen first */ \
-	if (mptPluginToolPath != nil) { \
-		NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
-		[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleUpdateStatusQueue"]]; \
-		__block id mptBundleObserver; \
-		mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_UPDATE_STATUS_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
-			/*	Test to see if the plugin is up to date	*/ \
-			if ([[[note userInfo] valueForKey:@"uptodate"] boolValue]) { \
-				NSString	*messageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"You have the most recent version of %@.", nil, mptBundle, @"Text telling user the plugin is up to date"), [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]]; \
-				NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:messageText defaultButton:NSLocalizedStringFromTableInBundle(@"OK", nil, mptBundle, @"Okay button") alternateButton:nil otherButton:nil informativeTextWithFormat:@""]; \
-				[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
-				if (mptSheetWindow != nil) { \
-					dispatch_async(dispatch_get_main_queue(), ^{ \
-						[mptBundleUpToDateAlert beginSheetModalForWindow:mptSheetWindow modalDelegate:nil didEndSelector:NULL contextInfo:NULL]; \
-					}); \
-				} \
-				else { \
-					dispatch_sync(dispatch_get_main_queue(), ^{ \
-						[mptBundleUpToDateAlert runModal]; \
-					}); \
-				} \
-			} \
-			if (mptFinishBlock != nil) { \
-				mptFinishBlock(); \
-			} \
-			/*	Always remove the observer	*/ \
-			[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
-		}]; \
-		MPT_MACRO_RELEASE(mptQueue); \
-	} \
-	else { \
-		/*	If there is no plugin tool, just call the block if it is not nil */ \
-		if (mptFinishBlock != nil) { \
-			mptFinishBlock(); \
-		} \
-	} \
+MPTGetLikelyToolPath(); \
+/*	Ensure that the update check will happen first */ \
+if (mptPluginToolPath != nil) { \
+NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
+[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleUpdateStatusQueue"]]; \
+__block id mptBundleObserver; \
+mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_UPDATE_STATUS_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
+/*	Test to see if the plugin is up to date	*/ \
+if ([[[note userInfo] valueForKey:@"uptodate"] boolValue]) { \
+NSString	*messageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"You have the most recent version of %@.", nil, mptBundle, @"Text telling user the plugin is up to date"), [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]]; \
+NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:messageText defaultButton:NSLocalizedStringFromTableInBundle(@"OK", nil, mptBundle, @"Okay button") alternateButton:nil otherButton:nil informativeTextWithFormat:@""]; \
+[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
+if (mptSheetWindow != nil) { \
+dispatch_async(dispatch_get_main_queue(), ^{ \
+[mptBundleUpToDateAlert beginSheetModalForWindow:mptSheetWindow modalDelegate:nil didEndSelector:NULL contextInfo:NULL]; \
+}); \
+} \
+else { \
+dispatch_sync(dispatch_get_main_queue(), ^{ \
+[mptBundleUpToDateAlert runModal]; \
+}); \
+} \
+} \
+if (mptFinishBlock != nil) { \
+mptFinishBlock(); \
+} \
+/*	Always remove the observer	*/ \
+[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
+}]; \
+MPT_MACRO_RELEASE(mptQueue); \
+} \
+else { \
+/*	If there is no plugin tool, just call the block if it is not nil */ \
+if (mptFinishBlock != nil) { \
+mptFinishBlock(); \
+} \
+} \
 }
 
 
