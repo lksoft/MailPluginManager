@@ -116,6 +116,8 @@
 			<string>http://www.cs.unc.edu/~welch/MailFollowup/</string>
 			<key>net.welchwold.mailrecent</key>
 			<string>http://www.cs.unc.edu/~welch/MailRecent/</string>
+			<key>url</key>
+			<string>http://cs.unc.edu/~welch</string>
 		</dict>
 		<key>net.zxq.noware-it</key>
 		<dict>
@@ -133,6 +135,6 @@
 		</dict>
 	</dict>
 	<key>date</key>
-	<date>2014-05-08T10:54:00Z</date>
+	<date>2014-06-25T10:54:00Z</date>
 </dict>
 </plist>
