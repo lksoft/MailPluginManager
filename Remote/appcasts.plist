@@ -20,6 +20,8 @@
 		<string>http://www.chungwasoft.com/library/appcast.php?appName=Graffiti</string>
 		<key>com.chungwasoft.SendLater</key>
 		<string>http://www.chungwasoft.com/library/appcast.php?appName=SendLater</string>
+		<key>com.creativeinaustria.DockStar</key>
+		<string>https://www.creativeinaustria.com/DockStar/services/sparkle3</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
 		<string>http://littleknownsoftware.com/feed/sigpro</string>
 		<key>com.littleknownsoftware.Tealeaves</key>
