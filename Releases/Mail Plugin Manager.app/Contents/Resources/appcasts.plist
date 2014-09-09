@@ -20,12 +20,14 @@
 		<string>http://www.chungwasoft.com/library/appcast.php?appName=Graffiti</string>
 		<key>com.chungwasoft.SendLater</key>
 		<string>http://www.chungwasoft.com/library/appcast.php?appName=SendLater</string>
+		<key>com.creativeinaustria.DockStar</key>
+		<string>https://www.creativeinaustria.com/DockStar/services/sparkle3</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
 		<string>http://littleknownsoftware.com/feed/sigpro</string>
 		<key>com.littleknownsoftware.Tealeaves</key>
 		<string>http://littleknownsoftware.com/feed/sis</string>
 	</dict>
 	<key>date</key>
-	<date>2014-06-23T13:50:00Z</date>
+	<date>2014-09-03T20:34:00Z</date>
 </dict>
 </plist>
