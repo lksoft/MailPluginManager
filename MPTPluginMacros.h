@@ -363,6 +363,19 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 	}
 
 
+#define MPTRunHelperWithErrorCompletion(mptScriptURL, mptScriptArguments, mptErrorBlock) \
+	do { \
+		NSError			*mptScriptError = nil; \
+		NSUserUnixTask	*mptScriptTask = [[NSUserUnixTask alloc] initWithURL:mptScriptURL error:&mptScriptError]; \
+		[mptScriptTask executeWithArguments:mptScriptArguments completionHandler:^(NSError *mptExecuteError) { \
+			if (mptExecuteError) { \
+				mptErrorBlock(mptExecuteError); \
+				NSLog(@"Error: %@", mptExecuteError); \
+			} \
+		}]; \
+	} while (NO)
+
+
 #pragma mark - Plugin Macros
 
 #pragma mark UpToDate Dialog

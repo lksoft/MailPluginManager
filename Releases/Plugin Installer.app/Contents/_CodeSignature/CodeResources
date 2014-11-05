@@ -18,11 +18,11 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		dx3Hhm00qa1dlpzus8lRhzveOew=
+		KYmaEm8L601RBQEGXpo5vOjmlXM=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		Wn+9FoQ1daaLzcn0sXs24nN8xyA=
+		MQnkOcwJrmy7zbQPNGWRxfj+zTQ=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KNtnylZ0UtBIg23Xs+Ta6i3Q3aU=
+			ZOXphd5UgiaP/nieJT2lgTQqXr8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y/HvcQqBhI73VbDkFYbCxfZdP50=
+			tV40bBwcnJjAS4VV9CJEP+11u7U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -80,7 +80,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lH8/yOru6+Aa3Nz4pc3IHH/cJB4=
+			WMmRHSgwnuzdNpWjweMeHDDPvH4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -112,7 +112,7 @@
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
-		QXVZne7lMXjmE9NzeZ6d07QEZ6E=
+		xeT9iGZSM9AVV34RB6rjiBkR83E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			lf6l/49gwPFUL3hTGMTSHEglDA4=
+			gdH8jZ/h+PXe6MkhXjAlzMTdxaA=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862")</string>
 		</dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		hwqfdxxuEpNJoellUMGo+Nh9Tf0=
+		NTbTP4o+uEJ4j62OJxsjYx14asA=
 		</data>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
@@ -144,11 +144,11 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		dx3Hhm00qa1dlpzus8lRhzveOew=
+		KYmaEm8L601RBQEGXpo5vOjmlXM=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		Wn+9FoQ1daaLzcn0sXs24nN8xyA=
+		MQnkOcwJrmy7zbQPNGWRxfj+zTQ=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KNtnylZ0UtBIg23Xs+Ta6i3Q3aU=
+			ZOXphd5UgiaP/nieJT2lgTQqXr8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y/HvcQqBhI73VbDkFYbCxfZdP50=
+			tV40bBwcnJjAS4VV9CJEP+11u7U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lH8/yOru6+Aa3Nz4pc3IHH/cJB4=
+			WMmRHSgwnuzdNpWjweMeHDDPvH4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -238,7 +238,7 @@
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
-		QXVZne7lMXjmE9NzeZ6d07QEZ6E=
+		xeT9iGZSM9AVV34RB6rjiBkR83E=
 		</data>
 	</dict>
 	<key>rules</key>
