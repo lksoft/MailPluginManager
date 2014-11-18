@@ -22,7 +22,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		PaPqeVRohc++wHPleeDa5ASiycE=
+		jNkUZGvVwcnZWnYE6OBLwlL+kvU=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w2/eiP32WDrIjpY7cvuWslk8Jsc=
+			tV40bBwcnJjAS4VV9CJEP+11u7U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -94,21 +94,258 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/test-install.mpinstall/ReleaseNotes.html</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/FsprgEmbeddedStoreFW</key>
 		<data>
-		6Qa1xKRLG4RBOv99Q7DXJDD9uyg=
+		QDxEWIYfP2T+SYUOQh7OL755Kl4=
 		</data>
-		<key>Resources/test-install.mpinstall/file-one.txt</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgEmbeddedStore.h</key>
 		<data>
-		2gDILnFEoxWH73d+gvginyK/1P0=
+		isgbrX6fxYspH48wKYbo0Et3F7Y=
 		</data>
-		<key>Resources/test-install.mpinstall/file-two.txt</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgEmbeddedStoreController.h</key>
 		<data>
-		+NKQULkUhQymUYocNhxD0QN9+2s=
+		buAvtTojRbHhid0Z1v7wbwiPee4=
 		</data>
-		<key>Resources/test-install.mpinstall/mpm-manifest.plist</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgEmbeddedStoreDelegate.h</key>
 		<data>
-		FT5XtCH0rYCFbc474JJT4ffLj4U=
+		8Z+fuifjlNjI/FOXqPEc2h1c7Qs=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgFileDownload.h</key>
+		<data>
+		ytKSr0++3aWxDl92tIsqUQdpC4Q=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgFulfillment.h</key>
+		<data>
+		d5ryEI2p/aCXfGEAHMVgFsJI+xw=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgLicense.h</key>
+		<data>
+		qaaiTfPN2u+qTVMGh6KlhQiGF6I=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgOrder.h</key>
+		<data>
+		haXE3LfSXU6FI1ITlXReaGWhhcw=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgOrderItem.h</key>
+		<data>
+		64hUVHz4xhNmMdNdYGbgQIdAxfQ=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgStoreParameters.h</key>
+		<data>
+		TqhYdu+gK3dqvpnynn8qaA4Op0U=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Resources/English.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nsChCEznmbHThfK7belMlAhnhKU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		bqM/rPlo79qiV7WrCRVJO0jtDeU=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/LKMailFramework</key>
+		<data>
+		TJDZuxHEbJgikY49GKQEWYX1MZc=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/ErrorEmailTemplate.html</key>
+		<data>
+		nR/W6TO0VyQSHmJYBkO74lKfb4Y=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		DiR7i9wi6pNgmwrJoc3jrJHK7+c=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/LKRegistrationPrefs.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fmtGO5nd1ieffTvRGfVQYk1D3Ws=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/LKRegistrationWindow.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a/SkpOtoFAf3jcaDO02Nm2x6RBc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			05CYQqooAe6hDN1gV44Qb3OkoYs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/Registration.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			43/tL7jLC65qaTiO0ZxvB9Z/zY0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b+8cdfJHHoiJ2VU1gUeus8PKjfI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/fr.lproj/Registration.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jaC4WUHC9Aaef1sqAwYocZS+9is=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Info.plist</key>
+		<data>
+		CBGIBV3+Yw4hYemWyJ9MJZ3wg5c=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/MacOS/ExamplePlugin</key>
+		<data>
+		QoFu8j9agcZsiiE3ewEZ1PvM8Qs=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/Example.png</key>
+		<data>
+		j0I60inhNzh4dX/S6qsz3/bNUKY=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/ExamplePrefsView.nib</key>
+		<data>
+		k7IGkD/Pg0B0pgeC0ziLtxaK9/g=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/OrderView.css</key>
+		<data>
+		IEVGBirOp3xGrbhhTPms/bTyDuA=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/data.strings</key>
+		<data>
+		P5x58flxNSdmeI3cscHZPGQ9R08=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/dsa_pub.pem</key>
+		<data>
+		FR4xoOdUZ02Cz3vtEb61SXPOr6M=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XJjfzW86M1HcQWzNGaKSiKLtAII=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/en.lproj/OrderView.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HMq3EYldNpfgiZWzK4bJG/GJmmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/fr.lproj/OrderView.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ss3QmEc2r1gCDs7vcninbPsmDoc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/jquery-1.4.2.js</key>
+		<data>
+		qVhAFAzp02xQWuDhJC+vK8GVwsE=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/lkstore-style/lklogo.png</key>
+		<data>
+		X2K7MLAZD02pVu/3shbivoUqLBg=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/lkstore-style/style.css</key>
+		<data>
+		gK9k2LJhwYqkxtFJe1pkiUBLG4I=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/Mail Plugin Manager.app/Contents/Info.plist</key>
+		<data>
+		2ZX43qFgXf50eCBGjY0yP/xjDcQ=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/Mail Plugin Manager.app/Contents/MacOS/Mail Plugin Manager</key>
+		<data>
+		F0DqevMN/R/RmssvosILJRMo11s=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/Mail Plugin Manager.app/Contents/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/whatever.txt</key>
+		<data>
+		nkcvCQgrt5dCnQdUXDI4NrfRdcA=
+		</data>
+		<key>Resources/install-test.mpinstall/Large-File.dmg</key>
+		<data>
+		yTbplT5qxIYc0PJIFodO5EuRnLw=
+		</data>
+		<key>Resources/install-test.mpinstall/MyLicense.rtf</key>
+		<data>
+		63PztO5nZ584GgKXc6zTU5EI4Mg=
+		</data>
+		<key>Resources/install-test.mpinstall/PreRelease Notes.rtf</key>
+		<data>
+		Zy83OeEC817cBcmJMbKdfEVuJ/4=
+		</data>
+		<key>Resources/install-test.mpinstall/Something.html</key>
+		<data>
+		ABSamzG/62MQ3wGK8yHW4Ui4+0s=
+		</data>
+		<key>Resources/install-test.mpinstall/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6RfsRLaRJ3k1ehkk16B8SGpMtMg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/image.png</key>
+		<data>
+		VXgd52sjBgaYTanWazgAbUAAR5w=
+		</data>
+		<key>Resources/install-test.mpinstall/mpm-manifest.plist</key>
+		<data>
+		2Ib+e4HXjKVheFaBWIduP9izdU0=
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
@@ -121,14 +358,14 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			V6Xyr/U0MDvxAC0q3u29X3l6jms=
+			21n2iohywceozRH8oA8eDNR1Mw8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862")</string>
 		</dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		ZATV+eFWyWKwxfD4quTBKjHLfAY=
+		QBC99x6y5K2DL3YdJJa6bGFupfY=
 		</data>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
@@ -148,7 +385,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		PaPqeVRohc++wHPleeDa5ASiycE=
+		jNkUZGvVwcnZWnYE6OBLwlL+kvU=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -197,7 +434,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w2/eiP32WDrIjpY7cvuWslk8Jsc=
+			tV40bBwcnJjAS4VV9CJEP+11u7U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -220,21 +457,293 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/test-install.mpinstall/ReleaseNotes.html</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/LKMailFramework</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/LKMailFramework</string>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Resources</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Resources</string>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/FsprgEmbeddedStoreFW</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/FsprgEmbeddedStoreFW</string>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Headers</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Headers</string>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Resources</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Resources</string>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/FsprgEmbeddedStoreFW</key>
 		<data>
-		6Qa1xKRLG4RBOv99Q7DXJDD9uyg=
+		QDxEWIYfP2T+SYUOQh7OL755Kl4=
 		</data>
-		<key>Resources/test-install.mpinstall/file-one.txt</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgEmbeddedStore.h</key>
 		<data>
-		2gDILnFEoxWH73d+gvginyK/1P0=
+		isgbrX6fxYspH48wKYbo0Et3F7Y=
 		</data>
-		<key>Resources/test-install.mpinstall/file-two.txt</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgEmbeddedStoreController.h</key>
 		<data>
-		+NKQULkUhQymUYocNhxD0QN9+2s=
+		buAvtTojRbHhid0Z1v7wbwiPee4=
 		</data>
-		<key>Resources/test-install.mpinstall/mpm-manifest.plist</key>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgEmbeddedStoreDelegate.h</key>
 		<data>
-		FT5XtCH0rYCFbc474JJT4ffLj4U=
+		8Z+fuifjlNjI/FOXqPEc2h1c7Qs=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgFileDownload.h</key>
+		<data>
+		ytKSr0++3aWxDl92tIsqUQdpC4Q=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgFulfillment.h</key>
+		<data>
+		d5ryEI2p/aCXfGEAHMVgFsJI+xw=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgLicense.h</key>
+		<data>
+		qaaiTfPN2u+qTVMGh6KlhQiGF6I=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgOrder.h</key>
+		<data>
+		haXE3LfSXU6FI1ITlXReaGWhhcw=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgOrderItem.h</key>
+		<data>
+		64hUVHz4xhNmMdNdYGbgQIdAxfQ=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Headers/FsprgStoreParameters.h</key>
+		<data>
+		TqhYdu+gK3dqvpnynn8qaA4Op0U=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Resources/English.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nsChCEznmbHThfK7belMlAhnhKU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		bqM/rPlo79qiV7WrCRVJO0jtDeU=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Frameworks/FsprgEmbeddedStoreFW.framework/Versions/Current</key>
+		<dict>
+			<key>symlink</key>
+			<string>A</string>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/LKMailFramework</key>
+		<data>
+		TJDZuxHEbJgikY49GKQEWYX1MZc=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/ErrorEmailTemplate.html</key>
+		<data>
+		nR/W6TO0VyQSHmJYBkO74lKfb4Y=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		DiR7i9wi6pNgmwrJoc3jrJHK7+c=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/LKRegistrationPrefs.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fmtGO5nd1ieffTvRGfVQYk1D3Ws=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/LKRegistrationWindow.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a/SkpOtoFAf3jcaDO02Nm2x6RBc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			05CYQqooAe6hDN1gV44Qb3OkoYs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/en.lproj/Registration.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			43/tL7jLC65qaTiO0ZxvB9Z/zY0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b+8cdfJHHoiJ2VU1gUeus8PKjfI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/A/Resources/fr.lproj/Registration.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jaC4WUHC9Aaef1sqAwYocZS+9is=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Frameworks/LKMailFramework.framework/Versions/Current</key>
+		<dict>
+			<key>symlink</key>
+			<string>A</string>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Info.plist</key>
+		<data>
+		CBGIBV3+Yw4hYemWyJ9MJZ3wg5c=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/MacOS/ExamplePlugin</key>
+		<data>
+		QoFu8j9agcZsiiE3ewEZ1PvM8Qs=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/Example.png</key>
+		<data>
+		j0I60inhNzh4dX/S6qsz3/bNUKY=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/ExamplePrefsView.nib</key>
+		<data>
+		k7IGkD/Pg0B0pgeC0ziLtxaK9/g=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/OrderView.css</key>
+		<data>
+		IEVGBirOp3xGrbhhTPms/bTyDuA=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/data.strings</key>
+		<data>
+		P5x58flxNSdmeI3cscHZPGQ9R08=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/dsa_pub.pem</key>
+		<data>
+		FR4xoOdUZ02Cz3vtEb61SXPOr6M=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XJjfzW86M1HcQWzNGaKSiKLtAII=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/en.lproj/OrderView.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HMq3EYldNpfgiZWzK4bJG/GJmmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/fr.lproj/OrderView.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ss3QmEc2r1gCDs7vcninbPsmDoc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/jquery-1.4.2.js</key>
+		<data>
+		qVhAFAzp02xQWuDhJC+vK8GVwsE=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/lkstore-style/lklogo.png</key>
+		<data>
+		X2K7MLAZD02pVu/3shbivoUqLBg=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Resources/lkstore-style/style.css</key>
+		<data>
+		gK9k2LJhwYqkxtFJe1pkiUBLG4I=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/Mail Plugin Manager.app/Contents/Info.plist</key>
+		<data>
+		2ZX43qFgXf50eCBGjY0yP/xjDcQ=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/Mail Plugin Manager.app/Contents/MacOS/Mail Plugin Manager</key>
+		<data>
+		F0DqevMN/R/RmssvosILJRMo11s=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/Mail Plugin Manager.app/Contents/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Resources/install-test.mpinstall/Delivery/whatever.txt</key>
+		<data>
+		nkcvCQgrt5dCnQdUXDI4NrfRdcA=
+		</data>
+		<key>Resources/install-test.mpinstall/Large-File.dmg</key>
+		<data>
+		yTbplT5qxIYc0PJIFodO5EuRnLw=
+		</data>
+		<key>Resources/install-test.mpinstall/MyLicense.rtf</key>
+		<data>
+		63PztO5nZ584GgKXc6zTU5EI4Mg=
+		</data>
+		<key>Resources/install-test.mpinstall/PreRelease Notes.rtf</key>
+		<data>
+		Zy83OeEC817cBcmJMbKdfEVuJ/4=
+		</data>
+		<key>Resources/install-test.mpinstall/Something.html</key>
+		<data>
+		ABSamzG/62MQ3wGK8yHW4Ui4+0s=
+		</data>
+		<key>Resources/install-test.mpinstall/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6RfsRLaRJ3k1ehkk16B8SGpMtMg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/install-test.mpinstall/image.png</key>
+		<data>
+		VXgd52sjBgaYTanWazgAbUAAR5w=
+		</data>
+		<key>Resources/install-test.mpinstall/mpm-manifest.plist</key>
+		<data>
+		2Ib+e4HXjKVheFaBWIduP9izdU0=
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
