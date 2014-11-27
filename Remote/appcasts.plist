@@ -12,6 +12,8 @@
 		<string>http://www.indev.ca/sparkle/MailTags4.xml</string>
 		<key>com.chungwasoft.CargoLifter</key>
 		<string>http://www.chungwasoft.com/library/appcast.php?appName=CargoLifter</string>
+		<key>com.chungwasoft.EverMail</key>
+		<string>http://www.chungwasoft.com/library/appcasts/EverMail/appcast.xml</string>
 		<key>com.chungwasoft.Face2Face</key>
 		<string>http://www.chungwasoft.com/library/appcast.php?appName=Face2Face</string>
 		<key>com.chungwasoft.ForgetMeNot</key>
@@ -28,6 +30,6 @@
 		<string>http://littleknownsoftware.com/feed/sis</string>
 	</dict>
 	<key>date</key>
-	<date>2014-11-18T16:31:00Z</date>
+	<date>2014-11-27T10:44:00Z</date>
 </dict>
 </plist>
