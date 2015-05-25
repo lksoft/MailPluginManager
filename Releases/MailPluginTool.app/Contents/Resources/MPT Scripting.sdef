@@ -74,6 +74,9 @@
 			<parameter name="frequency" code="freQ" description="How often should the update be checked." type="frequency" optional="yes">
 				<cocoa key="frequency"/>
 			</parameter>
+			<parameter name="beta" code="Beta" description="Check for beta versions, if possible" type="boolean" optional="yes">
+				<cocoa key="isBeta"/>
+			</parameter>
 		</command>
 		<command name="crash reports" code="MPTtCrRp" description="Check for crash reports for a plugin and send them to a server.">
 			<cocoa class="MPTSendInfoCommand"/>
@@ -87,6 +90,9 @@
 			<direct-parameter description="The plugin path for which we should update &amp; send crash reports." type="text"/>
 			<parameter name="frequency" code="freQ" description="How often should the updates &amp; reports be done." type="frequency" optional="yes">
 				<cocoa key="frequency"/>
+			</parameter>
+			<parameter name="beta" code="Beta" description="Check for beta versions, if possible" type="boolean" optional="yes">
+				<cocoa key="isBeta"/>
 			</parameter>
 		</command>
 		<command name="send" code="MPTtsEnD" description="Sends the info as a dictionary using a Distributed Notification.">
