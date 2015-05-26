@@ -22,7 +22,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		mMXJ/NgsOGYoaWKykjTy6sKoGnQ=
+		iF2AnlZi/FMYVnsehC+jO8ijM+4=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -95,14 +95,14 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			No7T01yqd2p8GNF0KqhZE0/AMNc=
+			HFwvYRJba92hDGUbkBmR0Lo2qe8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "org.andymatuschak.Sparkle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862")</string>
 		</dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		l59NMHjS+aFxPnvPAR77/d9fagU=
+		r4KCkk5d6SNhPpY6kuhDCMgxODc=
 		</data>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		mMXJ/NgsOGYoaWKykjTy6sKoGnQ=
+		iF2AnlZi/FMYVnsehC+jO8ijM+4=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
