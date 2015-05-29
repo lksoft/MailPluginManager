@@ -26,7 +26,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		iF2AnlZi/FMYVnsehC+jO8ijM+4=
+		sSSn3AJ4ziweCGYD2X/awSGtRO8=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -94,15 +94,6 @@
 			<key>hash</key>
 			<data>
 			usCEdEpLEH9EEnjiMiJIAei3dPA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sKRov3e+LvXDB0ECm8ast6/av3s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -287,15 +278,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jpf0u6qaTqDYfIu+FtCxK49+QQM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -320,7 +302,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		K63ZfPCFqfYXwVghSsKOjIhNRYU=
+		MACKZ32OyLSAmK/aXJ2ZBucQ1Mw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -554,15 +536,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NpNCtvnXn+75wzi51iJI6zI8jIc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -586,15 +559,6 @@
 			<key>hash</key>
 			<data>
 			iGOhBjU2ClCmgMmldLyqZplKaKM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UgIEY8afKF4JhbMUfM2XJdvEFSg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -626,15 +590,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qnkLdjl6css5Wv72E2ySbEESYP8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -658,15 +613,6 @@
 			<key>hash</key>
 			<data>
 			oWlq2ytunwfx4byY/ZbdpNhHR0I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PbJA1i2jOliWayQg8rNcP0EVOH0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -698,15 +644,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cB7phFtbwY9V5jFHppBt9n5W9G0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -721,15 +658,6 @@
 			<key>hash</key>
 			<data>
 			KQVyNFDtSPYoi0oKW1f2J8ZgP30=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ITqQIpz2p0GSCurArG8+apu94p8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -757,15 +685,6 @@
 			<key>hash</key>
 			<data>
 			PSWi9SBo+tpG3woqcKN3ZkxU9s0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WEUwplMPThhuwaZtqj8+mkGUTnE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -806,15 +725,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BKTv2r7r8EDT9LcoliWgD3o7BfM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -838,15 +748,6 @@
 			<key>hash</key>
 			<data>
 			NfmvY6WvJ5utffISU+lUhxuK3GU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E7qS5orEaiX5LVBWAsZ0If/tUnA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -878,15 +779,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YqKuT37BJuFM1h8XVK27Xa5D6PA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -910,15 +802,6 @@
 			<key>hash</key>
 			<data>
 			rgQ7XxJn2esIGWbkVQ4LupDlshw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pxGJubom8oik6M4qg+eR/fADz9Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -950,15 +833,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			B/03YEioXvpTBCWXl71pB9iYjQc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -973,15 +847,6 @@
 			<key>hash</key>
 			<data>
 			Yvet/wsdslxjnOZYFNSYP4C5sDM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LqMmATVDDDYRynlQcAHL1Xg/pfI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1009,15 +874,6 @@
 			<key>hash</key>
 			<data>
 			iFPDoXRZ970vFFdUSRbn3PS6XFA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IDYGTLibvFn0xJ4tsqvD3irxQg0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1058,15 +914,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kCAx17mI20PBgJDI4duOqsekmhs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -1090,15 +937,6 @@
 			<key>hash</key>
 			<data>
 			kfhPyXYLSf7UGft5aGNaAhXZ5xw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4ihCqrZP/G+61XTtmLobPZWZUoI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1130,15 +968,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xrDcFRozwctbTskmmecC21D87AI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -1162,15 +991,6 @@
 			<key>hash</key>
 			<data>
 			tu8OjEmWaJxDtkMVI/0bFanEexo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YL1oqgFwLuVirgMgHvH5y1YLduo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1202,15 +1022,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f/wTY8dTv1zuMu8ciuHeMHRxznk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -1231,23 +1042,23 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		4t8tsIprK1BzQR7fXQHY7cJ/JgE=
+		oeLMJN8iVQCbEMRn3gFaahLmtu4=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		oAoLI+aj6/vjKtJ8UVXJrO3Wiow=
+		n5EI3sWN2HagVV19Zz3MoW1pHXE=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		nJPb8mKe8qQCrOrmO3rW9DBJkNk=
+		B97yTIx+sJkE791Rf7uCoBvoyHY=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		r4KCkk5d6SNhPpY6kuhDCMgxODc=
+		ZutaGFkueIm9KEWmfhRyPwfgKjs=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		koPrKUSYm3B6tp940MuJR6eaURk=
+		yeR6FumgZORL6SFm/D2yGim+i3I=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
@@ -1271,7 +1082,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		iF2AnlZi/FMYVnsehC+jO8ijM+4=
+		sSSn3AJ4ziweCGYD2X/awSGtRO8=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1339,7 +1150,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		MZXFGbiKac9DE3ya+jpbcgwo6Rc=
+		lCWTNKFzEr4l7yWNTy0enWOwSgo=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -1359,7 +1170,7 @@
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		9/v+KL7cXYO6PkDD53Vi3GOqY3w=
+		dLWNXnLKMq2tq9QygST8+gQQd2E=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
@@ -1422,7 +1233,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3KMcka0SvdCU7d/na678vL/QrcM=
+			oxlpXGb1lOnKuCN7HM23/QzTQbk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1497,7 +1308,7 @@
 	<dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		G/CJ+YXzoLn7ePzdUXvQiaxZuFw=
+		5y4E2AzWHWTIzzFlf7FU4lFjf9A=
 		</data>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
@@ -1521,7 +1332,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		iF2AnlZi/FMYVnsehC+jO8ijM+4=
+		sSSn3AJ4ziweCGYD2X/awSGtRO8=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1608,15 +1419,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sKRov3e+LvXDB0ECm8ast6/av3s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -1797,15 +1599,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jpf0u6qaTqDYfIu+FtCxK49+QQM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/es.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -1830,7 +1623,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		K63ZfPCFqfYXwVghSsKOjIhNRYU=
+		MACKZ32OyLSAmK/aXJ2ZBucQ1Mw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -2064,15 +1857,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NpNCtvnXn+75wzi51iJI6zI8jIc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2105,15 +1889,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UgIEY8afKF4JhbMUfM2XJdvEFSg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/is.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2137,15 +1912,6 @@
 			<key>hash</key>
 			<data>
 			8Y0Ztqe9zhCfBZbCZ9qMLbSxb4k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/it.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qnkLdjl6css5Wv72E2ySbEESYP8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2177,15 +1943,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PbJA1i2jOliWayQg8rNcP0EVOH0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ja.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2213,15 +1970,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cB7phFtbwY9V5jFHppBt9n5W9G0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ko.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2236,15 +1984,6 @@
 			<key>hash</key>
 			<data>
 			KQVyNFDtSPYoi0oKW1f2J8ZgP30=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/nl.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ITqQIpz2p0GSCurArG8+apu94p8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2272,15 +2011,6 @@
 			<key>hash</key>
 			<data>
 			PSWi9SBo+tpG3woqcKN3ZkxU9s0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pl.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WEUwplMPThhuwaZtqj8+mkGUTnE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2326,15 +2056,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BKTv2r7r8EDT9LcoliWgD3o7BfM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_BR.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2358,15 +2079,6 @@
 			<key>hash</key>
 			<data>
 			NfmvY6WvJ5utffISU+lUhxuK3GU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/pt_PT.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E7qS5orEaiX5LVBWAsZ0If/tUnA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2398,15 +2110,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YqKuT37BJuFM1h8XVK27Xa5D6PA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ro.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2430,15 +2133,6 @@
 			<key>hash</key>
 			<data>
 			rgQ7XxJn2esIGWbkVQ4LupDlshw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ru.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			pxGJubom8oik6M4qg+eR/fADz9Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2470,15 +2164,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			B/03YEioXvpTBCWXl71pB9iYjQc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sk.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2493,15 +2178,6 @@
 			<key>hash</key>
 			<data>
 			Yvet/wsdslxjnOZYFNSYP4C5sDM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sl.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LqMmATVDDDYRynlQcAHL1Xg/pfI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2529,15 +2205,6 @@
 			<key>hash</key>
 			<data>
 			iFPDoXRZ970vFFdUSRbn3PS6XFA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/sv.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IDYGTLibvFn0xJ4tsqvD3irxQg0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2578,15 +2245,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kCAx17mI20PBgJDI4duOqsekmhs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/th.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2610,15 +2268,6 @@
 			<key>hash</key>
 			<data>
 			kfhPyXYLSf7UGft5aGNaAhXZ5xw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/tr.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4ihCqrZP/G+61XTtmLobPZWZUoI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2650,15 +2299,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xrDcFRozwctbTskmmecC21D87AI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/uk.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2682,15 +2322,6 @@
 			<key>hash</key>
 			<data>
 			tu8OjEmWaJxDtkMVI/0bFanEexo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_CN.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YL1oqgFwLuVirgMgHvH5y1YLduo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2722,15 +2353,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdateAlert.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			f/wTY8dTv1zuMu8ciuHeMHRxznk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/zh_TW.lproj/SUUpdatePermissionPrompt.nib</key>
 		<dict>
 			<key>hash</key>
@@ -2751,11 +2373,11 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		4t8tsIprK1BzQR7fXQHY7cJ/JgE=
+		oeLMJN8iVQCbEMRn3gFaahLmtu4=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		oAoLI+aj6/vjKtJ8UVXJrO3Wiow=
+		n5EI3sWN2HagVV19Zz3MoW1pHXE=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/Current</key>
 		<dict>
@@ -2764,15 +2386,15 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		nJPb8mKe8qQCrOrmO3rW9DBJkNk=
+		B97yTIx+sJkE791Rf7uCoBvoyHY=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		r4KCkk5d6SNhPpY6kuhDCMgxODc=
+		ZutaGFkueIm9KEWmfhRyPwfgKjs=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		koPrKUSYm3B6tp940MuJR6eaURk=
+		yeR6FumgZORL6SFm/D2yGim+i3I=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
@@ -2796,7 +2418,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		iF2AnlZi/FMYVnsehC+jO8ijM+4=
+		sSSn3AJ4ziweCGYD2X/awSGtRO8=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -2864,7 +2486,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		MZXFGbiKac9DE3ya+jpbcgwo6Rc=
+		lCWTNKFzEr4l7yWNTy0enWOwSgo=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -2884,7 +2506,7 @@
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		9/v+KL7cXYO6PkDD53Vi3GOqY3w=
+		dLWNXnLKMq2tq9QygST8+gQQd2E=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
@@ -2947,7 +2569,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3KMcka0SvdCU7d/na678vL/QrcM=
+			oxlpXGb1lOnKuCN7HM23/QzTQbk=
 			</data>
 			<key>optional</key>
 			<true/>

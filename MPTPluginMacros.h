@@ -114,7 +114,10 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 #define MPTPerformFolderPath() \
 	[[[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:MPT_MAIL_MPT_FOLDER_PATH] stringByExpandingTildeInPath]
 
-#define MPTGetLikelyToolPath(mptBundle) \
+#define MPTGetLikelyToolPath(mptBundle)	MPTGetLikelyToolPathPreferInBundle(mptBundle, YES)
+#define MPTGetLikelyToolPathNotInBundle(mptBundle) MPTGetLikelyToolPathPreferInBundle(mptBundle, NO)
+
+#define MPTGetLikelyToolPathPreferInBundle(mptBundle, mptPreferInBundle) \
 	NSFileManager	*mptManager = [NSFileManager defaultManager]; \
 	NSString		*mptPluginToolPath = [[NSWorkspace sharedWorkspace] absolutePathForAppBundleWithIdentifier:MPT_TOOL_IDENTIFIER]; \
 	NSString		*mptPluginManagerPath = [[NSSearchPathForDirectoriesInDomains(NSApplicationDirectory, NSLocalDomainMask, YES) lastObject] stringByAppendingPathComponent:MPT_MANAGER_APP_NAME]; \
@@ -130,7 +133,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 				mptPluginToolPath = mptProposedPath; \
 			} \
 		} \
-		if ([mptManager fileExistsAtPath:[mptBundle bundlePath]]) { \
+		if (mptPreferInBundle && [mptManager fileExistsAtPath:[mptBundle bundlePath]]) { \
 			/*	See if we can get the tool path inside the mail bundle's path	*/ \
 			NSString	*mptProposedPath = [[mptBundle bundlePath] stringByAppendingPathComponent:MPT_APP_RESOURCES_PATH]; \
 			mptProposedPath = [mptProposedPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.app", MPT_TOOL_NAME]]; \
@@ -169,7 +172,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 #define	MPTLaunchCommandForBundle(mptCommand, mptMailBundle, mptOptionDict) \
 	{ \
 		if (mptMailBundle != nil) { \
-			MPTGetLikelyToolPath(mptMailBundle); \
+			MPTGetLikelyToolPathNotInBundle(mptMailBundle); \
 			if (mptPluginToolPath != nil) { \
 				NSMutableDictionary	*mptPerformDict = [NSMutableDictionary dictionaryWithCapacity:3]; \
 				[mptPerformDict setObject:mptCommand forKey:MPT_ACTION_KEY]; \
@@ -210,7 +213,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 	{ \
 		NSString	*callLikelyToolPath = nil; \
 		{ \
-			MPTGetLikelyToolPath(mptMailBundle); \
+			MPTGetLikelyToolPathNotInBundle(mptMailBundle); \
 			callLikelyToolPath = mptPluginToolPath; \
 		} \
 		if (callLikelyToolPath != nil) { \
@@ -250,7 +253,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 #define	MPTManageLaunchAgentWithBlock(mptCommand, mptMailBundle, mptOtherDict, mptResultBlock) \
 	{ \
 		if (mptMailBundle != nil) { \
-			MPTGetLikelyToolPath(mptMailBundle); \
+			MPTGetLikelyToolPathNotInBundle(mptMailBundle); \
 			if (mptPluginToolPath != nil) { \
 				NSMutableDictionary	*mptPerformDict = [NSMutableDictionary dictionaryWithCapacity:3]; \
 				[mptPerformDict setObject:mptCommand forKey:MPT_ACTION_KEY]; \
