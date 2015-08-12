@@ -356,9 +356,14 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 			}); \
 		} \
 		else { \
-			dispatch_sync(dispatch_get_main_queue(), ^{ \
+			if ([NSThread isMainThread]) { \
 				[mptBundleUpToDateAlert runModal]; \
-			}); \
+			} \
+			else { \
+				dispatch_sync(dispatch_get_main_queue(), ^{ \
+					[mptBundleUpToDateAlert runModal]; \
+				}); \
+			} \
 		} \
 	}
 
@@ -378,9 +383,14 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 					MPTPresentDialogGeneric(mptBundle, mptSheetWindow, localDict); \
 				} \
 				if (mptFinishBlock != nil) { \
-					dispatch_sync(dispatch_get_main_queue(), ^{ \
+					if ([NSThread isMainThread]) { \
 						mptFinishBlock(); \
-					});\
+					} \
+					else { \
+						dispatch_sync(dispatch_get_main_queue(), ^{ \
+							mptFinishBlock(); \
+						}); \
+					} \
 				} \
 				/*	Always remove the observer	*/ \
 				[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
@@ -390,9 +400,14 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 		else { \
 			/*	If there is no plugin tool, just call the block if it is not nil */ \
 			if (mptFinishBlock != nil) { \
-				dispatch_sync(dispatch_get_main_queue(), ^{ \
+				if ([NSThread isMainThread]) { \
 					mptFinishBlock(); \
-				});\
+				} \
+				else { \
+					dispatch_sync(dispatch_get_main_queue(), ^{ \
+						mptFinishBlock(); \
+					}); \
+				} \
 			} \
 		} \
 	}
@@ -419,9 +434,14 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 					MPTPresentDialogGeneric(mptBundle, mptSheetWindow, localDict); \
 				} \
 				if (mptFinishBlock != nil) { \
-					dispatch_sync(dispatch_get_main_queue(), ^{ \
+					if ([NSThread isMainThread]) { \
 						mptFinishBlock(); \
-					});\
+					} \
+					else { \
+						dispatch_sync(dispatch_get_main_queue(), ^{ \
+							mptFinishBlock(); \
+						}); \
+					} \
 				} \
 				/*	Always remove the observer	*/ \
 				[[NSDistributedNotificationCenter defaultCenter] removeObserver:mptBundleObserver]; \
@@ -431,9 +451,14 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 		else { \
 			/*	If there is no plugin tool, just call the block if it is not nil */ \
 			if (mptFinishBlock != nil) { \
-				dispatch_sync(dispatch_get_main_queue(), ^{ \
+				if ([NSThread isMainThread]) { \
 					mptFinishBlock(); \
-				});\
+				} \
+				else { \
+					dispatch_sync(dispatch_get_main_queue(), ^{ \
+						mptFinishBlock(); \
+					}); \
+				} \
 			} \
 		} \
 	}
@@ -445,9 +470,14 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 		NSUserUnixTask	*mptScriptTask = [[NSUserUnixTask alloc] initWithURL:mptScriptURL error:&mptScriptError]; \
 		[mptScriptTask executeWithArguments:mptScriptArguments completionHandler:^(NSError *mptExecuteError) { \
 			if (mptExecuteError) { \
-				dispatch_sync(dispatch_get_main_queue(), ^{ \
+				if ([NSThread isMainThread]) { \
 					mptErrorBlock(mptExecuteError); \
-				});\
+				} \
+				else { \
+					dispatch_sync(dispatch_get_main_queue(), ^{ \
+						mptErrorBlock(mptExecuteError); \
+					}); \
+				} \
 				MCCErrMacro(@"MPTRunHelperWithErrorCompletion", @"Error: %@", mptExecuteError); \
 			} \
 		}]; \
