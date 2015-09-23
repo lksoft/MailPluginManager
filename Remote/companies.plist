@@ -7,18 +7,18 @@
 		<key>ca.indev</key>
 		<dict>
 			<key>ca.indev.MailActOn</key>
-			<string>http://www.indev.ca/MailActOn.html</string>
+			<string>https://www.indev.ca/MailActOn.html</string>
 			<key>ca.indev.MailPerspectives</key>
-			<string>http://www.indev.ca/MailPerspectives.html</string>
+			<string>https://www.indev.ca/MailPerspectives.html</string>
 			<key>ca.indev.MailTags</key>
-			<string>http://www.indev.ca/MailTags3.html</string>
+			<string>https://www.indev.ca/MailTags3.html</string>
 			<key>name</key>
 			<string>Indev Software</string>
 		</dict>
 		<key>com.c-command</key>
 		<dict>
 			<key>com.c-command.spamsieve.mailplugin</key>
-			<string>http://c-command.com/spamsieve/</string>
+			<string>https://c-command.com/spamsieve/</string>
 			<key>name</key>
 			<string>C-Command Software</string>
 		</dict>
@@ -45,7 +45,9 @@
 		<key>com.creativeinaustria</key>
 		<dict>
 			<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
-			<string>http://www.creativeinaustria.com/LetterOpenerPro</string>
+			<string>https://www.creativeinaustria.com/LetterOpenerPro</string>
+			<key>com.creativeinaustria.DockStar</key>
+			<string>https://creativeinaustria.com/DockStar</string>
 			<key>name</key>
 			<string>Creative in Austria</string>
 		</dict>
@@ -71,9 +73,9 @@
 		<key>com.littleknownsoftware</key>
 		<dict>
 			<key>com.littleknownsoftware.SignatureProfiler</key>
-			<string>http://littleknownsoftware.com/sigpro</string>
+			<string>https://littleknownsoftware.com/sigpro</string>
 			<key>com.littleknownsoftware.Tealeaves</key>
-			<string>http://tea-leav.es</string>
+			<string>https://tea-leav.es</string>
 			<key>name</key>
 			<string>Little Known Software, Inc.</string>
 		</dict>
@@ -135,6 +137,6 @@
 		</dict>
 	</dict>
 	<key>date</key>
-	<date>2014-06-25T10:54:00Z</date>
+	<date>2015-09-18T10:30:00Z</date>
 </dict>
 </plist>
