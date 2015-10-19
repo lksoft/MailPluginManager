@@ -11,27 +11,29 @@
 		<key>ca.indev.MailTags</key>
 		<string>https://s3.amazonaws.com/media.indev.ca/sparkle/MailTags4.xml</string>
 		<key>com.chungwasoft.CargoLifter</key>
-		<string>http://www.chungwasoft.com/library/appcast.php?appName=CargoLifter</string>
+		<string>https://mail-plugins.s3.amazonaws.com/CargoLifter/appcast.xml</string>
 		<key>com.chungwasoft.EverMail</key>
-		<string>http://www.chungwasoft.com/library/appcasts/EverMail/appcast.xml</string>
+		<string>https://mail-plugins.s3.amazonaws.com/EverMail/appcast.xml</string>
 		<key>com.chungwasoft.Face2Face</key>
-		<string>http://www.chungwasoft.com/library/appcast.php?appName=Face2Face</string>
+		<string>https://mail-plugins.s3.amazonaws.com/Face2Face/appcast.xml</string>
 		<key>com.chungwasoft.ForgetMeNot</key>
-		<string>http://www.chungwasoft.com/library/appcast.php?appName=ForgetMeNot</string>
+		<string>https://mail-plugins.s3.amazonaws.com/ForgetMeNot/appcast.xml</string>
 		<key>com.chungwasoft.Graffiti</key>
-		<string>http://www.chungwasoft.com/library/appcast.php?appName=Graffiti</string>
+		<string>https://mail-plugins.s3.amazonaws.com/Graffiti/appcast.xml</string>
 		<key>com.chungwasoft.SendLater</key>
-		<string>http://www.chungwasoft.com/library/appcast.php?appName=SendLater</string>
+		<string>https://mail-plugins.s3.amazonaws.com/SendLater/appcast.xml</string>
 		<key>com.creativeinaustria.DockStar</key>
 		<string>https://www.creativeinaustria.com/DockStar/services/sparkle3</string>
 		<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
 		<string>https://www.creativeinaustria.com/OMiC/sparkle8/mail</string>
+		<key>com.erikhinterbichler.Herald</key>
+		<string>http://erikhinterbichler.com/blog/wp-content/uploads/updates/herald-el-cap-update.xml</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
 		<string>https://littleknownsoftware.com/feed-mpt/sigpro</string>
 		<key>com.littleknownsoftware.Tealeaves</key>
 		<string>https://littleknownsoftware.com/feed-mpt/sis</string>
 	</dict>
 	<key>date</key>
-	<date>2015-09-18T16:12:00Z</date>
+	<date>2015-10-01T15:33:00Z</date>
 </dict>
 </plist>
