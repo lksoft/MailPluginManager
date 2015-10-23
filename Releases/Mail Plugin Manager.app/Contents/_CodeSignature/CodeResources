@@ -26,7 +26,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		/ZW4mzTNaV8iwXyMn3mQrcbz+g8=
+		UlXxnBmFwTz/gyJhKl+KFekHgI0=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -320,7 +320,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		G3hdmdBmh2B+IB4Xbvvld9y3xU8=
+		xH/93+tTx6v62yIKWEUjQFTOmY4=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -1231,23 +1231,23 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		uBp2MUfgvscsy+L0DaWcd/b52JM=
+		Uj17unlVpCg8JV/P22fHMY0aWnM=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		+8zdoJXz66gYEbAhHbX2a5JThn4=
+		ZC99np0fPr16FbIUnGdZfBwLwlM=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		vnwXUiEouGMTrYw9gc8keIKtit0=
+		PFs+FoQe5s7HpxP9evg1B1CjbQI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		dGTPovJVV1dmD6qCbq9i83E4a5Y=
+		PQ2JNzOcaMM0LaTl8QVTIIpImVc=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		vtduOXqzaUiNQO+8wxsFC3DdBO0=
+		bd9lS2PbqaemZDJ1qmZ4Z5u7/n0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
@@ -1271,7 +1271,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		/ZW4mzTNaV8iwXyMn3mQrcbz+g8=
+		UlXxnBmFwTz/gyJhKl+KFekHgI0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1339,7 +1339,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		XXC9QvtXJ5DbduKRH4RMaUh8Fu0=
+		Z2V965FilTdeVL0gFVhDkc+tGMo=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -1359,7 +1359,7 @@
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		0KKy/tmYKXRN84Y8ilDOV+IZnmo=
+		7648PoBz4DEaIVgVQD18BYNMLqo=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
@@ -1422,7 +1422,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ndXilA+YQWTaOlVgcCkpchwMh0o=
+			C96L8gt4MCzXjtuKxUmemmYTQVg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1497,7 +1497,7 @@
 	<dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		+RUy/mg+ZDF2JsMXRtKAdhrWJWc=
+		txvMjwxJuJHBMk+kW0jpCJLteNo=
 		</data>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
@@ -1521,7 +1521,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		/ZW4mzTNaV8iwXyMn3mQrcbz+g8=
+		UlXxnBmFwTz/gyJhKl+KFekHgI0=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1830,7 +1830,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		G3hdmdBmh2B+IB4Xbvvld9y3xU8=
+		xH/93+tTx6v62yIKWEUjQFTOmY4=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -2751,11 +2751,11 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		uBp2MUfgvscsy+L0DaWcd/b52JM=
+		Uj17unlVpCg8JV/P22fHMY0aWnM=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		+8zdoJXz66gYEbAhHbX2a5JThn4=
+		ZC99np0fPr16FbIUnGdZfBwLwlM=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/Current</key>
 		<dict>
@@ -2764,15 +2764,15 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		vnwXUiEouGMTrYw9gc8keIKtit0=
+		PFs+FoQe5s7HpxP9evg1B1CjbQI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		dGTPovJVV1dmD6qCbq9i83E4a5Y=
+		PQ2JNzOcaMM0LaTl8QVTIIpImVc=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		vtduOXqzaUiNQO+8wxsFC3DdBO0=
+		bd9lS2PbqaemZDJ1qmZ4Z5u7/n0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
@@ -2796,7 +2796,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		/ZW4mzTNaV8iwXyMn3mQrcbz+g8=
+		UlXxnBmFwTz/gyJhKl+KFekHgI0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -2864,7 +2864,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		XXC9QvtXJ5DbduKRH4RMaUh8Fu0=
+		Z2V965FilTdeVL0gFVhDkc+tGMo=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -2884,7 +2884,7 @@
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		0KKy/tmYKXRN84Y8ilDOV+IZnmo=
+		7648PoBz4DEaIVgVQD18BYNMLqo=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
@@ -2947,7 +2947,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ndXilA+YQWTaOlVgcCkpchwMh0o=
+			C96L8gt4MCzXjtuKxUmemmYTQVg=
 			</data>
 			<key>optional</key>
 			<true/>
