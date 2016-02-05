@@ -6,27 +6,27 @@
 	<dict>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
-		A7Q0GLajBxO5cB5sQV7JV5lP87A=
+		pViTq9sqlLh8OPa+Ps7qbcUpSN8=
 		</data>
 		<key>Resources/InstallAnimationBackground.tiff</key>
 		<data>
-		RRP4IUBWoPnVlCOiHBBbROqbPMg=
+		xEWTq18yJCX50vmmBoP9FWBLA6A=
 		</data>
 		<key>Resources/InstallDocument.icns</key>
 		<data>
-		getVeX0Va+FFsbB8wGch5D9eHN0=
+		j5XNKFoYuc4iNcahlrqJtEPEytw=
 		</data>
 		<key>Resources/MailPluginManager.icns</key>
 		<data>
-		+ZZePs11yL8HEFgZHFHVcb4DVP8=
+		shG67huDHRq5bY6gE9E/MFavRDI=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		M3oAOY8wETKS7CGDYPx/Ym39YBM=
+		+3I2CiB4PgDrrvmc9Kuwyk/hVqw=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		UlXxnBmFwTz/gyJhKl+KFekHgI0=
+		mv22pn9xsZAzYrNdvM8/PkRQv/I=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		Nkl/qPBCWSaEbFJhas4fyjlNM6o=
+		36UELb5v7oiosXfAkriI6fJkxj0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/License.txt</key>
 		<data>
@@ -78,13 +78,13 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/SUStatus.nib</key>
 		<data>
-		+8yBIjth6L4kZffGtFOVSKiFltk=
+		9SLWFWk3AST5Y5O6IUrff11yijQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUAutomaticUpdateAlert.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YvKiePTUvTPEuXFmUYiGtPXSlMo=
+			kiK3w1KcNmQ1NzFzmDTCZEKqgok=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			usCEdEpLEH9EEnjiMiJIAei3dPA=
+			xJkV6VwhZkR7OgIZNoI8YbFnV58=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -102,7 +102,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sKRov3e+LvXDB0ECm8ast6/av3s=
+			7mLr2hnCbmo6fB+T5mxOmlg1fPM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8lrMxRI8ZqYEMSJyNZYhgyqUuOw=
+			v9ENfpyKdgv9kshU/XWvnTPzHnY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7o8m3dRVVb4WnBzz/qLXOkySur0=
+			PLk9eFABWdU/TiZWtKMPGCJfFN4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8lAqkf9Yx0uzgjVmP1j5i/pJocI=
+			0udTiIbvp5gmDW0KJS/rKuQ1m2s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -147,7 +147,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJO+ffkQJQbaerIKEb5KndpoasY=
+			Kwc0xPjXhmlYA0lmzeAU5/u/UMQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -165,7 +165,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			huEv/pE63PQKPnyeaLgHomXl1f0=
+			LxGh0qh8+twOkxP9eGx5iFCpOpM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LR1akUH6Br+tzXmJFCoOz5wiy+Q=
+			aJrk50KhADuH3jDMDN91LLEz36o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rv3RlBH6VG7r2ad3fJFOe8MYFj0=
+			BYwmwCxj4lQ9KzaCdsXQAVzqBPg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l0GQZOAMVMSw3oylr1oP57XNDnk=
+			l16P4+z5bW70477hPG8TREWk5dA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rm3sPv6qDfv1V1YReLXqKhTjBis=
+			ljOLHnjeBf5sQcK0FiUljn7GXCA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xCVPcyw7EyY9ccedRgo95AFFyTQ=
+			zXAVmU8BYmvqQWCH3MCECorlyAM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -237,7 +237,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QYaHPYsnDD/5fezzS5Wxe7jJKf0=
+			N6pgZ1hlj7kswhefYPEKaA1VQ/k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -246,7 +246,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EkrnOIJdGsPFUJvzTRW1Oc8U6YY=
+			OqWtE9lHDKkN9lkfSFUNhynWo4o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -255,7 +255,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VsRiqIPDNtq3XmUmo8o9kPgf3xU=
+			16u1pTa3nFcO0mXvuCU0ZErXVyk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Eedmax94QFnzdctBqH8bvzEw14U=
+			ONtkkp5J3/slBMxA3fJkeYid6Ck=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -282,7 +282,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q4UybgD/wQVGDwnsppGL1UwCLtI=
+			Gbf9Om6nxFRYUWYDNnhXCKEHIJs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jpf0u6qaTqDYfIu+FtCxK49+QQM=
+			Iuz9muK2DJanccbQSObK4kVgq+U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -300,7 +300,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ewHUlTzzYwr4Nk51e7qST1aOk0M=
+			sn5j1WxwwvwZmjFU8m9A70Lr2uI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -316,11 +316,11 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/Info.plist</key>
 		<data>
-		8+LYC6Lm7GAqBJQ2jORWrKanTxI=
+		1fdn9DIGJhZdpXJnLVWY1bTBOcI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		xH/93+tTx6v62yIKWEUjQFTOmY4=
+		ZAkbHS69vX/Yz8OMlWP9BkSkezc=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -328,7 +328,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/Resources/SUStatus.nib</key>
 		<data>
-		+8yBIjth6L4kZffGtFOVSKiFltk=
+		9SLWFWk3AST5Y5O6IUrff11yijQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/Resources/Sparkle.icns</key>
 		<data>
@@ -543,13 +543,13 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		qvgCGi/PSIttw0BjYrXict9aW9A=
+		kdxKNT6iLal0FeFWklRzk5c98cg=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ap4SQ/yUNz5qvRZ5SzoZQLQ8HvA=
+			8cBNofDWPIhpvvP7P2Jv3E1wvXI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -558,7 +558,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NpNCtvnXn+75wzi51iJI6zI8jIc=
+			s0TtI5h9RAmd0bNN3zv+k9dqmpY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -567,7 +567,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WHFtrhsTq8mkXDmvPKc9QirklEA=
+			ZC2F0q7hLEPX0ipaEec1aWSKJtI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -585,7 +585,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iGOhBjU2ClCmgMmldLyqZplKaKM=
+			8leK0sACHEW3v6mygm1KPNkkQ/M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -594,7 +594,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UgIEY8afKF4JhbMUfM2XJdvEFSg=
+			h3Dg2YIxiMyR7nTSFlaG/Ug4+5E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -603,7 +603,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJJ3H1yDup+fqTqe57fbj0VXe1U=
+			J/AA5Ibsx7L5rNCBo+of+HoJFIs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -621,7 +621,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Y0Ztqe9zhCfBZbCZ9qMLbSxb4k=
+			5Kh59xDqIanCsLzMRTz+b3fmrZg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -630,7 +630,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qnkLdjl6css5Wv72E2ySbEESYP8=
+			y4rd4IK/B0m6NGMsEns3uhycnCE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -639,7 +639,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yX/PUkMNk40h1vNyDmDE2b1Mw10=
+			ELrm9EMZksMjKTanocR+jmnjpj4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -657,7 +657,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oWlq2ytunwfx4byY/ZbdpNhHR0I=
+			3+UPVEjbAqvED+Ci1StWkMYL7Bw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -666,7 +666,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PbJA1i2jOliWayQg8rNcP0EVOH0=
+			Y2qLQ+XHb2Dcvl/3BtWtwVLJTzk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -675,7 +675,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WoTv8h0y2CnOd0CywfHwe0eW9rQ=
+			aKwiuz0R9snkoHaPd2kTDs8arx0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -693,7 +693,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			skwQxiUgj2XTxGLM5o7wDsawaCA=
+			GcLVZjJpRxH88CEwTb3iDeeVlLM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -702,7 +702,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cB7phFtbwY9V5jFHppBt9n5W9G0=
+			l1ayfx6A+IZIgyAIjYfKi54eP8A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -711,7 +711,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4JAl9Jb4yUFV7UzICWbTMq/W9aw=
+			0PHAO5D2h1cQni+ha9G7MSq8Ask=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -720,7 +720,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KQVyNFDtSPYoi0oKW1f2J8ZgP30=
+			rw4EkbIQmpNqt53Ph9vTkn2vdcI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -729,7 +729,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ITqQIpz2p0GSCurArG8+apu94p8=
+			AbXC1QZxuN2UEIH5wKVX2u/W/18=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -738,7 +738,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9XNe3aEytHlIWqSEsj0qDv5K3Jw=
+			JjpcP0oKjWbuD4Kebx8eH8TYOfc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -756,7 +756,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PSWi9SBo+tpG3woqcKN3ZkxU9s0=
+			3tk7Un+3dM1gPN6Lz0Qk4fBXsww=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -765,7 +765,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WEUwplMPThhuwaZtqj8+mkGUTnE=
+			bkFXOpEw4ItTwBCVe8rxzn4c6yE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -774,7 +774,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nZPBsnW/6RfLVP4v5FMBjzGWgps=
+			+13lBdXDb6KfVN1BVscTbdFnQQ4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -792,7 +792,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6yVINLvi/C2On5EtIwKPbPBy5ck=
+			Z9hXAIwPVAWdwyNfKGl67saHwb4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -801,7 +801,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R+rtRtGTsI01qmmVNX5UJ70et/I=
+			EeJDUWMPeNAKqsaFgBL4+bVTUEA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -810,7 +810,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BKTv2r7r8EDT9LcoliWgD3o7BfM=
+			H/vY2ea9qAmKyMv1sc6cqBcqzvA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -819,7 +819,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U0CSK/jtdK6tgH4hsN7hcLKzcK0=
+			oVaicFhoIknHkHPHlvFInteFEDY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -837,7 +837,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NfmvY6WvJ5utffISU+lUhxuK3GU=
+			4a6teEhxYrazv24wVEPSHrHJzao=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -846,7 +846,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E7qS5orEaiX5LVBWAsZ0If/tUnA=
+			jYtEzzRE1IM4OVCM/itGvcfo8JQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -855,7 +855,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uZxb5Q6a6ltwVcrk2h9rriLUV54=
+			1rRj9za+0VqxCOIjl5S1+m7wyFE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -873,7 +873,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nwgNnTvqdeEnh2W5XeU1V1Z3xbw=
+			idEVZmR6ZUFO33G+qb8pcEmUafc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -882,7 +882,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YqKuT37BJuFM1h8XVK27Xa5D6PA=
+			Tw40gk9GrM5p/cLW53HHbH8qlLk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -891,7 +891,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zZzlCiTA48Z97bAzMulzXAeTnRo=
+			D4nyaxVCLCGrpm2friF7OVDtNSo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -909,7 +909,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rgQ7XxJn2esIGWbkVQ4LupDlshw=
+			7jl/L3Y+nG8jRqeM3vtkDcjj/qg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -918,7 +918,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pxGJubom8oik6M4qg+eR/fADz9Y=
+			w9vUFnwanDZXCKRD+j4Jhm1eXjc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -927,7 +927,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VdYoiCvhksgYp7roorUvDqLghwI=
+			cX5l8I4GijFMM5lsHmr60nyoS6E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -945,7 +945,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w0AMJjFnQ8RgldTN5FUbJmLLkM4=
+			843ruV/vEn0J7VHvch43odLzYYA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -954,7 +954,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B/03YEioXvpTBCWXl71pB9iYjQc=
+			qOnINl3+Q9iony8274UhHvd/P2Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -963,7 +963,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kKKxJcC6tcHoPa6qoTde09K3zxo=
+			t8toGAgZm9cFCaxGDSVC+G24GcA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -972,7 +972,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yvet/wsdslxjnOZYFNSYP4C5sDM=
+			JXCK2BEz89iU+pN2Uome7hK46R0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -981,7 +981,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LqMmATVDDDYRynlQcAHL1Xg/pfI=
+			5ZMk8fg1Kd3Mvtq9x0TOI++P3Js=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -990,7 +990,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V8Xtmz99uv1hI4xhEGqMGUDSUg4=
+			eO232ICrsZ/c3L4fnVlRCcVNmYM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1008,7 +1008,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iFPDoXRZ970vFFdUSRbn3PS6XFA=
+			+/e5uV4TSCTXZumPln/SN/SypdQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1017,7 +1017,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IDYGTLibvFn0xJ4tsqvD3irxQg0=
+			W64mc7om2jCmyHKA7zRGLDPfy/4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1026,7 +1026,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G1hObiCNSJ90RR59iDBRdXXrWYw=
+			QyEUDS/y+C/JGkZKNZ48xys7ZBY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1044,7 +1044,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mficWRLWSjcwMxUkwVvTkkf/jps=
+			mfQw4oxvPfwZyUBEhvK74uYw2Jo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1053,7 +1053,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X5/EOeCd+lrJjcGvjLiHEw4oL6E=
+			4IFNR4OsNIP1PoQ135KpDMuC7yo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1062,7 +1062,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kCAx17mI20PBgJDI4duOqsekmhs=
+			xlB4YOICMTzG/5RZuoxyDsOXEsg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1071,7 +1071,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9sF++wPFsC6Bjuhsse87WxeEMAI=
+			m9FX4UqLpFfKmtolqr7LH1UAmbM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1089,7 +1089,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kfhPyXYLSf7UGft5aGNaAhXZ5xw=
+			s3PKl7WGbXW2L+xiU6wOoxDsEDI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1098,7 +1098,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ihCqrZP/G+61XTtmLobPZWZUoI=
+			WvAOvv4MZ5kUTzkanwy4rXl8JbA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1107,7 +1107,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GwysPXxnFob2Re8Vr/YMQ+zotxI=
+			xcpiNyj16+3F1LA5JezwSNkrWMQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1125,7 +1125,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NxP1Fo0Yj2lCROSN/un+u5uFTbw=
+			SQxbP/MTJsb5+sB6ed1Qx0BULi4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1134,7 +1134,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xrDcFRozwctbTskmmecC21D87AI=
+			MYKbU8DZrbOP2QODWHjZBihyaYM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1143,7 +1143,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6ylk2hqhrV6+04StmwDYSYgK0tk=
+			qCgeY9wWfh33UCAkpLWrAFOFlzI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1161,7 +1161,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tu8OjEmWaJxDtkMVI/0bFanEexo=
+			vkqPIB659fIrX2YVsYXbEXKfWOk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1170,7 +1170,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YL1oqgFwLuVirgMgHvH5y1YLduo=
+			JQ+ntc2Fxtkxk820ksPhKiM5+MI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1179,7 +1179,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8WlN/JfxbkucIBLDHCduZVAULyA=
+			OsqjfrXMDpTlTRM/nAmDLcviHOU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1197,7 +1197,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JNG4jJo+Y/hzjfveE2dTKEyNNtA=
+			vCbOA3rMDgbErdjckdvQ+LE65Ds=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1206,7 +1206,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f/wTY8dTv1zuMu8ciuHeMHRxznk=
+			5osli8RzIy59BkSMpDFeyVnQbXI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1215,7 +1215,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UvtbBV79ZvFUJKKvkYM6xNU8lzc=
+			Jss8r3hEGoCNLdh+qCS8fSOAECc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1231,23 +1231,23 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		Uj17unlVpCg8JV/P22fHMY0aWnM=
+		ZVQNgBDPx618V6yH6V3azmT+zGI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		ZC99np0fPr16FbIUnGdZfBwLwlM=
+		7m2szGchsAHnabPWc2oBq3AoVTI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		PFs+FoQe5s7HpxP9evg1B1CjbQI=
+		QNQhF/7NcxCU2O6Jf2SV2fWT7L8=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		PQ2JNzOcaMM0LaTl8QVTIIpImVc=
+		S84daAdq5mNK1GZhBe97siL76qQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		bd9lS2PbqaemZDJ1qmZ4Z5u7/n0=
+		an978KaGIWysejxvrGTeEmpzpHg=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
@@ -1255,7 +1255,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/GenericPlugin.tiff</key>
 		<data>
-		A7Q0GLajBxO5cB5sQV7JV5lP87A=
+		pViTq9sqlLh8OPa+Ps7qbcUpSN8=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MPT Scripting.sdef</key>
 		<data>
@@ -1263,15 +1263,15 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginManager.icns</key>
 		<data>
-		+ZZePs11yL8HEFgZHFHVcb4DVP8=
+		shG67huDHRq5bY6gE9E/MFavRDI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		M3oAOY8wETKS7CGDYPx/Ym39YBM=
+		+3I2CiB4PgDrrvmc9Kuwyk/hVqw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		UlXxnBmFwTz/gyJhKl+KFekHgI0=
+		mv22pn9xsZAzYrNdvM8/PkRQv/I=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1315,7 +1315,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qq1FpYW0WPbalpd+AIF/Yehxyrk=
+			TGzaKV8yNGsjrBAxNeM4AFOP+Pk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1331,15 +1331,15 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Resources/notification-icon.tiff</key>
 		<data>
-		JQ5iiR4+6JYSm+7VbtDvKmwW3HA=
+		bQHynO45d0zJDh3qI1UKkTXEaKU=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/uuids.plist</key>
 		<data>
-		+bJRs8F3czkvJ3ixYLtlPsw1RIQ=
+		j5qrFuNo7ouIHOwsK+n9Jy2hkFA=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		Z2V965FilTdeVL0gFVhDkc+tGMo=
+		Y0iwv/ZX24QjSxT/bF2dKOnvAhw=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -1351,15 +1351,15 @@
 		</data>
 		<key>Resources/UninstallDocument.icns</key>
 		<data>
-		AkE6EufP3GKeiLpKlOq0NIpRwsE=
+		xej5ElkQBRi4ceiv00xWiUndBsQ=
 		</data>
 		<key>Resources/alert.tiff</key>
 		<data>
-		Y1mCkH5jExvSS6LwvTbgtFuYLcI=
+		mK8pXPkKT4jPcLIig7sALYlA3Go=
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		7648PoBz4DEaIVgVQD18BYNMLqo=
+		4xF+G6MYQBK8K55ZGuHbn07isrM=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
@@ -1367,11 +1367,11 @@
 		</data>
 		<key>Resources/deleteAction.tiff</key>
 		<data>
-		1Y2eTWFgpGR3zNS0sN+oPf/T6f8=
+		pS4G4GR7D2fwPTq77scFB9fNlWo=
 		</data>
 		<key>Resources/disableAction.tiff</key>
 		<data>
-		K6LAtYpI2ZgH0I8Jy3IzLV6/lvU=
+		xwZrYfiWY9uturJqryp45QXhXCY=
 		</data>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -1404,7 +1404,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RrzrW3jCH6BE4XYAjkYoOe+ZI38=
+			R4oCxJQH0yTfNYZY9q8xV+SR5cI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1413,7 +1413,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7R1XwWfCjefyWe7cUqIsPEP2bAA=
+			RdA+3gJqGBvBURHgd/6Rel/gyHM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1422,7 +1422,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C96L8gt4MCzXjtuKxUmemmYTQVg=
+			z1z+RyeIgul7PuE0GuoVr8Z9OXc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1438,90 +1438,90 @@
 		</dict>
 		<key>Resources/enableAction.tiff</key>
 		<data>
-		S48y7kwTPoQvJIvx6njcSUEPN0E=
+		hD4PzjAuvZiDBIPzBvEPusANrro=
 		</data>
 		<key>Resources/installAction.tiff</key>
 		<data>
-		GqLvRXGLbHFWFbvdip8PPWFlzJ0=
+		HU68RmAs214ySSe4VC9D2EVESac=
 		</data>
 		<key>Resources/localDomainAction.tiff</key>
 		<data>
-		yNwTchefxEKP+kvvgwZq7MprxJM=
+		yrHAweA6hXBaDZQ/U2awUUtHAUg=
 		</data>
 		<key>Resources/notification-icon.tiff</key>
 		<data>
-		JQ5iiR4+6JYSm+7VbtDvKmwW3HA=
+		bQHynO45d0zJDh3qI1UKkTXEaKU=
 		</data>
 		<key>Resources/sidebar-download.tiff</key>
 		<data>
-		R8kXltaDXQa/AaTp7qNY/dSo6mA=
+		fg5BHMP3q7cN7qgWvS0c402AbQ4=
 		</data>
 		<key>Resources/sidebar-install.tiff</key>
 		<data>
-		V8PTKqpCeHhQ95WuOxuR72ualLc=
+		we60ZVUqdY4E3T7k3ZfcvYO4ujg=
 		</data>
 		<key>Resources/sidebar-plugin-disabled.tiff</key>
 		<data>
-		ZS8Kn8U3IKXG2mv+PtpLc9bV75k=
+		YoPZnVicJxyTRHRvwkFxe1UEC+Y=
 		</data>
 		<key>Resources/sidebar-plugin-enabled.tiff</key>
 		<data>
-		GqSUniE5C8+Hq+D5KBVXSzx3/0U=
+		/PBrbjRqRDAO1Pwd+b6uw6Cv4Zc=
 		</data>
 		<key>Resources/sidebar-plugin.tiff</key>
 		<data>
-		6+PkjCnYpy+t78HCE/aRv5amPsU=
+		eSaQQCwZhdBXAWPoChNUbcjDMyw=
 		</data>
 		<key>Resources/sidebar-update.tiff</key>
 		<data>
-		ED4zXePfVjk38kyhUN/m8RsW8bE=
+		DWn1AXhezhpPDHq4hUo/f2hIUsk=
 		</data>
 		<key>Resources/stop.tiff</key>
 		<data>
-		fLTWs/j3zqXw0CAPzdD9SiPSmeU=
+		60UcVxhMvoex5HBKXnwFRqc/SZM=
 		</data>
 		<key>Resources/updateAction.tiff</key>
 		<data>
-		TWwMyWakHfwbrUQ2ywbjX8Lsvls=
+		3F2vuXqQCLHATD4EFG+p04RTbBw=
 		</data>
 		<key>Resources/userDomainAction.tiff</key>
 		<data>
-		SOJM55CzuTZ241Pc5L6be+FAqaE=
+		lYUEHEo04z2mvHVQepxRi4VSYyw=
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
-		+bJRs8F3czkvJ3ixYLtlPsw1RIQ=
+		j5qrFuNo7ouIHOwsK+n9Jy2hkFA=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		txvMjwxJuJHBMk+kW0jpCJLteNo=
+		qnI7KkFAyij7Z630VIIPCoaQVxE=
 		</data>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
-		A7Q0GLajBxO5cB5sQV7JV5lP87A=
+		pViTq9sqlLh8OPa+Ps7qbcUpSN8=
 		</data>
 		<key>Resources/InstallAnimationBackground.tiff</key>
 		<data>
-		RRP4IUBWoPnVlCOiHBBbROqbPMg=
+		xEWTq18yJCX50vmmBoP9FWBLA6A=
 		</data>
 		<key>Resources/InstallDocument.icns</key>
 		<data>
-		getVeX0Va+FFsbB8wGch5D9eHN0=
+		j5XNKFoYuc4iNcahlrqJtEPEytw=
 		</data>
 		<key>Resources/MailPluginManager.icns</key>
 		<data>
-		+ZZePs11yL8HEFgZHFHVcb4DVP8=
+		shG67huDHRq5bY6gE9E/MFavRDI=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		M3oAOY8wETKS7CGDYPx/Ym39YBM=
+		+3I2CiB4PgDrrvmc9Kuwyk/hVqw=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		UlXxnBmFwTz/gyJhKl+KFekHgI0=
+		mv22pn9xsZAzYrNdvM8/PkRQv/I=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -1576,7 +1576,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		Nkl/qPBCWSaEbFJhas4fyjlNM6o=
+		36UELb5v7oiosXfAkriI6fJkxj0=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/License.txt</key>
 		<data>
@@ -1588,13 +1588,13 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/SUStatus.nib</key>
 		<data>
-		+8yBIjth6L4kZffGtFOVSKiFltk=
+		9SLWFWk3AST5Y5O6IUrff11yijQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/ar.lproj/SUAutomaticUpdateAlert.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YvKiePTUvTPEuXFmUYiGtPXSlMo=
+			kiK3w1KcNmQ1NzFzmDTCZEKqgok=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1603,7 +1603,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			usCEdEpLEH9EEnjiMiJIAei3dPA=
+			xJkV6VwhZkR7OgIZNoI8YbFnV58=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1612,7 +1612,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sKRov3e+LvXDB0ECm8ast6/av3s=
+			7mLr2hnCbmo6fB+T5mxOmlg1fPM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1621,7 +1621,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8lrMxRI8ZqYEMSJyNZYhgyqUuOw=
+			v9ENfpyKdgv9kshU/XWvnTPzHnY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1639,7 +1639,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7o8m3dRVVb4WnBzz/qLXOkySur0=
+			PLk9eFABWdU/TiZWtKMPGCJfFN4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1648,7 +1648,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8lAqkf9Yx0uzgjVmP1j5i/pJocI=
+			0udTiIbvp5gmDW0KJS/rKuQ1m2s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1657,7 +1657,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJO+ffkQJQbaerIKEb5KndpoasY=
+			Kwc0xPjXhmlYA0lmzeAU5/u/UMQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1675,7 +1675,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			huEv/pE63PQKPnyeaLgHomXl1f0=
+			LxGh0qh8+twOkxP9eGx5iFCpOpM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1684,7 +1684,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LR1akUH6Br+tzXmJFCoOz5wiy+Q=
+			aJrk50KhADuH3jDMDN91LLEz36o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1693,7 +1693,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rv3RlBH6VG7r2ad3fJFOe8MYFj0=
+			BYwmwCxj4lQ9KzaCdsXQAVzqBPg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1711,7 +1711,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l0GQZOAMVMSw3oylr1oP57XNDnk=
+			l16P4+z5bW70477hPG8TREWk5dA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1720,7 +1720,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rm3sPv6qDfv1V1YReLXqKhTjBis=
+			ljOLHnjeBf5sQcK0FiUljn7GXCA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1729,7 +1729,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xCVPcyw7EyY9ccedRgo95AFFyTQ=
+			zXAVmU8BYmvqQWCH3MCECorlyAM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1747,7 +1747,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QYaHPYsnDD/5fezzS5Wxe7jJKf0=
+			N6pgZ1hlj7kswhefYPEKaA1VQ/k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1756,7 +1756,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EkrnOIJdGsPFUJvzTRW1Oc8U6YY=
+			OqWtE9lHDKkN9lkfSFUNhynWo4o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1765,7 +1765,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VsRiqIPDNtq3XmUmo8o9kPgf3xU=
+			16u1pTa3nFcO0mXvuCU0ZErXVyk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1774,7 +1774,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Eedmax94QFnzdctBqH8bvzEw14U=
+			ONtkkp5J3/slBMxA3fJkeYid6Ck=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1792,7 +1792,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q4UybgD/wQVGDwnsppGL1UwCLtI=
+			Gbf9Om6nxFRYUWYDNnhXCKEHIJs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1801,7 +1801,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jpf0u6qaTqDYfIu+FtCxK49+QQM=
+			Iuz9muK2DJanccbQSObK4kVgq+U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1810,7 +1810,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ewHUlTzzYwr4Nk51e7qST1aOk0M=
+			sn5j1WxwwvwZmjFU8m9A70Lr2uI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1826,11 +1826,11 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/Info.plist</key>
 		<data>
-		8+LYC6Lm7GAqBJQ2jORWrKanTxI=
+		1fdn9DIGJhZdpXJnLVWY1bTBOcI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/MacOS/finish_installation</key>
 		<data>
-		xH/93+tTx6v62yIKWEUjQFTOmY4=
+		ZAkbHS69vX/Yz8OMlWP9BkSkezc=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/PkgInfo</key>
 		<data>
@@ -1838,7 +1838,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/Resources/SUStatus.nib</key>
 		<data>
-		+8yBIjth6L4kZffGtFOVSKiFltk=
+		9SLWFWk3AST5Y5O6IUrff11yijQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/Resources/Sparkle.icns</key>
 		<data>
@@ -2053,13 +2053,13 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/finish_installation.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		qvgCGi/PSIttw0BjYrXict9aW9A=
+		kdxKNT6iLal0FeFWklRzk5c98cg=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/fr.lproj/SUAutomaticUpdateAlert.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ap4SQ/yUNz5qvRZ5SzoZQLQ8HvA=
+			8cBNofDWPIhpvvP7P2Jv3E1wvXI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2068,7 +2068,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NpNCtvnXn+75wzi51iJI6zI8jIc=
+			s0TtI5h9RAmd0bNN3zv+k9dqmpY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2077,7 +2077,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WHFtrhsTq8mkXDmvPKc9QirklEA=
+			ZC2F0q7hLEPX0ipaEec1aWSKJtI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2100,7 +2100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iGOhBjU2ClCmgMmldLyqZplKaKM=
+			8leK0sACHEW3v6mygm1KPNkkQ/M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2109,7 +2109,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UgIEY8afKF4JhbMUfM2XJdvEFSg=
+			h3Dg2YIxiMyR7nTSFlaG/Ug4+5E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2118,7 +2118,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJJ3H1yDup+fqTqe57fbj0VXe1U=
+			J/AA5Ibsx7L5rNCBo+of+HoJFIs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2136,7 +2136,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Y0Ztqe9zhCfBZbCZ9qMLbSxb4k=
+			5Kh59xDqIanCsLzMRTz+b3fmrZg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2145,7 +2145,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qnkLdjl6css5Wv72E2ySbEESYP8=
+			y4rd4IK/B0m6NGMsEns3uhycnCE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2154,7 +2154,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yX/PUkMNk40h1vNyDmDE2b1Mw10=
+			ELrm9EMZksMjKTanocR+jmnjpj4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2172,7 +2172,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oWlq2ytunwfx4byY/ZbdpNhHR0I=
+			3+UPVEjbAqvED+Ci1StWkMYL7Bw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2181,7 +2181,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PbJA1i2jOliWayQg8rNcP0EVOH0=
+			Y2qLQ+XHb2Dcvl/3BtWtwVLJTzk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2190,7 +2190,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WoTv8h0y2CnOd0CywfHwe0eW9rQ=
+			aKwiuz0R9snkoHaPd2kTDs8arx0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2208,7 +2208,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			skwQxiUgj2XTxGLM5o7wDsawaCA=
+			GcLVZjJpRxH88CEwTb3iDeeVlLM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2217,7 +2217,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cB7phFtbwY9V5jFHppBt9n5W9G0=
+			l1ayfx6A+IZIgyAIjYfKi54eP8A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2226,7 +2226,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4JAl9Jb4yUFV7UzICWbTMq/W9aw=
+			0PHAO5D2h1cQni+ha9G7MSq8Ask=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2235,7 +2235,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KQVyNFDtSPYoi0oKW1f2J8ZgP30=
+			rw4EkbIQmpNqt53Ph9vTkn2vdcI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2244,7 +2244,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ITqQIpz2p0GSCurArG8+apu94p8=
+			AbXC1QZxuN2UEIH5wKVX2u/W/18=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2253,7 +2253,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9XNe3aEytHlIWqSEsj0qDv5K3Jw=
+			JjpcP0oKjWbuD4Kebx8eH8TYOfc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2271,7 +2271,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PSWi9SBo+tpG3woqcKN3ZkxU9s0=
+			3tk7Un+3dM1gPN6Lz0Qk4fBXsww=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2280,7 +2280,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WEUwplMPThhuwaZtqj8+mkGUTnE=
+			bkFXOpEw4ItTwBCVe8rxzn4c6yE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2289,7 +2289,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nZPBsnW/6RfLVP4v5FMBjzGWgps=
+			+13lBdXDb6KfVN1BVscTbdFnQQ4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2312,7 +2312,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6yVINLvi/C2On5EtIwKPbPBy5ck=
+			Z9hXAIwPVAWdwyNfKGl67saHwb4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2321,7 +2321,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R+rtRtGTsI01qmmVNX5UJ70et/I=
+			EeJDUWMPeNAKqsaFgBL4+bVTUEA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2330,7 +2330,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BKTv2r7r8EDT9LcoliWgD3o7BfM=
+			H/vY2ea9qAmKyMv1sc6cqBcqzvA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2339,7 +2339,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U0CSK/jtdK6tgH4hsN7hcLKzcK0=
+			oVaicFhoIknHkHPHlvFInteFEDY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2357,7 +2357,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NfmvY6WvJ5utffISU+lUhxuK3GU=
+			4a6teEhxYrazv24wVEPSHrHJzao=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2366,7 +2366,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E7qS5orEaiX5LVBWAsZ0If/tUnA=
+			jYtEzzRE1IM4OVCM/itGvcfo8JQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2375,7 +2375,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uZxb5Q6a6ltwVcrk2h9rriLUV54=
+			1rRj9za+0VqxCOIjl5S1+m7wyFE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2393,7 +2393,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nwgNnTvqdeEnh2W5XeU1V1Z3xbw=
+			idEVZmR6ZUFO33G+qb8pcEmUafc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2402,7 +2402,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YqKuT37BJuFM1h8XVK27Xa5D6PA=
+			Tw40gk9GrM5p/cLW53HHbH8qlLk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2411,7 +2411,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zZzlCiTA48Z97bAzMulzXAeTnRo=
+			D4nyaxVCLCGrpm2friF7OVDtNSo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2429,7 +2429,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rgQ7XxJn2esIGWbkVQ4LupDlshw=
+			7jl/L3Y+nG8jRqeM3vtkDcjj/qg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2438,7 +2438,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pxGJubom8oik6M4qg+eR/fADz9Y=
+			w9vUFnwanDZXCKRD+j4Jhm1eXjc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2447,7 +2447,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VdYoiCvhksgYp7roorUvDqLghwI=
+			cX5l8I4GijFMM5lsHmr60nyoS6E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2465,7 +2465,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w0AMJjFnQ8RgldTN5FUbJmLLkM4=
+			843ruV/vEn0J7VHvch43odLzYYA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2474,7 +2474,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B/03YEioXvpTBCWXl71pB9iYjQc=
+			qOnINl3+Q9iony8274UhHvd/P2Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2483,7 +2483,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kKKxJcC6tcHoPa6qoTde09K3zxo=
+			t8toGAgZm9cFCaxGDSVC+G24GcA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2492,7 +2492,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yvet/wsdslxjnOZYFNSYP4C5sDM=
+			JXCK2BEz89iU+pN2Uome7hK46R0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2501,7 +2501,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LqMmATVDDDYRynlQcAHL1Xg/pfI=
+			5ZMk8fg1Kd3Mvtq9x0TOI++P3Js=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2510,7 +2510,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V8Xtmz99uv1hI4xhEGqMGUDSUg4=
+			eO232ICrsZ/c3L4fnVlRCcVNmYM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2528,7 +2528,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iFPDoXRZ970vFFdUSRbn3PS6XFA=
+			+/e5uV4TSCTXZumPln/SN/SypdQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2537,7 +2537,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IDYGTLibvFn0xJ4tsqvD3irxQg0=
+			W64mc7om2jCmyHKA7zRGLDPfy/4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2546,7 +2546,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G1hObiCNSJ90RR59iDBRdXXrWYw=
+			QyEUDS/y+C/JGkZKNZ48xys7ZBY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2564,7 +2564,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mficWRLWSjcwMxUkwVvTkkf/jps=
+			mfQw4oxvPfwZyUBEhvK74uYw2Jo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2573,7 +2573,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X5/EOeCd+lrJjcGvjLiHEw4oL6E=
+			4IFNR4OsNIP1PoQ135KpDMuC7yo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2582,7 +2582,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kCAx17mI20PBgJDI4duOqsekmhs=
+			xlB4YOICMTzG/5RZuoxyDsOXEsg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2591,7 +2591,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9sF++wPFsC6Bjuhsse87WxeEMAI=
+			m9FX4UqLpFfKmtolqr7LH1UAmbM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2609,7 +2609,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kfhPyXYLSf7UGft5aGNaAhXZ5xw=
+			s3PKl7WGbXW2L+xiU6wOoxDsEDI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2618,7 +2618,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ihCqrZP/G+61XTtmLobPZWZUoI=
+			WvAOvv4MZ5kUTzkanwy4rXl8JbA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2627,7 +2627,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GwysPXxnFob2Re8Vr/YMQ+zotxI=
+			xcpiNyj16+3F1LA5JezwSNkrWMQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2645,7 +2645,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NxP1Fo0Yj2lCROSN/un+u5uFTbw=
+			SQxbP/MTJsb5+sB6ed1Qx0BULi4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2654,7 +2654,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xrDcFRozwctbTskmmecC21D87AI=
+			MYKbU8DZrbOP2QODWHjZBihyaYM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2663,7 +2663,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6ylk2hqhrV6+04StmwDYSYgK0tk=
+			qCgeY9wWfh33UCAkpLWrAFOFlzI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2681,7 +2681,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tu8OjEmWaJxDtkMVI/0bFanEexo=
+			vkqPIB659fIrX2YVsYXbEXKfWOk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2690,7 +2690,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YL1oqgFwLuVirgMgHvH5y1YLduo=
+			JQ+ntc2Fxtkxk820ksPhKiM5+MI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2699,7 +2699,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8WlN/JfxbkucIBLDHCduZVAULyA=
+			OsqjfrXMDpTlTRM/nAmDLcviHOU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2717,7 +2717,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JNG4jJo+Y/hzjfveE2dTKEyNNtA=
+			vCbOA3rMDgbErdjckdvQ+LE65Ds=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2726,7 +2726,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f/wTY8dTv1zuMu8ciuHeMHRxznk=
+			5osli8RzIy59BkSMpDFeyVnQbXI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2735,7 +2735,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UvtbBV79ZvFUJKKvkYM6xNU8lzc=
+			Jss8r3hEGoCNLdh+qCS8fSOAECc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2751,11 +2751,11 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle</key>
 		<data>
-		Uj17unlVpCg8JV/P22fHMY0aWnM=
+		ZVQNgBDPx618V6yH6V3azmT+zGI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		ZC99np0fPr16FbIUnGdZfBwLwlM=
+		7m2szGchsAHnabPWc2oBq3AoVTI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Frameworks/Sparkle.framework/Versions/Current</key>
 		<dict>
@@ -2764,15 +2764,15 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Info.plist</key>
 		<data>
-		PFs+FoQe5s7HpxP9evg1B1CjbQI=
+		QNQhF/7NcxCU2O6Jf2SV2fWT7L8=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Library/LaunchServices/com.littleknownsoftware.MPC.CopyMoveHelper</key>
 		<data>
-		PQ2JNzOcaMM0LaTl8QVTIIpImVc=
+		S84daAdq5mNK1GZhBe97siL76qQ=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/MacOS/MailPluginTool</key>
 		<data>
-		bd9lS2PbqaemZDJ1qmZ4Z5u7/n0=
+		an978KaGIWysejxvrGTeEmpzpHg=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/PkgInfo</key>
 		<data>
@@ -2780,7 +2780,7 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/GenericPlugin.tiff</key>
 		<data>
-		A7Q0GLajBxO5cB5sQV7JV5lP87A=
+		pViTq9sqlLh8OPa+Ps7qbcUpSN8=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MPT Scripting.sdef</key>
 		<data>
@@ -2788,15 +2788,15 @@
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginManager.icns</key>
 		<data>
-		+ZZePs11yL8HEFgZHFHVcb4DVP8=
+		shG67huDHRq5bY6gE9E/MFavRDI=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		M3oAOY8wETKS7CGDYPx/Ym39YBM=
+		+3I2CiB4PgDrrvmc9Kuwyk/hVqw=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		UlXxnBmFwTz/gyJhKl+KFekHgI0=
+		mv22pn9xsZAzYrNdvM8/PkRQv/I=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -2840,7 +2840,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qq1FpYW0WPbalpd+AIF/Yehxyrk=
+			TGzaKV8yNGsjrBAxNeM4AFOP+Pk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2856,15 +2856,15 @@
 		</dict>
 		<key>Resources/MailPluginTool.app/Contents/Resources/notification-icon.tiff</key>
 		<data>
-		JQ5iiR4+6JYSm+7VbtDvKmwW3HA=
+		bQHynO45d0zJDh3qI1UKkTXEaKU=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/Resources/uuids.plist</key>
 		<data>
-		+bJRs8F3czkvJ3ixYLtlPsw1RIQ=
+		j5qrFuNo7ouIHOwsK+n9Jy2hkFA=
 		</data>
 		<key>Resources/MailPluginTool.app/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		Z2V965FilTdeVL0gFVhDkc+tGMo=
+		Y0iwv/ZX24QjSxT/bF2dKOnvAhw=
 		</data>
 		<key>Resources/MailVersionClassMappings.plist</key>
 		<data>
@@ -2876,15 +2876,15 @@
 		</data>
 		<key>Resources/UninstallDocument.icns</key>
 		<data>
-		AkE6EufP3GKeiLpKlOq0NIpRwsE=
+		xej5ElkQBRi4ceiv00xWiUndBsQ=
 		</data>
 		<key>Resources/alert.tiff</key>
 		<data>
-		Y1mCkH5jExvSS6LwvTbgtFuYLcI=
+		mK8pXPkKT4jPcLIig7sALYlA3Go=
 		</data>
 		<key>Resources/appcasts.plist</key>
 		<data>
-		7648PoBz4DEaIVgVQD18BYNMLqo=
+		4xF+G6MYQBK8K55ZGuHbn07isrM=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
@@ -2892,11 +2892,11 @@
 		</data>
 		<key>Resources/deleteAction.tiff</key>
 		<data>
-		1Y2eTWFgpGR3zNS0sN+oPf/T6f8=
+		pS4G4GR7D2fwPTq77scFB9fNlWo=
 		</data>
 		<key>Resources/disableAction.tiff</key>
 		<data>
-		K6LAtYpI2ZgH0I8Jy3IzLV6/lvU=
+		xwZrYfiWY9uturJqryp45QXhXCY=
 		</data>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -2929,7 +2929,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RrzrW3jCH6BE4XYAjkYoOe+ZI38=
+			R4oCxJQH0yTfNYZY9q8xV+SR5cI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2938,7 +2938,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7R1XwWfCjefyWe7cUqIsPEP2bAA=
+			RdA+3gJqGBvBURHgd/6Rel/gyHM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2947,7 +2947,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C96L8gt4MCzXjtuKxUmemmYTQVg=
+			z1z+RyeIgul7PuE0GuoVr8Z9OXc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2963,59 +2963,59 @@
 		</dict>
 		<key>Resources/enableAction.tiff</key>
 		<data>
-		S48y7kwTPoQvJIvx6njcSUEPN0E=
+		hD4PzjAuvZiDBIPzBvEPusANrro=
 		</data>
 		<key>Resources/installAction.tiff</key>
 		<data>
-		GqLvRXGLbHFWFbvdip8PPWFlzJ0=
+		HU68RmAs214ySSe4VC9D2EVESac=
 		</data>
 		<key>Resources/localDomainAction.tiff</key>
 		<data>
-		yNwTchefxEKP+kvvgwZq7MprxJM=
+		yrHAweA6hXBaDZQ/U2awUUtHAUg=
 		</data>
 		<key>Resources/notification-icon.tiff</key>
 		<data>
-		JQ5iiR4+6JYSm+7VbtDvKmwW3HA=
+		bQHynO45d0zJDh3qI1UKkTXEaKU=
 		</data>
 		<key>Resources/sidebar-download.tiff</key>
 		<data>
-		R8kXltaDXQa/AaTp7qNY/dSo6mA=
+		fg5BHMP3q7cN7qgWvS0c402AbQ4=
 		</data>
 		<key>Resources/sidebar-install.tiff</key>
 		<data>
-		V8PTKqpCeHhQ95WuOxuR72ualLc=
+		we60ZVUqdY4E3T7k3ZfcvYO4ujg=
 		</data>
 		<key>Resources/sidebar-plugin-disabled.tiff</key>
 		<data>
-		ZS8Kn8U3IKXG2mv+PtpLc9bV75k=
+		YoPZnVicJxyTRHRvwkFxe1UEC+Y=
 		</data>
 		<key>Resources/sidebar-plugin-enabled.tiff</key>
 		<data>
-		GqSUniE5C8+Hq+D5KBVXSzx3/0U=
+		/PBrbjRqRDAO1Pwd+b6uw6Cv4Zc=
 		</data>
 		<key>Resources/sidebar-plugin.tiff</key>
 		<data>
-		6+PkjCnYpy+t78HCE/aRv5amPsU=
+		eSaQQCwZhdBXAWPoChNUbcjDMyw=
 		</data>
 		<key>Resources/sidebar-update.tiff</key>
 		<data>
-		ED4zXePfVjk38kyhUN/m8RsW8bE=
+		DWn1AXhezhpPDHq4hUo/f2hIUsk=
 		</data>
 		<key>Resources/stop.tiff</key>
 		<data>
-		fLTWs/j3zqXw0CAPzdD9SiPSmeU=
+		60UcVxhMvoex5HBKXnwFRqc/SZM=
 		</data>
 		<key>Resources/updateAction.tiff</key>
 		<data>
-		TWwMyWakHfwbrUQ2ywbjX8Lsvls=
+		3F2vuXqQCLHATD4EFG+p04RTbBw=
 		</data>
 		<key>Resources/userDomainAction.tiff</key>
 		<data>
-		SOJM55CzuTZ241Pc5L6be+FAqaE=
+		lYUEHEo04z2mvHVQepxRi4VSYyw=
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
-		+bJRs8F3czkvJ3ixYLtlPsw1RIQ=
+		j5qrFuNo7ouIHOwsK+n9Jy2hkFA=
 		</data>
 	</dict>
 	<key>rules</key>

@@ -10,30 +10,20 @@
 		<string>https://s3.amazonaws.com/media.indev.ca/sparkle/MailPerspectives.xml</string>
 		<key>ca.indev.MailTags</key>
 		<string>https://s3.amazonaws.com/media.indev.ca/sparkle/MailTags4.xml</string>
-		<key>com.chungwasoft.CargoLifter</key>
-		<string>https://mail-plugins.s3.amazonaws.com/CargoLifter/appcast.xml</string>
-		<key>com.chungwasoft.EverMail</key>
-		<string>https://mail-plugins.s3.amazonaws.com/EverMail/appcast.xml</string>
-		<key>com.chungwasoft.Face2Face</key>
-		<string>https://mail-plugins.s3.amazonaws.com/Face2Face/appcast.xml</string>
-		<key>com.chungwasoft.ForgetMeNot</key>
-		<string>https://mail-plugins.s3.amazonaws.com/ForgetMeNot/appcast.xml</string>
-		<key>com.chungwasoft.Graffiti</key>
-		<string>https://mail-plugins.s3.amazonaws.com/Graffiti/appcast.xml</string>
-		<key>com.chungwasoft.SendLater</key>
-		<string>https://mail-plugins.s3.amazonaws.com/SendLater/appcast.xml</string>
 		<key>com.creativeinaustria.DockStar</key>
 		<string>https://www.creativeinaustria.com/DockStar/services/sparkle3</string>
 		<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
 		<string>https://www.creativeinaustria.com/OMiC/sparkle8/mail</string>
 		<key>com.erikhinterbichler.Herald</key>
 		<string>http://erikhinterbichler.com/blog/wp-content/uploads/updates/herald-el-cap-update.xml</string>
+		<key>com.feingeist.MailButler</key>
+		<string>https://www.feingeist.io/fg-library/appcast.php?appName=MailButler</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
 		<string>https://littleknownsoftware.com/feed-mpt/sigpro</string>
 		<key>com.littleknownsoftware.Tealeaves</key>
 		<string>https://littleknownsoftware.com/feed-mpt/sis</string>
 	</dict>
 	<key>date</key>
-	<date>2015-10-19T16:26:00Z</date>
+	<date>2016-02-05T18:07:00Z</date>
 </dict>
 </plist>
