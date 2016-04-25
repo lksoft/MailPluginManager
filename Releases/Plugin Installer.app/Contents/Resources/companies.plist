@@ -44,10 +44,10 @@
 		</dict>
 		<key>com.creativeinaustria</key>
 		<dict>
-			<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
-			<string>https://www.creativeinaustria.com/LetterOpenerPro</string>
 			<key>com.creativeinaustria.DockStar</key>
 			<string>https://creativeinaustria.com/DockStar</string>
+			<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
+			<string>https://creativeinaustria.com/LetterOpenerPro</string>
 			<key>name</key>
 			<string>Creative in Austria</string>
 		</dict>
@@ -69,6 +69,15 @@
 			<string>http://erikhinterbichler.com/software/herald/</string>
 			<key>name</key>
 			<string>Erik Hinterbichler</string>
+		</dict>
+		<key>com.feingeist</key>
+		<dict>
+			<key>com.feingeist.MailButler</key>
+			<string>https://www.feingeist.io/mailbutler/</string>
+			<key>name</key>
+			<string>Feingeist Software GmbH</string>
+			<key>url</key>
+			<string>https:/www.feingeist.io</string>
 		</dict>
 		<key>com.littleknownsoftware</key>
 		<dict>
