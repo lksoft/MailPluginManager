@@ -159,7 +159,7 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 			dispatch_async(dispatch_get_main_queue(), ^{ \
 				NSInteger	mptQueueResult = [mptBundleUpToDateAlert runModal]; \
 				if (mptQueueResult == NSAlertDefaultReturn) { \
-					[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://littleknownsoftware.com/download/mpm"]]; \
+					[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://smallcubed.com/download/mpm"]]; \
 				} \
 				if ([[mptBundleUpToDateAlert suppressionButton] state] == NSOnState) { \
 					[missingDefaults setBool:YES forKey:MPT_SUPPRESS_MISSING_MPM_ALERT_KEY]; \
