@@ -7,13 +7,13 @@
 		<key>ca.indev</key>
 		<dict>
 			<key>ca.indev.MailActOn</key>
-			<string>https://www.indev.ca/MailActOn.html</string>
+			<string>https://smallcubed.com/mao</string>
 			<key>ca.indev.MailPerspectives</key>
-			<string>https://www.indev.ca/MailPerspectives.html</string>
+			<string>https://smallcubed.com/mp</string>
 			<key>ca.indev.MailTags</key>
-			<string>https://www.indev.ca/MailTags3.html</string>
+			<string>https://smallcubed.com/mt</string>
 			<key>name</key>
-			<string>Indev Software</string>
+			<string>SmallCubed Inc.</string>
 		</dict>
 		<key>com.c-command</key>
 		<dict>
@@ -82,11 +82,26 @@
 		<key>com.littleknownsoftware</key>
 		<dict>
 			<key>com.littleknownsoftware.SignatureProfiler</key>
-			<string>https://littleknownsoftware.com/sigpro</string>
+			<string>https://smallcubed/sp</string>
 			<key>com.littleknownsoftware.Tealeaves</key>
 			<string>https://tea-leav.es</string>
 			<key>name</key>
-			<string>Little Known Software, Inc.</string>
+			<string>SmallCubed Inc.</string>
+		</dict>
+		<key>com.smallcubed</key>
+		<dict>
+			<key>com.littleknownsoftware.SignatureProfiler</key>
+			<string>https://smallcubed/sp</string>
+			<key>com.littleknownsoftware.Tealeaves</key>
+			<string>https://tea-leav.es</string>
+			<key>ca.indev.MailActOn</key>
+			<string>https://smallcubed.com/mao</string>
+			<key>ca.indev.MailPerspectives</key>
+			<string>https://smallcubed.com/mp</string>
+			<key>ca.indev.MailTags</key>
+			<string>https://smallcubed.com/mt</string>
+			<key>name</key>
+			<string>SmallCubed Inc.</string>
 		</dict>
 		<key>com.sweetpproductions</key>
 		<dict>

@@ -5,11 +5,11 @@
 	<key>contents</key>
 	<dict>
 		<key>ca.indev.MailActOn</key>
-		<string>https://s3.amazonaws.com/media.indev.ca/sparkle/MailActOn3.xml</string>
+		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/MailActOn3.xml</string>
 		<key>ca.indev.MailPerspectives</key>
-		<string>https://s3.amazonaws.com/media.indev.ca/sparkle/MailPerspectives.xml</string>
+		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/MailPerspectives.xml</string>
 		<key>ca.indev.MailTags</key>
-		<string>https://s3.amazonaws.com/media.indev.ca/sparkle/MailTags4.xml</string>
+		<string>https://s3.amazonaws.com/media.cmallcubed.com/sparkle/MailTags4.xml</string>
 		<key>com.creativeinaustria.DockStar</key>
 		<string>https://www.creativeinaustria.com/DockStar/services/sparkle3</string>
 		<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
@@ -19,11 +19,11 @@
 		<key>com.feingeist.MailButler</key>
 		<string>https://www.feingeist.io/fg-library/appcast.php?appName=MailButler</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
-		<string>https://littleknownsoftware.com/feed-mpt/sigpro</string>
+		<string>https://smallcubed.com/feed-mpt/sp</string>
 		<key>com.littleknownsoftware.Tealeaves</key>
-		<string>https://littleknownsoftware.com/feed-mpt/sis</string>
+		<string>https://smallcubed.com/feed-mpt/tlv</string>
 	</dict>
 	<key>date</key>
-	<date>2016-03-25T19:48:00Z</date>
+	<date>2016-04-25T10:05:00Z</date>
 </dict>
 </plist>
