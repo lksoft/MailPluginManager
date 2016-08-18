@@ -324,14 +324,14 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 			NSOperationQueue	*mptQueue = [[NSOperationQueue alloc] init]; \
 			[mptQueue setName:[MPT_LKS_BUNDLE_START stringByAppendingString:@"BundleWillInstallQueue"]]; \
 			__block id mptBundleObserver; \
-			__block id blockSelf = self; \
+			__block id mptBlockSelf = self; \
 			mptBundleObserver = [[NSDistributedNotificationCenter defaultCenter] addObserverForName:MPT_BUNDLE_WILL_INSTALL_NOTIFICATION object:[mptBundle bundleIdentifier] queue:mptQueue usingBlock:^(NSNotification *note) { \
 				/*	If the preferences are open then close them	*/ \
 				NSPreferences	*prefs = [NSPreferences sharedPreferences]; \
 				BOOL	panelIsVisible = [[prefs valueForKey:@"preferencesPanel"] isVisible]; \
 				if (panelIsVisible && (prefs != nil)) { \
 					dispatch_async(dispatch_get_main_queue(), ^{ \
-						[prefs performSelector:@selector(cancel:) withObject:blockSelf]; \
+						[prefs performSelector:@selector(cancel:) withObject:mptBlockSelf]; \
 					}); \
 				} \
 				/*	Always remove the observer	*/ \
