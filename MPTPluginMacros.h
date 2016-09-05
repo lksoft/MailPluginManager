@@ -152,13 +152,17 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 			NSString	*missingPluginName = [[mptBundle infoDictionary] valueForKey:(NSString *)kCFBundleNameKey]; \
 			NSString	*missingMessageText = [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"The Plugin ‘%@’ is trying to update, however the ‘Mail Plugin Manager’ app is missing.\n\nIt is required by '%@' to look for updates.\n", nil, mptBundle, @"Text telling user the that MPM is not installed"), missingPluginName, missingPluginName]; \
 			NSString	*missingInfoText = NSLocalizedStringFromTableInBundle(@"Click ‘Download’ to download the latest version, then put it into your Applications folder.", nil, mptBundle, @"Text telling user why MPM is useful and how to get it."); \
-			NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:missingMessageText defaultButton:NSLocalizedStringFromTableInBundle(@"Download", nil, mptBundle, @"Download button") alternateButton:NSLocalizedStringFromTableInBundle(@"Cancel", nil, mptBundle, @"Cancel button") otherButton:nil informativeTextWithFormat:@"%@", missingInfoText]; \
-			[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
-			[mptBundleUpToDateAlert setShowsSuppressionButton:YES]; \
+			NSAlert	*mptBundleUpToDateAlert = [[NSAlert alloc] init]; \
+			mptBundleUpToDateAlert.messageText = missingMessageText; \
+			mptBundleUpToDateAlert.informativeText = missingInfoText; \
+			mptBundleUpToDateAlert.icon = [[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]; \
+			mptBundleUpToDateAlert.showsSuppressionButton = YES; \
+			[mptBundleUpToDateAlert addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Download", nil, mptBundle, @"Download button")]; \
+			[mptBundleUpToDateAlert addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"Cancel", nil, mptBundle, @"Cancel button")]; \
 			MCCErrMacro(@"MPTPresentDialogForMissingPluginManager", @"Mail Plugin Manager or the tool are not available during update."); \
 			dispatch_async(dispatch_get_main_queue(), ^{ \
 				NSInteger	mptQueueResult = [mptBundleUpToDateAlert runModal]; \
-				if (mptQueueResult == NSAlertDefaultReturn) { \
+				if (mptQueueResult == NSAlertFirstButtonReturn) { \
 					[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://smallcubed.com/download/mpm"]]; \
 				} \
 				if ([[mptBundleUpToDateAlert suppressionButton] state] == NSOnState) { \
@@ -347,12 +351,15 @@ typedef void(^MPTUpdateTestingCompleteBlock)(void);
 		NSString	*mptPDGMessageText = mptMessageDict[@"message"]; \
 		NSString	*mptPDGInfoText = mptMessageDict[@"info"]; \
 		if (mptPDGInfoText == nil) { mptPDGInfoText = @""; } \
-		NSAlert	*mptBundleUpToDateAlert = [NSAlert alertWithMessageText:mptPDGMessageText defaultButton:NSLocalizedStringFromTableInBundle(@"OK", nil, mptBundle, @"Okay button") alternateButton:nil otherButton:nil informativeTextWithFormat:@"%@", mptPDGInfoText]; \
+		NSAlert	*mptBundleUpToDateAlert = [[NSAlert alloc] init]; \
+		mptBundleUpToDateAlert.messageText = mptPDGMessageText; \
+		mptBundleUpToDateAlert.informativeText = mptPDGInfoText; \
+		[mptBundleUpToDateAlert addButtonWithTitle:NSLocalizedStringFromTableInBundle(@"OK", nil, mptBundle, @"Okay button")]; \
 		MCCErrMacro(@"MPTPresentDialogGeneric", @"MPT_ERROR:\n\tMessage: %@\n\tInfo: %@", mptPDGMessageText, mptPDGInfoText);\
 		[mptBundleUpToDateAlert setIcon:[[NSWorkspace sharedWorkspace] iconForFile:[mptBundle bundlePath]]]; \
 		if (mptSheetWindow != nil) { \
 			dispatch_async(dispatch_get_main_queue(), ^{ \
-				[mptBundleUpToDateAlert beginSheetModalForWindow:mptSheetWindow modalDelegate:nil didEndSelector:NULL contextInfo:NULL]; \
+				[mptBundleUpToDateAlert beginSheetModalForWindow:mptSheetWindow completionHandler:nil]; \
 			}); \
 		} \
 		else { \
