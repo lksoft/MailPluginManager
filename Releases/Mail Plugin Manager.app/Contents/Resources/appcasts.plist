@@ -19,11 +19,11 @@
 		<key>com.feingeist.MailButler</key>
 		<string>https://www.feingeist.io/fg-library/appcast.php?appName=MailButler</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
-		<string>https://smallcubed.com/feed-mpt/sp</string>
+		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/SigPro.xml</string>
 		<key>com.littleknownsoftware.Tealeaves</key>
 		<string>https://smallcubed.com/feed-mpt/tlv</string>
 	</dict>
 	<key>date</key>
-	<date>2016-04-25T10:05:00Z</date>
+	<date>2016-09-24T12:06:00Z</date>
 </dict>
 </plist>

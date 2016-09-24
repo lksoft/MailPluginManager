@@ -79,27 +79,18 @@
 			<key>url</key>
 			<string>https:/www.feingeist.io</string>
 		</dict>
-		<key>com.littleknownsoftware</key>
-		<dict>
-			<key>com.littleknownsoftware.SignatureProfiler</key>
-			<string>https://smallcubed/sp</string>
-			<key>com.littleknownsoftware.Tealeaves</key>
-			<string>https://tea-leav.es</string>
-			<key>name</key>
-			<string>SmallCubed Inc.</string>
-		</dict>
 		<key>com.smallcubed</key>
 		<dict>
-			<key>com.littleknownsoftware.SignatureProfiler</key>
-			<string>https://smallcubed/sp</string>
-			<key>com.littleknownsoftware.Tealeaves</key>
-			<string>https://tea-leav.es</string>
 			<key>ca.indev.MailActOn</key>
 			<string>https://smallcubed.com/mao</string>
 			<key>ca.indev.MailPerspectives</key>
 			<string>https://smallcubed.com/mp</string>
 			<key>ca.indev.MailTags</key>
 			<string>https://smallcubed.com/mt</string>
+			<key>com.littleknownsoftware.SignatureProfiler</key>
+			<string>https://smallcubed/sp</string>
+			<key>com.littleknownsoftware.Tealeaves</key>
+			<string>https://tea-leav.es</string>
 			<key>name</key>
 			<string>SmallCubed Inc.</string>
 		</dict>
