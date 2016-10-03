@@ -22,7 +22,7 @@
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		HdPrsrEfDFJurFOCOuSmwChG5UA=
+		3DXUoHBWnPg5mJGJk50EEutlWtw=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -354,7 +354,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			WIAaGaL5n7kjE9K3Ol22LhiS8ik=
+			QvaiZTOYJOBneEX+maR5GorxHcE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.andymatuschak.Sparkle" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862"</string>
@@ -363,11 +363,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K99p7kOAx8VAJKrJJNx2kOCqo+M=
+			cnOMPFCDe/oU60EDNcCy2Py6nlM=
 			</data>
 			<key>hash2</key>
 			<data>
-			o10LftfskTmp9PIxgYShn6MvDnEOHmMfvqj+7Ye/P4o=
+			0iqcpaiCOL9ghkh+AN4R+xsjIZtWu0dgWrKEifKDHkc=
 			</data>
 		</dict>
 		<key>Resources/GenericPlugin.tiff</key>
@@ -418,11 +418,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HdPrsrEfDFJurFOCOuSmwChG5UA=
+			3DXUoHBWnPg5mJGJk50EEutlWtw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8AiOWfzAFVLjQktmX3+J5nNOJXp5BNAFvoVX5hT49fc=
+			AL1rrCIHhkfW+v+a7IKsu/TGhJZbaxd/w4ijGGZfsX8=
 			</data>
 		</dict>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
