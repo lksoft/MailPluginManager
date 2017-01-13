@@ -35,10 +35,9 @@ This manager supports Lion, Mountain Lion & Mavericks.
 2. It gives you some tools to preemptively deal with Mail upgrades and UUID issues.
 3. It provides debugging tools for your user, i.e. system info collection and crash reports.
 4. It gives the user an easy way to manage the plugin.
-5. It provides a simplified installer and uninstaller, again without you having to maintain another separate application.
-6. It allows for the installation of plugins that have been made known to it as a way for promotion of a product.
-7. Integration for you is simple and straightforward, with no other dependencies.
-8. The more developers support Mail Plugin Manager, the more users will have a better Mail plugin experience.
+5. It allows for the installation of plugins that have been made known to it as a way for promotion of a product.
+6. Integration for you is simple and straightforward, with no other dependencies.
+7. The more developers support Mail Plugin Manager, the more users will have a better Mail plugin experience.
 
 #### Mail Plugin Manager Window
 
@@ -52,9 +51,9 @@ Visit the [wiki](wiki-link) for more information on the toolset.
 
 ---
 
-Thanks to Fabian JÃ¤ger from [Chungwasoft](chungwasoft) for his contributions to Version 2.0.
+Thanks to Fabian Jäger from [Chungwasoft](chungwasoft) for his contributions to Version 2.0.
 
-Â© 2011-2014 Little Known Software, Inc.
+© 2011-2014 Little Known Software, Inc.
 
 ---
 
