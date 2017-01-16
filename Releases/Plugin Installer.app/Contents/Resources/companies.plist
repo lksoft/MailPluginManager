@@ -4,17 +4,6 @@
 <dict>
 	<key>contents</key>
 	<dict>
-		<key>ca.indev</key>
-		<dict>
-			<key>ca.indev.MailActOn</key>
-			<string>https://smallcubed.com/mao</string>
-			<key>ca.indev.MailPerspectives</key>
-			<string>https://smallcubed.com/mp</string>
-			<key>ca.indev.MailTags</key>
-			<string>https://smallcubed.com/mt</string>
-			<key>name</key>
-			<string>SmallCubed Inc.</string>
-		</dict>
 		<key>com.c-command</key>
 		<dict>
 			<key>com.c-command.spamsieve.mailplugin</key>
@@ -88,9 +77,9 @@
 			<key>ca.indev.MailTags</key>
 			<string>https://smallcubed.com/mt</string>
 			<key>com.littleknownsoftware.SignatureProfiler</key>
-			<string>https://smallcubed/sp</string>
+			<string>https://smallcubed.com/sp</string>
 			<key>com.littleknownsoftware.Tealeaves</key>
-			<string>https://tea-leav.es</string>
+			<string>https://smallcubed.com/tlv</string>
 			<key>name</key>
 			<string>SmallCubed Inc.</string>
 		</dict>

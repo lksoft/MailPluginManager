@@ -6,23 +6,23 @@
 	<dict>
 		<key>Resources/GenericPlugin.tiff</key>
 		<data>
-		pViTq9sqlLh8OPa+Ps7qbcUpSN8=
+		h1upGVFZzVBTWV9I5oYI8v/Hz8o=
 		</data>
 		<key>Resources/InstallAnimationBackground.tiff</key>
 		<data>
-		xEWTq18yJCX50vmmBoP9FWBLA6A=
+		xXp3crhSspRp3vbleST5aUFPGuA=
 		</data>
 		<key>Resources/InstallDocument.icns</key>
 		<data>
-		j5XNKFoYuc4iNcahlrqJtEPEytw=
+		skbnGrKOkYVZNCeFAxq132vTgBY=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<data>
-		DL8AVSqXW91i+YHwpJ4cR1uPoCI=
+		xzlCiDGWhXF7HZtt65DBsIKTj34=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<data>
-		3DXUoHBWnPg5mJGJk50EEutlWtw=
+		3XI7ITkusrTu7skiz0ZpL5wWGHY=
 		</data>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Resources/UninstallDocument.icns</key>
 		<data>
-		xej5ElkQBRi4ceiv00xWiUndBsQ=
+		9UgVOp7BbQ0XrJrCD6MTMGfwwpM=
 		</data>
 		<key>Resources/companies.plist</key>
 		<data>
-		dIoaDYl1ngl2TdTWAlFCoJu0moQ=
+		FXmV3yZTcZvvPLNBmQZMckDP31w=
 		</data>
 		<key>Resources/en.lproj/Credits.rtf</key>
 		<dict>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R4oCxJQH0yTfNYZY9q8xV+SR5cI=
+			XpF+Pkwj7O1sKDZnxO4C6RYssu0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MRnW3ezmizS80eeIEDLcwuWRL7Q=
+			qvwoAJefMjX3YEP501hNS4S4H8U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TGjTLGIx2rNQR9yiD58X0KbWPLs=
+			eC6h6PZklpV9d077pGcCaQUUPbc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -220,7 +220,7 @@
 		</dict>
 		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/Info.plist</key>
 		<data>
-		MClnTgZkPOmkj/McDVPapj/XA5M=
+		GxhErCpcW5ahnaPK1pYVqJh3dSQ=
 		</data>
 		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/MacOS/ExamplePlugin</key>
 		<data>
@@ -345,7 +345,7 @@
 		</data>
 		<key>Resources/uuids.plist</key>
 		<data>
-		rnHUQw37+OYOAnirYmmKAN18ygM=
+		DY2/DkAp8m/+Ti5d38d3MGy7Q0I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -354,7 +354,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			QvaiZTOYJOBneEX+maR5GorxHcE=
+			5qyr/lKFvA6CVvks1gTnvQsolpQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.andymatuschak.Sparkle" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8H3PSJH862"</string>
@@ -363,66 +363,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cnOMPFCDe/oU60EDNcCy2Py6nlM=
+			wIV2Acf4uCDA/aZhdTvu/Jh8Mis=
 			</data>
 			<key>hash2</key>
 			<data>
-			0iqcpaiCOL9ghkh+AN4R+xsjIZtWu0dgWrKEifKDHkc=
+			3MBdkAvOXpkiAOXXDAn1n6hrRDXMv8vREe+8ADcK264=
 			</data>
 		</dict>
 		<key>Resources/GenericPlugin.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pViTq9sqlLh8OPa+Ps7qbcUpSN8=
+			h1upGVFZzVBTWV9I5oYI8v/Hz8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			g3qaIMwaGVAtoLr8Fsl0NlIYYP0fRcPvZpQwoyTqDNo=
+			jw9EVXCfRK6w7NWLfJVwkNiOcqZB+elUDtE64VCj9gw=
 			</data>
 		</dict>
 		<key>Resources/InstallAnimationBackground.tiff</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xEWTq18yJCX50vmmBoP9FWBLA6A=
+			xXp3crhSspRp3vbleST5aUFPGuA=
 			</data>
 			<key>hash2</key>
 			<data>
-			GrBaDjtDAOKVmAvQin3iv8YQrNoysVQb3BfZWlrqgZA=
+			g6qYZhPpQ1dx3EvpqdBoKaortdLNkBu6lzrs0P/FsSI=
 			</data>
 		</dict>
 		<key>Resources/InstallDocument.icns</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j5XNKFoYuc4iNcahlrqJtEPEytw=
+			skbnGrKOkYVZNCeFAxq132vTgBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			g6WU6WwKOigJCmt1u+v4X/j1WPKHPZywaU5iXOLOe9A=
+			4mfN2iPIBYG/WqyokF8v06YYIu0iRWqec8MmQa+5ya0=
 			</data>
 		</dict>
 		<key>Resources/MailPluginRelaunch.app/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DL8AVSqXW91i+YHwpJ4cR1uPoCI=
+			xzlCiDGWhXF7HZtt65DBsIKTj34=
 			</data>
 			<key>hash2</key>
 			<data>
-			EWGN5VA92i8am6XrZLvpMWp5RkssMAl7AWUYHa0IZ/o=
+			FewoAL/v+LqQ7QVEDf/2kUL37NKfAoV5t3/ET4mFNPg=
 			</data>
 		</dict>
 		<key>Resources/MailPluginRelaunch.app/Contents/MacOS/MailPluginRelaunch</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3DXUoHBWnPg5mJGJk50EEutlWtw=
+			3XI7ITkusrTu7skiz0ZpL5wWGHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			AL1rrCIHhkfW+v+a7IKsu/TGhJZbaxd/w4ijGGZfsX8=
+			rPxVUi29d9prmC8YuIK/ymRD+fOKALSIweyhFnUSLxQ=
 			</data>
 		</dict>
 		<key>Resources/MailPluginRelaunch.app/Contents/PkgInfo</key>
@@ -440,22 +440,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xej5ElkQBRi4ceiv00xWiUndBsQ=
+			9UgVOp7BbQ0XrJrCD6MTMGfwwpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			TEN1jhxLTtOH6N/MEDJ09eWNpda9cFsnInM7a+wOxis=
+			9pdNWhfODJrJ7CjcoCdwe8u6ef5KNKPqOPLcdFdk5oU=
 			</data>
 		</dict>
 		<key>Resources/companies.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dIoaDYl1ngl2TdTWAlFCoJu0moQ=
+			FXmV3yZTcZvvPLNBmQZMckDP31w=
 			</data>
 			<key>hash2</key>
 			<data>
-			fAGtcGGynIkEhhV4X/2G+Lpm7jLm9Rr1QV82d+bNlhE=
+			QKTngwRP1mGknESC0PW/0Rvmkp2pp4qSTMEXmEDc/mg=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/Credits.rtf</key>
@@ -488,11 +488,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R4oCxJQH0yTfNYZY9q8xV+SR5cI=
+			XpF+Pkwj7O1sKDZnxO4C6RYssu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			h9ooJR2PBnoUTiEA5Vf1gnjw33j2axYCyjjUW34c1lM=
+			+Td7h8nD2GAJMuETKbQGAeh4BllE9zzB6Q74e4WAHpU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -501,11 +501,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MRnW3ezmizS80eeIEDLcwuWRL7Q=
+			qvwoAJefMjX3YEP501hNS4S4H8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			jVtHEexJz6UJQvvGu9y5ledC3E3aE6UWPIE5D4Relyo=
+			7ad84CfUU3WNAFEE9368eIAezajaMHKoE0KNKlSzqGo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -514,11 +514,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TGjTLGIx2rNQR9yiD58X0KbWPLs=
+			eC6h6PZklpV9d077pGcCaQUUPbc=
 			</data>
 			<key>hash2</key>
 			<data>
-			gt6rX17Aj/CGAmWnMu0N22Y5ycstLflWyIhnwJTtJ0U=
+			moXjrkYqiTCpNJjZDsq8t06hlk0RpRgbmriCe30d0IE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -833,11 +833,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MClnTgZkPOmkj/McDVPapj/XA5M=
+			GxhErCpcW5ahnaPK1pYVqJh3dSQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ak9ED6EkyW8WvBue9YnJPzCmJjdLfUIRsEq7ee5L/Is=
+			kOSAAT5eoEjTISgTPG4Rc+x6lSDDQdZMOTfZ42nSt3Q=
 			</data>
 		</dict>
 		<key>Resources/install-test.mpinstall/Delivery/ExamplePlugin.mailbundle/Contents/MacOS/ExamplePlugin</key>
@@ -1118,11 +1118,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rnHUQw37+OYOAnirYmmKAN18ygM=
+			DY2/DkAp8m/+Ti5d38d3MGy7Q0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			h+R2yyIEDRRPUCOE0115aT+7HrPR2sXTfi4HbWnmG0U=
+			RfOX2w+LRcXELVZMjefqJrI7CKuKVvTQVhR9gwa/p68=
 			</data>
 		</dict>
 	</dict>
@@ -1143,6 +1143,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -1202,6 +1207,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

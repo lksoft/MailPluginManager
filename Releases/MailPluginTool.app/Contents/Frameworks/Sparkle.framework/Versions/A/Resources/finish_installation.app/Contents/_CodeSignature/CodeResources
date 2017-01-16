@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/SUStatus.nib</key>
 		<data>
-		9SLWFWk3AST5Y5O6IUrff11yijQ=
+		jsyrfbcqZdTJAUEFIDhH6qVAgLw=
 		</data>
 		<key>Resources/Sparkle.icns</key>
 		<data>
@@ -226,11 +226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9SLWFWk3AST5Y5O6IUrff11yijQ=
+			jsyrfbcqZdTJAUEFIDhH6qVAgLw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GwvrMKg2OcehhDg4HKgiNjGp9ThoSyxs4WYCkGTb09k=
+			o8bYn/Fs1mM0Us5qq3fMG0gEo9exLMayZ3GX2TxiS+I=
 			</data>
 		</dict>
 		<key>Resources/Sparkle.icns</key>
@@ -562,6 +562,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -620,6 +625,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

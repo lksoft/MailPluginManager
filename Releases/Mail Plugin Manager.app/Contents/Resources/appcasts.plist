@@ -5,25 +5,21 @@
 	<key>contents</key>
 	<dict>
 		<key>ca.indev.MailActOn</key>
-		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/MailActOn3.xml</string>
+		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/MailActOn4.xml</string>
 		<key>ca.indev.MailPerspectives</key>
-		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/MailPerspectives.xml</string>
+		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/MailPerspectives2.xml</string>
 		<key>ca.indev.MailTags</key>
-		<string>https://s3.amazonaws.com/media.cmallcubed.com/sparkle/MailTags4.xml</string>
-		<key>com.creativeinaustria.DockStar</key>
-		<string>https://www.creativeinaustria.com/DockStar/services/sparkle3</string>
+		<string>https://s3.amazonaws.com/media.cmallcubed.com/sparkle/MailTags5.xml</string>
 		<key>com.creativeinaustria.LetterOpener.MailPlugin</key>
 		<string>https://www.creativeinaustria.com/OMiC/sparkle8/mail</string>
-		<key>com.erikhinterbichler.Herald</key>
-		<string>http://erikhinterbichler.com/blog/wp-content/uploads/updates/herald-el-cap-update.xml</string>
 		<key>com.feingeist.MailButler</key>
 		<string>https://www.feingeist.io/fg-library/appcast.php?appName=MailButler</string>
 		<key>com.littleknownsoftware.SignatureProfiler</key>
 		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/SigPro.xml</string>
 		<key>com.littleknownsoftware.Tealeaves</key>
-		<string>https://smallcubed.com/feed-mpt/tlv</string>
+		<string>https://s3.amazonaws.com/media.smallcubed.com/sparkle/Tealeaves.xml</string>
 	</dict>
 	<key>date</key>
-	<date>2016-10-01T11:27:00Z</date>
+	<date>2017-01-16T16:06:00Z</date>
 </dict>
 </plist>
